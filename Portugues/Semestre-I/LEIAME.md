@@ -1,4 +1,3 @@
-[LEIAME.md](https://github.com/user-attachments/files/32408475/LEIAME.md)
 🇧🇷 - Português | [🇺🇸 - English](../../English/Semester-I/README.md)
 
 # Semestre I
