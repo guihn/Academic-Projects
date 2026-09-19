@@ -21,7 +21,7 @@ Lecture slides and other teaching materials will not be published in this reposi
 ## Semesters and courses
 
 Select a semester to view its courses, or select a course to access its work directly.
-[View the English index](English/README.md).
+[View the English index](English/README.md)
 
 | Semester | Course | Work to be presented |
 | --- | --- | --- |
