@@ -18,13 +18,6 @@ This repository is intended to present my exercise solutions, programming projec
 
 Lecture slides and other teaching materials will not be published in this repository.
 
-## Index
-
-- [Semester&nbsp;I](English/Semester-I/README.md)
-    - [Algorithms and Data Structures I](English/Semester-I/Algorithms-and-Data-Structures-I/README.md)
-        - [Stage&nbsp;I](English/Semester-I/Algorithms-and-Data-Structures-I/Stage-I/README.md)
-            - [Content&nbsp;II — Algorithm Concepts](English/Semester-I/Algorithms-and-Data-Structures-I/Stage-I/Content-II/README.md)
-
 ## Semesters and courses
 
 Select a semester to view its courses, or select a course to access its work directly.
@@ -34,6 +27,7 @@ Select a semester to view its courses, or select a course to access its work dir
 | [Semester&nbsp;I](English/Semester-I/README.md) | [Algorithms and Data Structures I](English/Semester-I/Algorithms-and-Data-Structures-I/README.md) | Solutions to Java exercises and programming projects developed for this course. |
 | [Semester&nbsp;I](English/Semester-I/README.md) | [Programming, Automation and Robotics](English/Semester-I/Programming-Automation-and-Robotics/README.md) | Solutions to programming activities and projects developed for the Programming, Automation and Robotics course. |
 | [Semester&nbsp;I](English/Semester-I/README.md) | [Fundamentals of Artificial Intelligence](English/Semester-I/Fundamentals-of-Artificial-Intelligence/README.md) | Reports developed for the Fundamentals of Artificial Intelligence course. |
+[View the English index](English/README.md).
 
 ## Organisation
 
