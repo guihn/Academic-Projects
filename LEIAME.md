@@ -21,6 +21,7 @@ Slides de aulas e outros materiais didáticos não serão publicados neste repos
 ## Semestres e disciplinas
 
 Selecione um semestre para consultar suas disciplinas ou uma disciplina para acessar diretamente seus trabalhos.
+[Acessar o índice em português](Portugues/LEIAME.md)
 
 | Semestre | Disciplina | Trabalhos previstos |
 | --- | --- | --- |
