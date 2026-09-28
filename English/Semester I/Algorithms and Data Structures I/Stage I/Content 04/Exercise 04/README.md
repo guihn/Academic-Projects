@@ -9,7 +9,16 @@
 
 ## Description
 
-**Statement summary:** Read name parts and age and display them using dialog boxes.
+This exercise revisits the name-and-age presentation using dialog boxes for interaction. The program requests each part of the name and the age, then combines them into two lines in a final dialog. The interface change retains the surname-first ordering and a clearly labeled age.
+
+## Statement
+
+Request the first name, middle name, surname and age. Use dialog boxes for both input and output, displaying:
+
+```text
+Surname, FirstName MiddleName
+Age: 99 years.
+```
 
 ## Solution
 
