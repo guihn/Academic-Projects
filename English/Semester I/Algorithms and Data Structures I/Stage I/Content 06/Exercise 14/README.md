@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Validate that an integer has four digits and display those digits in reverse order.
+This exercise reverses the digits of a four-digit integer. Before decomposing it, the program must verify that the input has the required length. For a valid input, output starts with the units and ends with the thousands; invalid inputs receive an explanatory message.
+
+## Statement
+
+Read a four-digit integer and print its digits in reverse order. Check its length before reversing; if it does not have four digits, report “NUMBER MUST HAVE 4 DIGITS”. Use integer division and remainders to decompose the number.
 
 ## Solution
 
