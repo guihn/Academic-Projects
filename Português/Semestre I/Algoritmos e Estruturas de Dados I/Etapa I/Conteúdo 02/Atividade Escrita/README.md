@@ -9,7 +9,13 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Descrever um robô entrando na Dom Helder, acessando um computador de laboratório, enviando por email um trabalho da área de rede e desligando. O enunciado pede pelo menos 50 ações, duas condições e duas repetições.
+A atividade desenvolve um algoritmo em linguagem natural para um robô realizar a entrega de um trabalho acadêmico. O percurso começa na entrada da instituição e termina após o envio por e-mail e o desligamento do robô. A sequência deve detalhar deslocamentos, acesso ao computador e envio do arquivo, incorporando decisões e repetições para lidar com situações durante a tarefa.
+
+## Enunciado
+
+Imagine que você não possa ir à escola no dia da entrega do trabalho final. Escreva um algoritmo para um robô acionado na calçada em frente à entrada da Dom Helder. Ele deve ir a um laboratório de informática, acessar um computador, enviar ao professor por e-mail o trabalho armazenado na sua área particular de rede e se desligar.
+
+O algoritmo deve conter pelo menos 50 ações, com um verbo por ação, duas estruturas condicionais e duas estruturas de repetição. Elabore o documento no Word, identifique nome, curso e turma no início e faça a entrega individual no Moodle, em “Exercício - Conteúdo 2”.
 
 ## Trabalho entregue
 
