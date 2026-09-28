@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Avaliar 50 alunos e informar a média das notas dos aprovados e a quantidade com mais de 16 faltas.
+O programa combina a situação individual dos alunos com duas estatísticas da turma. A média deve considerar somente as notas de quem foi aprovado, enquanto a contagem de faltas excessivas independe da nota. Isso exige separar os critérios de classificação, acumulação de notas e controle de frequência.
+
+## Enunciado
+
+Leia nota final e faltas de 50 alunos. Informe aprovado quando nota ≥ 65 e faltas ≤ 16; caso contrário, informe reprovado. Ao final, imprima a média das notas dos aprovados e a quantidade de alunos com mais de 16 faltas.
 
 ## Solução
 
