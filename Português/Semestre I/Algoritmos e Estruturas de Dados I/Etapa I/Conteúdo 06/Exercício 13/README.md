@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler horas e minutos de início e fim de um jogo que começa e termina no mesmo dia.
+O programa calcula o tempo decorrido entre o início e o fim de um jogo realizado no mesmo dia. Horas e minutos são lidos em quatro variáveis inteiras, e a diferença deve ser apresentada nessas mesmas unidades. Quando os minutos finais são menores que os iniciais, o cálculo precisa compensar uma hora na diferença.
+
+## Enunciado
+
+Leia hora inicial, minuto inicial, hora final e minuto final em variáveis inteiras separadas. Considere que o jogo terminou no mesmo dia em que começou. Calcule a duração e apresente a mensagem “O jogo durou xxx horas e yyy minutos”.
 
 ## Solução
 
