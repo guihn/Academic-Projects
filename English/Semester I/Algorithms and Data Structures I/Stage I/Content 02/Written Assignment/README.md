@@ -9,7 +9,13 @@
 
 ## Description
 
-**Statement summary:** Describe a robot entering Dom Helder, accessing a laboratory computer, sending an assignment from the network area by email and shutting down. The statement asks for at least 50 actions, two conditionals and two repetitions.
+This exercise develops a natural-language algorithm for a robot to submit an academic assignment. The route starts outside the institution and ends after emailing the work and shutting down the robot. The sequence must detail movement, computer access and file submission, incorporating decisions and repetitions for situations encountered during the task.
+
+## Statement
+
+Imagine you cannot attend school on the final assignment's submission day. Write an algorithm for a robot activated on the sidewalk outside Dom Helder's entrance. It must go to a computer laboratory, access a computer, email the professor the assignment stored in your personal network area, and shut down.
+
+The algorithm must contain at least 50 actions, with one verb per action, two conditional structures and two repetition structures. Prepare the document in Word, identify your name, course and class at the beginning, and submit it individually in Moodle under “Exercício - Conteúdo 2”.
 
 ## Submitted work
 
