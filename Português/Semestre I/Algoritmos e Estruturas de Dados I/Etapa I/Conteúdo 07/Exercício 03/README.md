@@ -9,7 +9,18 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler o valor de um imposto e os dias de atraso e calcular a multa pelas faixas do exercício.
+O programa simula uma multa por atraso no pagamento de um imposto usando uma tabela didática. Valor do imposto e dias de atraso determinam a faixa e os componentes da penalidade. Algumas faixas usam apenas percentual, enquanto outras acrescentam uma parcela diária; a saída pedida é o valor da multa.
+
+## Enunciado
+
+Leia o valor do imposto e os dias de atraso. Calcule e imprima a multa:
+
+| Dias&nbsp;de&nbsp;atraso | Multa |
+| --- | --- |
+| Até 5 | Isenta |
+| De 6 a 8 | 2% do imposto |
+| De 9 a 10 | 10% do imposto + 0,5% do imposto por dia de atraso |
+| Acima de 10 | 150% do imposto + R$1,00 por dia de atraso |
 
 ## Solução
 
