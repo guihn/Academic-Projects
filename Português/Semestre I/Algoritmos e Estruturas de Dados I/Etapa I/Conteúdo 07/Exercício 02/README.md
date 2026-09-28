@@ -9,7 +9,21 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler três notas inteiras, obter a parte inteira da média e atribuir o conceito da tabela do slide.
+A atividade transforma três notas parciais em um conceito por letra. Primeiro é calculada a média aritmética, cuja parte decimal deve ser descartada. A parte inteira determina uma das categorias da tabela, permitindo praticar seleção múltipla com valores discretos.
+
+## Enunciado
+
+Leia três notas inteiras entre 0 e 10. Calcule a nota final como a parte inteira da média aritmética e imprima o conceito:
+
+| Nota&nbsp;final | Conceito |
+| --- | --- |
+| 9 ou 10 | A |
+| 8 | B |
+| 7 | C |
+| 5 ou 6 | D |
+| 1, 2, 3 ou 4 | E |
+
+A tabela do enunciado não define conceito para a nota final zero.
 
 ## Solução
 
