@@ -28,5 +28,3 @@ Os programas mantêm os cálculos originais. Quando uma diferença em relação 
 ## Idiomas e materiais didáticos
 
 As páginas em inglês e português descrevem as mesmas atividades. Os comentários e as mensagens seguem o idioma escolhido. Os arquivos originais entregues em Word e Excel permanecem em português e são identificados como originais em suas páginas.
-
-Os slides de aula e as referências didáticas estão disponíveis em [Academic Materials](https://github.com/guihn/academic-materials/tree/main). Este repositório apresenta as atividades e suas soluções, com links para os materiais correspondentes.

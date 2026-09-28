@@ -9,7 +9,7 @@
 
 ## Descrição
 
-Resumo do código fornecido: calcular um desconto de imposto veicular usando o combustível e o ano de fabricação. O enunciado da avaliação não foi encontrado em academic-materials.
+Resumo do código fornecido: calcular um desconto de imposto veicular usando o combustível e o ano de fabricação. O enunciado original da avaliação não está disponível.
 
 **Código fornecido:** [D30912C.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/FirstTest/D30912C.java).
 

@@ -9,7 +9,7 @@
 
 ## Descrição
 
-Resumo do código fornecido: testar se um inteiro positivo de três dígitos é igual à soma dos cubos de seus dígitos. O enunciado da avaliação não foi encontrado em academic-materials.
+Resumo do código fornecido: testar se um inteiro positivo de três dígitos é igual à soma dos cubos de seus dígitos. O enunciado original da avaliação não está disponível.
 
 **Código fornecido:** [D30912B.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/FirstTest/D30912B.java).
 

@@ -9,7 +9,7 @@
 
 ## Descrição
 
-Resumo do código fornecido: ler x e combinar uma expressão com potência e duas variáveis intermediárias. O enunciado da avaliação não foi encontrado em academic-materials.
+Resumo do código fornecido: ler x e combinar uma expressão com potência e duas variáveis intermediárias. O enunciado original da avaliação não está disponível.
 
 **Código fornecido:** [D30912A.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/FirstTest/D30912A.java).
 

@@ -11,8 +11,6 @@
 
 **Resumo do enunciado:** Resolver as Partes 1 e 2 da planilha referenciada no slide, identificando tipos de dados adequados e avaliando nomes de variáveis.
 
-**Fonte do enunciado:** [slides originais da aula](https://github.com/guihn/academic-materials/blob/5a9473bbf24a271032a41b141ab6bd435076c1d5/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Contents/Content%2003/Algoritmos%20-%20Aulas%20-%20Conte%C3%BAdo%203%20-%20Compiladores%2C%20Dados%20e%20Vari%C3%A1veis.pptx), slide(s) 88. [Pasta do material](https://github.com/guihn/academic-materials/tree/main/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Contents/Content%2003).
-
 ## Trabalho entregue
 
 Duas planilhas fornecidas contêm a mesma atividade em duas partes, com respostas registradas diferentes. Ambas foram mantidas como versões entregues.

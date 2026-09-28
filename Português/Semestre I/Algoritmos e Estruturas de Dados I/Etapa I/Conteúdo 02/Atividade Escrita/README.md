@@ -11,8 +11,6 @@
 
 **Resumo do enunciado:** Descrever um robô entrando na Dom Helder, acessando um computador de laboratório, enviando por email um trabalho da área de rede e desligando. O enunciado pede pelo menos 50 ações, duas condições e duas repetições.
 
-**Fonte do enunciado:** [slides originais da aula](https://github.com/guihn/academic-materials/blob/5a9473bbf24a271032a41b141ab6bd435076c1d5/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Contents/Content%2002/Algoritmos%20-%20Aulas%20-%20Conte%C3%BAdo%202%20-%20Conceitos%20de%20Algoritmos.pptx), slide(s) 22–23. [Pasta do material](https://github.com/guihn/academic-materials/tree/main/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Contents/Content%2002).
-
 ## Trabalho entregue
 
 O documento Word entregue descreve acesso, deslocamento, escolha do computador e envio, com alternativas condicionais e tentativas repetidas.
