@@ -5,11 +5,11 @@
 </tr>
 </table>
 
+O inglês é o idioma padrão. Esta é a apresentação em português; use o seletor acima para acessar a versão em inglês.
+
 # Projetos Acadêmicos
 
 Trabalhos e projetos acadêmicos de guihn, reunindo os aprendizados desenvolvidos ao longo da graduação em Ciência da Computação na Dom Helder. O repositório abrange todas as disciplinas de cada semestre e reúne exercícios, relatórios, atividades práticas e projetos de diferentes áreas de estudo.
-
-O inglês é o idioma padrão. Esta é a apresentação em português; use o seletor acima para acessar a versão em inglês.
 
 ## Organização
 
