@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Read an employee record from a text file and display the information in a dialog.
+The program turns a record stored in a text file into a dialog presentation. It reads personal and employment fields in file order, groups the identification documents and formats the salary. The exercise explores reading a resource outside the code and assembling an employee record from its data.
+
+## Statement
+
+Read a person's name, CPF, identity document, voter registration, driver's license, salary and employer from a text file named `ficha.txt`. Display the employee record in a dialog box with labeled name, documents, employer and salary fields.
 
 ## Solution
 
@@ -17,7 +21,7 @@ Read the classpath resource in field order, consume the pending line break befor
 
 ### Implementation notes
 
-The required resource is /FirstStage/fichafuncionaldeGuilherme.txt. Its contents and name are preserved. Currency formatting and decimal parsing depend on the runtime locale.
+The statement names the input file ficha.txt; the implementation reads /FirstStage/fichafuncionaldeGuilherme.txt. Currency formatting and decimal parsing depend on the runtime locale.
 
 Source file: [C04ex05.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2004/Exercise%2005/src/C04ex05.java)
 
