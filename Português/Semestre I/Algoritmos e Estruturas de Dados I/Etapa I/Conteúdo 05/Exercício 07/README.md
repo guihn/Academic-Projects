@@ -9,11 +9,21 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler x e avaliar a função apresentada no slide.
+A atividade avalia uma expressão que combina divisão, adição, potência e raiz quadrada. O usuário informa x, e o programa deve calcular a função respeitando os agrupamentos da fórmula. O termo x/5 fica dentro da raiz quadrada, junto ao quadrado de x/4 + 1.
+
+## Enunciado
+
+Solicite o valor de x e calcule e imprima:
+
+$$f(x) = \sqrt{\left(\frac{x}{4}+1\right)^2 + \frac{x}{5}}$$
 
 ## Solução
 
 Calcular a raiz quadrada de (x/4 + 1)² mais a raiz quinta real de x, preservando o sinal da raiz quinta.
+
+### Observações da implementação
+
+O enunciado usa x/5 dentro da raiz quadrada. O código usa a raiz quinta real de x nesse termo, calculando uma função diferente. Essa diferença não foi alterada no programa.
 
 Arquivo fonte: [C05ex07.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2007/src/C05ex07.java)
 
