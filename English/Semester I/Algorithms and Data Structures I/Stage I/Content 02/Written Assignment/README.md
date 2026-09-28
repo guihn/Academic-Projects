@@ -11,8 +11,6 @@
 
 **Statement summary:** Describe a robot entering Dom Helder, accessing a laboratory computer, sending an assignment from the network area by email and shutting down. The statement asks for at least 50 actions, two conditionals and two repetitions.
 
-**Statement source:** [original lecture slides](https://github.com/guihn/academic-materials/blob/5a9473bbf24a271032a41b141ab6bd435076c1d5/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Contents/Content%2002/Algoritmos%20-%20Aulas%20-%20Conte%C3%BAdo%202%20-%20Conceitos%20de%20Algoritmos.pptx), slide(s) 22–23. [Material folder](https://github.com/guihn/academic-materials/tree/main/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Contents/Content%2002).
-
 ## Submitted work
 
 The submitted Word document describes access, movement, computer selection and delivery, with conditional alternatives and repeated attempts.

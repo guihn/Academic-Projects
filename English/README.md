@@ -134,9 +134,9 @@ Browse the available assignments by semester, course, assessment stage and conte
 
 | Number | Title | Description | Page |
 | --- | --- | --- | --- |
-| A | Assessment function calculation | Summary of the supplied code: read x and combine a power expression with two intermediate variables. The assessment statement was not found in academic-materials. | [Open](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/First%20Assessment/Question%20A) |
-| B | Armstrong number | Summary of the supplied code: test whether a positive three digit integer equals the sum of the cubes of its digits. The assessment statement was not found in academic-materials. | [Open](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/First%20Assessment/Question%20B) |
-| C | Vehicle tax discount exercise | Summary of the supplied code: calculate a vehicle tax discount using the fuel code and manufacturing year. The assessment statement was not found in academic-materials. | [Open](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/First%20Assessment/Question%20C) |
+| A | Assessment function calculation | Summary of the supplied code: read x and combine a power expression with two intermediate variables. The original assessment statement is unavailable. | [Open](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/First%20Assessment/Question%20A) |
+| B | Armstrong number | Summary of the supplied code: test whether a positive three digit integer equals the sum of the cubes of its digits. The original assessment statement is unavailable. | [Open](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/First%20Assessment/Question%20B) |
+| C | Vehicle tax discount exercise | Summary of the supplied code: calculate a vehicle tax discount using the fuel code and manufacturing year. The original assessment statement is unavailable. | [Open](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/First%20Assessment/Question%20C) |
 
 </details>
 </details>

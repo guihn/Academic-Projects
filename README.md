@@ -28,5 +28,3 @@ The source programs retain their original calculations. Where a difference from 
 ## Languages and teaching materials
 
 The English and Portuguese pages describe the same activities. Comments and messages follow the selected language. The original submitted Word and Excel files remain in Portuguese and are identified as originals on their pages.
-
-Lecture slides and teaching references are available in [Academic Materials](https://github.com/guihn/academic-materials/tree/main). This repository presents the assignments and their solutions, with links to the corresponding materials.

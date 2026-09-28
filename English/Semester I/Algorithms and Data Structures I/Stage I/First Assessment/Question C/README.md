@@ -9,7 +9,7 @@
 
 ## Description
 
-Summary of the supplied code: calculate a vehicle tax discount using the fuel code and manufacturing year. The assessment statement was not found in academic-materials.
+Summary of the supplied code: calculate a vehicle tax discount using the fuel code and manufacturing year. The original assessment statement is unavailable.
 
 **Supplied source:** [D30912C.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/FirstTest/D30912C.java).
 

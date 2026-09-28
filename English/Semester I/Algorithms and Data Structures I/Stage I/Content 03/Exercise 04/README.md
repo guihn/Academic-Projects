@@ -11,8 +11,6 @@
 
 **Statement summary:** Complete Parts 1 and 2 of the worksheet referenced by the slide, identifying suitable data types and evaluating variable names.
 
-**Statement source:** [original lecture slides](https://github.com/guihn/academic-materials/blob/5a9473bbf24a271032a41b141ab6bd435076c1d5/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Contents/Content%2003/Algoritmos%20-%20Aulas%20-%20Conte%C3%BAdo%203%20-%20Compiladores%2C%20Dados%20e%20Vari%C3%A1veis.pptx), slide(s) 88. [Material folder](https://github.com/guihn/academic-materials/tree/main/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Contents/Content%2003).
-
 ## Submitted work
 
 Two supplied workbooks contain the same two-part activity with different recorded answers. Both are retained as submitted versions.

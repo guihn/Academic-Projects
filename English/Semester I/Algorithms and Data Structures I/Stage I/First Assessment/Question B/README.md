@@ -9,7 +9,7 @@
 
 ## Description
 
-Summary of the supplied code: test whether a positive three digit integer equals the sum of the cubes of its digits. The assessment statement was not found in academic-materials.
+Summary of the supplied code: test whether a positive three digit integer equals the sum of the cubes of its digits. The original assessment statement is unavailable.
 
 **Supplied source:** [D30912B.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/FirstTest/D30912B.java).
 
