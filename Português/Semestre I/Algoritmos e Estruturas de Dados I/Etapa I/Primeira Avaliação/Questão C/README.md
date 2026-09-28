@@ -9,11 +9,22 @@
 
 ## Descrição
 
-Descrição do código: calcular um desconto de imposto veicular usando o combustível e o ano de fabricação. O enunciado original da avaliação não está disponível.
+A questão contém uma simulação de desconto sobre um valor de IPVA. O programa lê o valor inicial, o combustível e o ano de fabricação; então seleciona uma isenção ou um percentual de desconto e apresenta o valor a pagar. As opções de combustível são A para álcool, G para gasolina e D para diesel. Esta descrição se baseia nas regras programadas para a atividade.
+
+## Enunciado
+
+O enunciado original desta questão não está disponível. A descrição e a solução abaixo apresentam a simulação implementada no código, sem confirmar os critérios originalmente pedidos pela avaliação.
 
 ## Solução
 
 Selecionar o ramo do combustível e a faixa de ano e aplicar a isenção ou o percentual de desconto programado ao imposto original.
+
+| Ano&nbsp;de&nbsp;fabricação | A:&nbsp;álcool | G:&nbsp;gasolina | D:&nbsp;diesel |
+| --- | --- | --- | --- |
+| Antes de 1960 | Isento | Isento | Isento |
+| 1960–1970 | 55% de desconto | 50% de desconto | 50% de desconto |
+| 1971–1980 | 25% de desconto | 20% de desconto | 20% de desconto |
+| Após 1980 | 5% de desconto | Sem desconto | Sem desconto |
 
 ### Observações da implementação
 
