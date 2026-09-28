@@ -9,7 +9,13 @@
 
 ## Description
 
-**Statement summary:** Read the area and angle of a circular sector and calculate its radius with π = 3.1416.
+The program finds a circle's radius from a sector's area and central angle. Area S and angle α in degrees are the two inputs. The sector-area relationship is rearranged to isolate the radius, which is obtained with a square root.
+
+## Statement
+
+Request the area S and angle α of a circular sector. Calculate and print its radius R using π = 3.1416 and this relationship:
+
+$$S = \frac{\alpha\pi R^2}{360}$$
 
 ## Solution
 
