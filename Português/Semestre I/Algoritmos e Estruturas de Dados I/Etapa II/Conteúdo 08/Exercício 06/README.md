@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler dez inteiros, informar a paridade de cada um, somar os múltiplos de 4 e contar os múltiplos de 3.
+O programa realiza três análises sobre a mesma sequência de dez inteiros. A paridade é informada a cada leitura, enquanto uma soma de múltiplos de 4 e uma contagem de múltiplos de 3 são mantidas até o final. Um número pode contribuir para os dois acumulados se atender simultaneamente aos critérios de divisibilidade.
+
+## Enunciado
+
+Leia 10 números inteiros e informe se cada um é par ou ímpar. Ao final, imprima a soma dos números divisíveis por 4 e a quantidade de números divisíveis por 3. Use o resto da divisão inteira para verificar as divisibilidades.
 
 ## Solução
 
