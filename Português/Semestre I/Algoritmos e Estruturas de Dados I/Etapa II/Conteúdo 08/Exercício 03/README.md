@@ -19,7 +19,7 @@ Manter contadores separados ao aplicar a condição nota ≥ 65 e faltas ≤ 16 
 
 ### Observações da implementação
 
-O laço fornecido processa três alunos, correspondendo ao exemplo reduzido do slide, em vez da turma completa de 50.
+O laço processa três alunos, correspondendo ao exemplo reduzido do slide, em vez da turma completa de 50.
 
 [Arquivo fonte: C08ex03.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2003/src/C08ex03.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2003/src/C08ex03.java)
 

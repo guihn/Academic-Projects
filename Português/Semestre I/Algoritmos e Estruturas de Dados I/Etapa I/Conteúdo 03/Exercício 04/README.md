@@ -13,9 +13,9 @@
 
 ## Trabalho entregue
 
-Duas planilhas fornecidas contêm a mesma atividade em duas partes, com respostas registradas diferentes. Ambas foram mantidas como versões entregues.
+Duas planilhas contêm a mesma atividade em duas partes, com respostas registradas diferentes. Ambas contêm respostas para a atividade.
 
-Os arquivos originais entregues estão em português e mantêm o conteúdo e os nomes originais.
+Os arquivos da atividade estão em português.
 
 - [C03ex04.xlsx](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2003/Exerc%C3%ADcio%2004/C03ex04.xlsx) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2003/Exerc%C3%ADcio%2004/C03ex04.xlsx) · [Original fornecido](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C03ex04.xlsx)
 - [Exercícios Conteúdo 3 (feito).xlsx](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2003/Exerc%C3%ADcio%2004/Exerc%C3%ADcios%20Conte%C3%BAdo%203%20%28feito%29.xlsx) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2003/Exerc%C3%ADcio%2004/Exerc%C3%ADcios%20Conte%C3%BAdo%203%20%28feito%29.xlsx) · [Original fornecido](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/Exerc%C3%ADcios%20Conte%C3%BAdo%203%20%28feito%29.xlsx)

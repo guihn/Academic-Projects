@@ -15,7 +15,7 @@
 
 ## Solução
 
-Classificar cada registro, atualizar as variáveis de nota e frequência fornecidas e dividir o valor de nota armazenado pela quantidade de aprovados.
+Classificar cada registro, atualizar as variáveis de nota e frequência e dividir o valor de nota armazenado pela quantidade de aprovados.
 
 ### Observações da implementação
 

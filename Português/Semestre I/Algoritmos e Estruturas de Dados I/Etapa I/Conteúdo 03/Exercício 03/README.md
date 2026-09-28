@@ -9,7 +9,7 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Usar o programa de hipotenusa fornecido como base do exercício e calcular a hipotenusa a partir dos dois catetos.
+**Resumo do enunciado:** Usar o exemplo de hipotenusa como base do exercício e calcular a hipotenusa a partir dos dois catetos.
 
 **Código fornecido:** [C03ex03.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C03ex03.java), [CalculaHipotenusa.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/CalculaHipotenusa.java).
 

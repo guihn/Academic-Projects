@@ -19,7 +19,7 @@ Preparar as multas fixa e proporcional e escolher a mensagem pelos limites de em
 
 ### Observações da implementação
 
-O código fornecido usa 3000 como limite superior da faixa intermediária. O enunciado usa 3500.
+O código usa 3000 como limite superior da faixa intermediária. O enunciado usa 3500.
 
 [Arquivo fonte: C06ex02.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2002/src/C06ex02.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2002/src/C06ex02.java)
 

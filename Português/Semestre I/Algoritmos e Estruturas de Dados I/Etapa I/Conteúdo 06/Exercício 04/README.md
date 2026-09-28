@@ -19,7 +19,7 @@ Dividir o peso pelo quadrado da altura e escolher a mensagem correspondente por 
 
 ### Observações da implementação
 
-A classificação e as mensagens pertencem ao programa didático fornecido. Para IMC acima de 27, a mensagem difere do rótulo do slide.
+A classificação e as mensagens pertencem ao programa didático. Para IMC acima de 27, a mensagem difere do rótulo do slide.
 
 [Arquivo fonte: C06ex04.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2004/src/C06ex04.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2004/src/C06ex04.java)
 

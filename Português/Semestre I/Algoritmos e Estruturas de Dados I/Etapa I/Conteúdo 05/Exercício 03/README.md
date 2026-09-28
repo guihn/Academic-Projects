@@ -19,7 +19,7 @@ Subtrair o desconto por dependentes do salário e aplicar o percentual informado
 
 ### Observações da implementação
 
-O código fornecido solicita o percentual do imposto. O enunciado fixa 15%. O valor exibido como líquido é a base de cálculo antes desse imposto.
+O código solicita o percentual do imposto. O enunciado fixa 15%. O valor exibido como líquido é a base de cálculo antes desse imposto.
 
 [Arquivo fonte: C05ex03.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2003/src/C05ex03.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2003/src/C05ex03.java)
 
