@@ -11,13 +11,11 @@
 
 **Statement summary:** Discard defective balls, pack up to 10 per box and rent warehouses holding up to 850 boxes until the event. Include incomplete boxes and warehouses in the cost.
 
-**Supplied source:** [C06ex12.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C06ex12.java).
-
 ## Solution
 
 Round box and warehouse counts upward with Math.ceil, then add packaging and rental costs.
 
-[Source file: C06ex12.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2012/src/C06ex12.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2012/src/C06ex12.java)
+Source file: [C06ex12.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2012/src/C06ex12.java)
 
 <details>
 <summary>💻 | Java code</summary>

@@ -11,13 +11,11 @@
 
 **Statement summary:** Use the two highest test grades, final assignment, absences and age to calculate and classify the final score according to the exercise tables.
 
-**Supplied source:** [C06ex16.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C06ex16.java).
-
 ## Solution
 
 Discard the lowest test grade, choose both weights and classify the weighted expression across the five score bands.
 
-[Source file: C06ex16.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2016/src/C06ex16.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2016/src/C06ex16.java)
+Source file: [C06ex16.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2016/src/C06ex16.java)
 
 <details>
 <summary>💻 | Java code</summary>

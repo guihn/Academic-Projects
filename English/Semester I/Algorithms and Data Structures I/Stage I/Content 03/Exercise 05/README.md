@@ -11,13 +11,11 @@
 
 **Statement summary:** Adapt the age example, reading a name, birth year and reference year.
 
-**Supplied source:** [C03ex05.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C03ex05.java).
-
 ## Solution
 
 Subtract the birth year from the reference year to obtain the age reached during that year.
 
-[Source file: C03ex05.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2005/src/C03ex05.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2005/src/C03ex05.java)
+Source file: [C03ex05.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2005/src/C03ex05.java)
 
 <details>
 <summary>💻 | Java code</summary>

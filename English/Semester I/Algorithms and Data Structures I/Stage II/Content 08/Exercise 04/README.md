@@ -11,8 +11,6 @@
 
 **Statement summary:** Read names and ages of 50 students and count those aged up to 18 and those older than 18.
 
-**Supplied source:** [C08ex04.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/SecondStage/C08ex04.java).
-
 ## Solution
 
 Increment one of two counters according to each reported age.
@@ -21,7 +19,7 @@ Increment one of two counters according to each reported age.
 
 The original loop processes five students, as in the reduced slide example.
 
-[Source file: C08ex04.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2004/src/C08ex04.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2004/src/C08ex04.java)
+Source file: [C08ex04.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2004/src/C08ex04.java)
 
 <details>
 <summary>💻 | Java code</summary>

@@ -11,13 +11,11 @@
 
 **Statement summary:** Calculate profit sharing using the exercise salary bands and deduct 25% of the gross amount.
 
-**Supplied source:** [C06ex07.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C06ex07.java).
-
 ## Solution
 
 Choose the fixed allowance and percentage, calculate the gross participation and subtract the exercise tax.
 
-[Source file: C06ex07.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2007/src/C06ex07.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2007/src/C06ex07.java)
+Source file: [C06ex07.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2007/src/C06ex07.java)
 
 <details>
 <summary>💻 | Java code</summary>

@@ -11,8 +11,6 @@
 
 **Statement summary:** Read an employee record from a text file and display the information in a dialog.
 
-**Supplied source:** [C04ex05.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C04ex05.java).
-
 ## Solution
 
 Read the classpath resource in field order, consume the pending line break before the company name and format the salary.
@@ -21,7 +19,7 @@ Read the classpath resource in field order, consume the pending line break befor
 
 The required resource is /FirstStage/fichafuncionaldeGuilherme.txt. Its contents and name are preserved. Currency formatting and decimal parsing depend on the runtime locale.
 
-[Source file: C04ex05.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2004/Exercise%2005/src/C04ex05.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2004/Exercise%2005/src/C04ex05.java)
+Source file: [C04ex05.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2004/Exercise%2005/src/C04ex05.java)
 
 <details>
 <summary>💻 | Java code</summary>

@@ -11,8 +11,6 @@
 
 **Statement summary:** Adapt the factorial example to the exercise class name and check its calculation for an integer input.
 
-**Supplied source:** [C03ex01.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C03ex01.java).
-
 ## Solution
 
 Initialize the product to 1 and multiply it by each integer from 2 through the supplied number.
@@ -21,7 +19,7 @@ Initialize the product to 1 and multiply it by each integer from 2 through the s
 
 The program does not reject negative input or detect overflow of long.
 
-[Source file: C03ex01.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2001/src/C03ex01.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2001/src/C03ex01.java)
+Source file: [C03ex01.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2001/src/C03ex01.java)
 
 <details>
 <summary>💻 | Java code</summary>

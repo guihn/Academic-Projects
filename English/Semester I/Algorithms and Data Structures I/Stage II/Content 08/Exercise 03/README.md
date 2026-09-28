@@ -11,8 +11,6 @@
 
 **Statement summary:** Evaluate 50 students by grade and attendance and report the total who passed and failed.
 
-**Supplied source:** [C08ex03.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/SecondStage/C08ex03.java).
-
 ## Solution
 
 Maintain separate counters while applying the grade ≥ 65 and absences ≤ 16 condition to each record.
@@ -21,7 +19,7 @@ Maintain separate counters while applying the grade ≥ 65 and absences ≤ 16 c
 
 The loop processes three students, matching the reduced example in the slide, rather than the full group of 50.
 
-[Source file: C08ex03.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2003/src/C08ex03.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2003/src/C08ex03.java)
+Source file: [C08ex03.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2003/src/C08ex03.java)
 
 <details>
 <summary>💻 | Java code</summary>

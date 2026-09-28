@@ -11,8 +11,6 @@
 
 **Statement summary:** Ask nine questions and evaluate the training, experience and preference conditions listed in the exercise.
 
-**Supplied source:** [C06ex17.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C06ex17.java).
-
 ## Solution
 
 Store the dialog option comparisons and combine them with AND, OR, negation and an exclusive preference comparison.
@@ -21,7 +19,7 @@ Store the dialog option comparisons and combine them with AND, OR, negation and 
 
 The buttons are ordered Yes/No, but every answer is converted to true when option index 1 (No) is selected. This reverses the meaning expected by the variable names.
 
-[Source file: C06ex17.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2017/src/C06ex17.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2017/src/C06ex17.java)
+Source file: [C06ex17.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2017/src/C06ex17.java)
 
 <details>
 <summary>💻 | Java code</summary>

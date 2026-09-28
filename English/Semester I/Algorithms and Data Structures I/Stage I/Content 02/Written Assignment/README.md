@@ -17,4 +17,4 @@ The submitted Word document describes access, movement, computer selection and d
 
 The assignment files are in Portuguese.
 
-- [Exercícios de Fixação - Conteúdo 2.docx](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2002/Written%20Assignment/Exerc%C3%ADcios%20de%20Fixa%C3%A7%C3%A3o%20-%20Conte%C3%BAdo%202.docx) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2002/Written%20Assignment/Exerc%C3%ADcios%20de%20Fixa%C3%A7%C3%A3o%20-%20Conte%C3%BAdo%202.docx) · [Supplied original](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/Exerc%C3%ADcios%20de%20Fixa%C3%A7%C3%A3o%20-%20Conte%C3%BAdo%202.docx)
+Source file: [Exercícios de Fixação - Conteúdo 2.docx](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2002/Written%20Assignment/Exerc%C3%ADcios%20de%20Fixa%C3%A7%C3%A3o%20-%20Conte%C3%BAdo%202.docx)

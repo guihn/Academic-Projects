@@ -11,8 +11,6 @@
 
 **Statement summary:** Read final grade and absences for up to 50 students. Passing requires grade at least 65 and at most 16 absences. Stop when the grade is −1.
 
-**Supplied source:** [C08ex02.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/SecondStage/C08ex02.java).
-
 ## Solution
 
 Read each record inside a loop, interrupt on the implemented negative thresholds and test the grade and attendance together.
@@ -21,7 +19,7 @@ Read each record inside a loop, interrupt on the implemented negative thresholds
 
 The original code stops for grade or absences less than or equal to −1. The statement specifies −1 in the grade field.
 
-[Source file: C08ex02.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2002/src/C08ex02.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2002/src/C08ex02.java)
+Source file: [C08ex02.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2002/src/C08ex02.java)
 
 <details>
 <summary>💻 | Java code</summary>

@@ -11,13 +11,11 @@
 
 **Statement summary:** Read x and evaluate the polynomial function specified in the slide.
 
-**Supplied source:** [C05ex01.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C05ex01.java).
-
 ## Solution
 
 Evaluate x³ + 4x + 10 using Math.pow for the cubic term.
 
-[Source file: C05ex01.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2001/src/C05ex01.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2001/src/C05ex01.java)
+Source file: [C05ex01.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2001/src/C05ex01.java)
 
 <details>
 <summary>💻 | Java code</summary>

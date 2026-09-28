@@ -11,8 +11,6 @@
 
 **Statement summary:** Read three integer grades, take the integer part of their mean and assign the category from the slide table.
 
-**Supplied source:** [C07ex02.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C07ex02.java).
-
 ## Solution
 
 Use integer division for the mean and select the output text with switch.
@@ -21,7 +19,7 @@ Use integer division for the mean and select the output text with switch.
 
 The code contains an additional message for a zero mean and validates the final mean rather than each input grade. The zero message is not defined in the slide table.
 
-[Source file: C07ex02.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2007/Exercise%2002/src/C07ex02.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2007/Exercise%2002/src/C07ex02.java)
+Source file: [C07ex02.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2007/Exercise%2002/src/C07ex02.java)
 
 <details>
 <summary>💻 | Java code</summary>

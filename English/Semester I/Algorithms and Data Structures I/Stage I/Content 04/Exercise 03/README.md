@@ -11,13 +11,11 @@
 
 **Statement summary:** Read two emission limits and three fine amounts and assemble the table described in the slides.
 
-**Supplied source:** [C04ex03.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C04ex03.java).
-
 ## Solution
 
 Read the table parameters and display its three emission bands without calculating a fine for a specific company.
 
-[Source file: C04ex03.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2004/Exercise%2003/src/C04ex03.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2004/Exercise%2003/src/C04ex03.java)
+Source file: [C04ex03.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2004/Exercise%2003/src/C04ex03.java)
 
 <details>
 <summary>💻 | Java code</summary>

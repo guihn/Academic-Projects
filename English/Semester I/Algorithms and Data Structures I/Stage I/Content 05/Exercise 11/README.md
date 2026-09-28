@@ -11,13 +11,11 @@
 
 **Statement summary:** Split a nine digit cheque number into a three digit bank code, branch code and sequence.
 
-**Supplied source:** [C05ex11.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C05ex11.java).
-
 ## Solution
 
 Extract the three groups with integer division and remainder operations.
 
-[Source file: C05ex11.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2011/src/C05ex11.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2011/src/C05ex11.java)
+Source file: [C05ex11.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2011/src/C05ex11.java)
 
 <details>
 <summary>💻 | Java code</summary>

@@ -11,8 +11,6 @@
 
 **Statement summary:** Read A, B and C and calculate the real roots of a quadratic equation using the quadratic formula.
 
-**Supplied source:** [C06ex06.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C06ex06.java).
-
 ## Solution
 
 Calculate the discriminant and report no real roots, one repeated root or two distinct roots.
@@ -21,7 +19,7 @@ Calculate the discriminant and report no real roots, one repeated root or two di
 
 The program assumes A is nonzero and does not validate that condition.
 
-[Source file: C06ex06.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2006/src/C06ex06.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2006/src/C06ex06.java)
+Source file: [C06ex06.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2006/src/C06ex06.java)
 
 <details>
 <summary>💻 | Java code</summary>

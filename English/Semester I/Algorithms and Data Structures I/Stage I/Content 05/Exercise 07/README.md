@@ -11,13 +11,11 @@
 
 **Statement summary:** Read x and evaluate the function shown in the slide.
 
-**Supplied source:** [C05ex07.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C05ex07.java).
-
 ## Solution
 
 Calculate the square root of (x/4 + 1)² plus the real fifth root of x, preserving the sign of the fifth root.
 
-[Source file: C05ex07.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2007/src/C05ex07.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2007/src/C05ex07.java)
+Source file: [C05ex07.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2007/src/C05ex07.java)
 
 <details>
 <summary>💻 | Java code</summary>

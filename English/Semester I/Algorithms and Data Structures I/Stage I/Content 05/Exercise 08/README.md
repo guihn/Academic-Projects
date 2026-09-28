@@ -11,13 +11,11 @@
 
 **Statement summary:** Read the area and angle of a circular sector and calculate its radius with π = 3.1416.
 
-**Supplied source:** [C05ex08.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C05ex08.java).
-
 ## Solution
 
 Calculate the square root of 360S divided by απ, with the angle in degrees.
 
-[Source file: C05ex08.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2008/src/C05ex08.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2008/src/C05ex08.java)
+Source file: [C05ex08.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2008/src/C05ex08.java)
 
 <details>
 <summary>💻 | Java code</summary>

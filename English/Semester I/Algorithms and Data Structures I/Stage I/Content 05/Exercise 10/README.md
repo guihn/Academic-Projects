@@ -11,13 +11,11 @@
 
 **Statement summary:** Read a five digit integer and display one digit per line.
 
-**Supplied source:** [C05ex10.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C05ex10.java).
-
 ## Solution
 
 Use integer division and remainders to extract digits from the highest place to the units.
 
-[Source file: C05ex10.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2010/src/C05ex10.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2010/src/C05ex10.java)
+Source file: [C05ex10.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2010/src/C05ex10.java)
 
 <details>
 <summary>💻 | Java code</summary>

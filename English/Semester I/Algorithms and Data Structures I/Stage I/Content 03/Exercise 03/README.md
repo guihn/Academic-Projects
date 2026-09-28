@@ -11,15 +11,13 @@
 
 **Statement summary:** Use the hypotenuse example as the basis for the exercise and calculate the hypotenuse from two legs.
 
-**Supplied source:** [C03ex03.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C03ex03.java), [CalculaHipotenusa.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/CalculaHipotenusa.java).
-
 ## Solution
 
 Square each leg, add the squares and raise the sum to the power 1/2.
 
 ### Hypotenuse
 
-[Source file: C03ex03.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2003/src/C03ex03.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2003/src/C03ex03.java)
+Source file: [C03ex03.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2003/src/C03ex03.java)
 
 <details>
 <summary>💻 | Java code</summary>
@@ -70,7 +68,7 @@ Calculate the hypotenuse inside a try block that closes the Scanner automaticall
 
 The second prompt still says leg 1 although its input is stored in cateto2. The original package is Etapa1.Stage1.
 
-[Source file: CalculaHipotenusa.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2003/src/CalculaHipotenusa.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2003/src/CalculaHipotenusa.java)
+Source file: [CalculaHipotenusa.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2003/src/CalculaHipotenusa.java)
 
 <details>
 <summary>💻 | Java code</summary>

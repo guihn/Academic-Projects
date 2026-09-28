@@ -11,13 +11,11 @@
 
 **Statement summary:** Read the radii of ten circles and calculate each area using π = 3.1416.
 
-**Supplied source:** [C08ex01.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/SecondStage/C08ex01.java).
-
 ## Solution
 
 Repeat the input and area calculation ten times, displaying each result inside the loop.
 
-[Source file: C08ex01.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2001/src/C08ex01.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2001/src/C08ex01.java)
+Source file: [C08ex01.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2001/src/C08ex01.java)
 
 <details>
 <summary>💻 | Java code</summary>

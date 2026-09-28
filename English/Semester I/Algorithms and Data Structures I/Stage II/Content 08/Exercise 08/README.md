@@ -11,8 +11,6 @@
 
 **Statement summary:** Evaluate 50 students and report the average grade of those who passed and the count with more than 16 absences.
 
-**Supplied source:** [C08ex08.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/SecondStage/C08ex08.java).
-
 ## Solution
 
 Classify each record, update the grade and attendance variables and divide the stored grade value by the pass count.
@@ -21,7 +19,7 @@ Classify each record, update the grade and attendance variables and divide the s
 
 The original uses three records. The assignment allNotesApproved =+ finalNote replaces the previous value instead of accumulating it. The final division is integer division and fails when nobody passes.
 
-[Source file: C08ex08.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2008/src/C08ex08.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2008/src/C08ex08.java)
+Source file: [C08ex08.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2008/src/C08ex08.java)
 
 <details>
 <summary>💻 | Java code</summary>

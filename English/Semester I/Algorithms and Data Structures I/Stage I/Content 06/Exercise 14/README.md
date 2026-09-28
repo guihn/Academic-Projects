@@ -11,8 +11,6 @@
 
 **Statement summary:** Validate that an integer has four digits and display those digits in reverse order.
 
-**Supplied source:** [C06ex14.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C06ex14.java).
-
 ## Solution
 
 Reject values outside 1000–9999, extract the digits and concatenate them from units to thousands.
@@ -21,7 +19,7 @@ Reject values outside 1000–9999, extract the digits and concatenate them from 
 
 The original input prompt asks for five digits and some dialog titles say Content 05, although the validation and assignment belong to four digits and Content 06.
 
-[Source file: C06ex14.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2014/src/C06ex14.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2014/src/C06ex14.java)
+Source file: [C06ex14.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2014/src/C06ex14.java)
 
 <details>
 <summary>💻 | Java code</summary>

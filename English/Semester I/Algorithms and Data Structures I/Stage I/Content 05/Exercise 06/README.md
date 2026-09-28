@@ -11,8 +11,6 @@
 
 **Statement summary:** Read line coefficients A, B and C and the coordinates of a point to calculate the distance between them.
 
-**Supplied source:** [C05ex06.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C05ex06.java).
-
 ## Solution
 
 Divide |Ax + By + C| by the square root of A² + B².
@@ -21,7 +19,7 @@ Divide |Ax + By + C| by the square root of A² + B².
 
 There is no check preventing A and B from both being zero.
 
-[Source file: C05ex06.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2006/src/C05ex06.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2006/src/C05ex06.java)
+Source file: [C05ex06.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2006/src/C05ex06.java)
 
 <details>
 <summary>💻 | Java code</summary>

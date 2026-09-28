@@ -11,8 +11,6 @@
 
 **Statement summary:** Read team names and the set score and allocate points according to the table in the statement.
 
-**Supplied source:** [C06ex11.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C06ex11.java).
-
 ## Solution
 
 Award 3–0 points for 3–0 or 3–1 set scores and 2–1 points for a 3–2 score, with symmetric cases.
@@ -21,7 +19,7 @@ Award 3–0 points for 3–0 or 3–1 set scores and 2–1 points for a 3–2 sc
 
 Unrecognized scores assign 69 points to each team in the implementation.
 
-[Source file: C06ex11.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2011/src/C06ex11.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2011/src/C06ex11.java)
+Source file: [C06ex11.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2011/src/C06ex11.java)
 
 <details>
 <summary>💻 | Java code</summary>

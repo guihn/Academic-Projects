@@ -11,8 +11,6 @@
 
 **Statement summary:** Read the number of participants, then their names, ages and M/F options, and calculate a separate average age for each group.
 
-**Supplied source:** [C08ex09.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/SecondStage/C08ex09.java).
-
 ## Solution
 
 Accumulate ages and counts for the recognized M and F options, then calculate the two floating point averages.
@@ -21,7 +19,7 @@ Accumulate ages and counts for the recognized M and F options, then calculate th
 
 The accepted input tokens remain M, Masculino, F and Feminino in both versions. A group with no participants produces NaN because there is no zero-count check.
 
-[Source file: C08ex09.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2009/src/C08ex09.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2009/src/C08ex09.java)
+Source file: [C08ex09.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2009/src/C08ex09.java)
 
 <details>
 <summary>💻 | Java code</summary>

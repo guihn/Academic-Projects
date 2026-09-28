@@ -11,8 +11,6 @@
 
 **Statement summary:** Extend the election program to handle two or three tied candidates through a second round. Cancel any round where invalid votes outnumber valid votes.
 
-**Supplied source:** [C08ex05a.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/SecondStage/C08ex05a.java).
-
 ## Solution
 
 Count and confirm invalid votes, check cancellation and run a new vote count for a leading pair of tied candidates.
@@ -21,7 +19,7 @@ Count and confirm invalid votes, check cancellation and run a new vote count for
 
 A three-way tie displays a message about electing the oldest candidate instead of holding the requested second round. A repeated tie also uses that message, without reading ages or identifying an oldest candidate.
 
-[Source file: C08ex05a.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2005a/src/C08ex05a.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2005a/src/C08ex05a.java)
+Source file: [C08ex05a.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2005a/src/C08ex05a.java)
 
 <details>
 <summary>💻 | Java code</summary>

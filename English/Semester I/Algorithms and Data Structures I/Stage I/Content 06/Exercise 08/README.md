@@ -11,13 +11,11 @@
 
 **Statement summary:** Read name and height and calculate the weights corresponding to BMI values 20 and 25 in the exercise table.
 
-**Supplied source:** [C06ex08.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C06ex08.java).
-
 ## Solution
 
 Multiply squared height by 20 and 25 to obtain the two endpoints.
 
-[Source file: C06ex08.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2008/src/C06ex08.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2008/src/C06ex08.java)
+Source file: [C06ex08.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2008/src/C06ex08.java)
 
 <details>
 <summary>💻 | Java code</summary>

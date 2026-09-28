@@ -11,8 +11,6 @@
 
 Code description: read x and combine a power expression with two intermediate variables. The original assessment statement is unavailable.
 
-**Supplied source:** [D30912A.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/FirstTest/D30912A.java).
-
 ## Solution
 
 Calculate c1 = 0.75x⁷ − 4, assign (5 + x)/2 to both c3 and c2, then evaluate c1 × c2 + c3.
@@ -21,7 +19,7 @@ Calculate c1 = 0.75x⁷ − 4, assign (5 + x)/2 to both c3 and c2, then evaluate
 
 The original lines c2 = and c3 = (5 + x) / 2 form a chained assignment. Without the assessment statement, the intended formula cannot be confirmed.
 
-[Source file: D30912A.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/First%20Assessment/Question%20A/src/D30912A.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/First%20Assessment/Question%20A/src/D30912A.java)
+Source file: [D30912A.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/First%20Assessment/Question%20A/src/D30912A.java)
 
 <details>
 <summary>💻 | Java code</summary>

@@ -11,13 +11,11 @@
 
 **Statement summary:** Read three grades and calculate their mean with respective weights 2, 3 and 5.
 
-**Supplied source:** [C05ex09.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C05ex09.java).
-
 ## Solution
 
 Multiply each grade by its weight, add the products and divide by the sum of the weights.
 
-[Source file: C05ex09.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2009/src/C05ex09.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2009/src/C05ex09.java)
+Source file: [C05ex09.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2009/src/C05ex09.java)
 
 <details>
 <summary>💻 | Java code</summary>

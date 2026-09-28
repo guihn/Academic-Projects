@@ -11,8 +11,6 @@
 
 Code description: test whether a positive three digit integer equals the sum of the cubes of its digits. The original assessment statement is unavailable.
 
-**Supplied source:** [D30912B.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/FirstTest/D30912B.java).
-
 ## Solution
 
 Validate 100–999, extract hundreds, tens and units and compare the sum of their cubes with the original number.
@@ -21,7 +19,7 @@ Validate 100–999, extract hundreds, tens and units and compare the sum of thei
 
 The prompt says up to three digits, but the validation accepts exactly three positive digits.
 
-[Source file: D30912B.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/First%20Assessment/Question%20B/src/D30912B.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/First%20Assessment/Question%20B/src/D30912B.java)
+Source file: [D30912B.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/First%20Assessment/Question%20B/src/D30912B.java)
 
 <details>
 <summary>💻 | Java code</summary>

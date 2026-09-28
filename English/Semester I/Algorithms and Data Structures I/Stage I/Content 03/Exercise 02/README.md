@@ -11,13 +11,11 @@
 
 **Statement summary:** Adapt the example that reads three integers and calculates their arithmetic mean.
 
-**Supplied source:** [C03ex02.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C03ex02.java).
-
 ## Solution
 
 Add the three long values and divide their sum by 3.0 to retain a fractional result.
 
-[Source file: C03ex02.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2002/src/C03ex02.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2002/src/C03ex02.java)
+Source file: [C03ex02.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2002/src/C03ex02.java)
 
 <details>
 <summary>💻 | Java code</summary>

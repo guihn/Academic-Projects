@@ -11,8 +11,6 @@
 
 **Statement summary:** Read 50 students and report how many are at most 12, how many are older than 30 and the overall average age.
 
-**Supplied source:** [C08ex07.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/SecondStage/C08ex07.java).
-
 ## Solution
 
 Accumulate all ages, maintain age band counters and divide the total age by the record count.
@@ -21,7 +19,7 @@ Accumulate all ages, maintain age band counters and divide the total age by the 
 
 The original condition includes age 30 in the upper group, whereas the statement asks for ages above 30.
 
-[Source file: C08ex07.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2007/src/C08ex07.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2007/src/C08ex07.java)
+Source file: [C08ex07.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2007/src/C08ex07.java)
 
 <details>
 <summary>💻 | Java code</summary>

@@ -11,8 +11,6 @@
 
 **Statement summary:** Read ten integers, report parity for each, sum the multiples of 4 and count the multiples of 3.
 
-**Supplied source:** [C08ex06.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/SecondStage/C08ex06.java).
-
 ## Solution
 
 Use remainders to classify each number and maintain the sum and count inside the loop.
@@ -21,7 +19,7 @@ Use remainders to classify each number and maintain the sum and count inside the
 
 The original else if makes the divisibility checks exclusive. Numbers divisible by both 4 and 3 enter the sum but are omitted from the multiples-of-3 count.
 
-[Source file: C08ex06.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2006/src/C08ex06.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2006/src/C08ex06.java)
+Source file: [C08ex06.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2006/src/C08ex06.java)
 
 <details>
 <summary>💻 | Java code</summary>

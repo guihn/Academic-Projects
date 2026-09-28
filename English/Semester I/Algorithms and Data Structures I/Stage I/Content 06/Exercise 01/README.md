@@ -11,8 +11,6 @@
 
 **Statement summary:** Read x and choose the expression for f(x) according to its position relative to 4.
 
-**Supplied source:** [C06ex01.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C06ex01.java).
-
 ## Solution
 
 Calculate the two expressions, then select the first for x < 4, zero for x = 4 or the second for x > 4.
@@ -21,7 +19,7 @@ Calculate the two expressions, then select the first for x < 4, zero for x = 4 o
 
 Both expressions are evaluated before the conditional. Some inputs produce a negative square-root argument or a zero denominator.
 
-[Source file: C06ex01.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2001/src/C06ex01.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2001/src/C06ex01.java)
+Source file: [C06ex01.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2001/src/C06ex01.java)
 
 <details>
 <summary>💻 | Java code</summary>

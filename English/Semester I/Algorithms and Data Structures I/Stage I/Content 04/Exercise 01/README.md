@@ -11,13 +11,11 @@
 
 **Statement summary:** Read first name, middle name, surname and age, then present the surname before the given names.
 
-**Supplied source:** [C04ex01.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C04ex01.java).
-
 ## Solution
 
 Read the text fields before the integer age and combine them in the console message.
 
-[Source file: C04ex01.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2004/Exercise%2001/src/C04ex01.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2004/Exercise%2001/src/C04ex01.java)
+Source file: [C04ex01.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2004/Exercise%2001/src/C04ex01.java)
 
 <details>
 <summary>💻 | Java code</summary>

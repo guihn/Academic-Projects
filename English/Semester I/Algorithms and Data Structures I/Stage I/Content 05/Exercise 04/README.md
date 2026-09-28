@@ -11,13 +11,11 @@
 
 **Statement summary:** Read the coordinates of two points in the Cartesian plane and calculate the distance between them.
 
-**Supplied source:** [C05ex04.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C05ex04.java).
-
 ## Solution
 
 Compute the square root of the sum of the squared differences between corresponding coordinates.
 
-[Source file: C05ex04.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2004/src/C05ex04.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2004/src/C05ex04.java)
+Source file: [C05ex04.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2004/src/C05ex04.java)
 
 <details>
 <summary>💻 | Java code</summary>

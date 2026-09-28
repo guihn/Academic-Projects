@@ -11,13 +11,11 @@
 
 **Statement summary:** Read a football team from the supplied table and identify its Brazilian state.
 
-**Supplied source:** [C07ex04.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C07ex04.java).
-
 ## Solution
 
 Convert the input to uppercase and match it against the grouped team names in switch.
 
-[Source file: C07ex04.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2007/Exercise%2004/src/C07ex04.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2007/Exercise%2004/src/C07ex04.java)
+Source file: [C07ex04.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2007/Exercise%2004/src/C07ex04.java)
 
 <details>
 <summary>💻 | Java code</summary>

@@ -11,13 +11,11 @@
 
 **Statement summary:** Calculate the monthly package fee, daily pay-per-view usage, extra services and city tax using the exercise tables.
 
-**Supplied source:** [C06ex15.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C06ex15.java).
-
 ## Solution
 
 Select city and package rates, cap Basic pay-per-view at R$65 and apply city tax to the subtotal.
 
-[Source file: C06ex15.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2015/src/C06ex15.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2015/src/C06ex15.java)
+Source file: [C06ex15.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2015/src/C06ex15.java)
 
 <details>
 <summary>💻 | Java code</summary>
