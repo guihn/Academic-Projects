@@ -9,7 +9,13 @@
 
 ## Description
 
-**Statement summary:** Read three grades and calculate their mean with respective weights 2, 3 and 5.
+This exercise calculates a final grade in which three assessments have different importance. Grades must be read in the order of weights 2, 3 and 5 so each contributes correctly to the result. The weighted sum is divided by 10, the sum of the weights, and the final mean is displayed.
+
+## Statement
+
+Read a student's three grades, then calculate and print their weighted mean. Use weights 2, 3 and 5 respectively:
+
+$$M = \frac{2N_1+3N_2+5N_3}{10}$$
 
 ## Solution
 
