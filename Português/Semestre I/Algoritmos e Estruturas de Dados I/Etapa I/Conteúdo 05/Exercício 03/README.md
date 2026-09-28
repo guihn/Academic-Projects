@@ -9,7 +9,14 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Descontar R$60 por dependente do salário e calcular 15% dessa base como imposto do exercício.
+A atividade simula uma retenção de imposto com regras fixadas para o exercício. O salário e a quantidade de dependentes determinam uma base reduzida por uma dedução por pessoa. Sobre essa base deve ser aplicado o percentual indicado no enunciado para obter o valor retido.
+
+## Enunciado
+
+Solicite o salário e o número de dependentes. Calcule e apresente o imposto de renda pelas regras do exercício:
+
+- Líquido = salário − número de dependentes × R$60,00.
+- Imposto de renda = 15% do líquido.
 
 ## Solução
 
