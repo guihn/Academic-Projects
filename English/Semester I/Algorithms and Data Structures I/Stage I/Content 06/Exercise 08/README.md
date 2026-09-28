@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Read name and height and calculate the weights corresponding to BMI values 20 and 25 in the exercise table.
+This exercise uses height to find both endpoints of a weight interval defined by a classroom table. Instead of calculating BMI from a known weight, the program isolates weight in the formula and uses indexes 20 and 25. The output identifies the person and displays the minimum and maximum in kilograms.
+
+## Statement
+
+Read the name and height in metres. Calculate and print the minimum and maximum weights for the exercise's BMI interval of 20 through 25, using BMI = weight / height². In the exercise table, indexes below 20 fall below that band and indexes above 25 fall above it.
 
 ## Solution
 
