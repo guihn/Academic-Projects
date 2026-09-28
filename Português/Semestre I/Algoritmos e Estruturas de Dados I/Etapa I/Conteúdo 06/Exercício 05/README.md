@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Determinar se um inteiro é divisível simultaneamente por 5 e 7 usando restos.
+O programa verifica uma propriedade conjunta de um número inteiro: ser múltiplo de 5 e de 7 ao mesmo tempo. Cada divisibilidade é determinada pelo resto da divisão, e os dois resultados devem ser combinados. Assim, ser divisível por apenas um dos valores não é suficiente para atender à condição pedida.
+
+## Enunciado
+
+Solicite um número inteiro e informe se ele é divisível simultaneamente por 5 e por 7. Use o operador `%`: um resto igual a zero indica divisibilidade. Mantenha inteiras as variáveis usadas nessas operações.
 
 ## Solução
 
