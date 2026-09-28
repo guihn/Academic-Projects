@@ -9,7 +9,13 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler os coeficientes A, B e C de uma reta e as coordenadas de um ponto para calcular a distância entre eles.
+O programa calcula a menor distância entre um ponto e uma reta do plano. A reta é informada por seus coeficientes A, B e C, enquanto o ponto é definido por x e y. O cálculo combina o valor absoluto da expressão da reta no ponto com a norma dos coeficientes A e B.
+
+## Enunciado
+
+Solicite A, B e C da reta $Ax+By+C=0$ e as coordenadas x e y do ponto. Calcule e imprima:
+
+$$d = \frac{\lvert Ax+By+C\rvert}{\sqrt{A^2+B^2}}$$
 
 ## Solução
 
