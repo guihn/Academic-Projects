@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Complete Parts 1 and 2 of the worksheet referenced by the slide, identifying suitable data types and evaluating variable names.
+This exercise uses worksheets to practice choosing data types and forming identifiers. In the first part, the presented situations must be matched to types capable of representing their values. In the second, variable names are assessed against identifier rules. The two available workbooks contain answer records for these parts.
+
+## Statement
+
+Complete Parts 1 and 2 of the “Exercícios de Fixação - Conteúdo 3” worksheet: identify suitable data types and assess the proposed variable names. Record the answers in the workbook and submit the file through the corresponding Moodle activity.
 
 ## Submitted work
 
