@@ -9,7 +9,15 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler A, B e C e calcular as raízes reais de uma equação do segundo grau pela fórmula de Bhaskara.
+A atividade calcula as raízes reais de uma equação do segundo grau a partir dos coeficientes A, B e C. O discriminante determina se existem duas raízes distintas, uma raiz repetida ou nenhuma raiz real. O programa deve apresentar apenas o resultado adequado ao caso identificado.
+
+## Enunciado
+
+Solicite A, B e C da função $f(x)=Ax^2+Bx+C$ e calcule e imprima suas raízes reais pela fórmula de Bhaskara:
+
+$$\Delta=B^2-4AC \qquad x=\frac{-B\pm\sqrt{\Delta}}{2A}$$
+
+Distinga os casos de discriminante negativo, nulo e positivo.
 
 ## Solução
 
