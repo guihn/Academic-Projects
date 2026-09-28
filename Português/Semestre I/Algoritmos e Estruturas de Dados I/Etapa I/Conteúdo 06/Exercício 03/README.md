@@ -9,7 +9,17 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Calcular o salário de R$240 acrescido de comissão: zero até R$1000 em vendas, 10% até R$10000 ou R$1000 acima desse valor.
+O programa calcula a remuneração mensal de um vendedor a partir de suas vendas. O salário combina uma parcela fixa e uma comissão que muda por faixa de faturamento. A saída deve apresentar o total a receber, incluindo a parcela fixa em todas as faixas.
+
+## Enunciado
+
+Solicite o total de vendas do mês e calcule o salário como R$240,00 mais a comissão da tabela:
+
+| Vendas&nbsp;mensais | Comissão |
+| --- | --- |
+| Até R$1.000,00 | Zero |
+| Acima de R$1.000,00 até R$10.000,00 | 10% das vendas |
+| Acima de R$10.000,00 | R$1.000,00 fixos |
 
 ## Solução
 
