@@ -9,7 +9,13 @@
 
 ## Description
 
-**Statement summary:** Read line coefficients A, B and C and the coordinates of a point to calculate the distance between them.
+The program calculates the shortest distance between a point and a line in the plane. The line is entered through coefficients A, B and C, while x and y define the point. The calculation combines the absolute value of the line expression at the point with the norm of coefficients A and B.
+
+## Statement
+
+Request A, B and C for the line $Ax+By+C=0$ and the point's x and y coordinates. Calculate and print:
+
+$$d = \frac{\lvert Ax+By+C\rvert}{\sqrt{A^2+B^2}}$$
 
 ## Solution
 
