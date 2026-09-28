@@ -25,6 +25,17 @@ Consulte as atividades disponíveis por semestre, disciplina, etapa de avaliaç�
 [Abrir&nbsp;Etapa&nbsp;I](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I)
 
 <details>
+<summary>Conteúdo 01 · Conceitos básicos de informática</summary>
+
+[Abrir&nbsp;Conteúdo&nbsp;01](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2001)
+
+| Número | Título | Descrição | Página |
+| --- | --- | --- | --- |
+| Atividade&nbsp;escrita | Conversões de Bases Numéricas | Dez conversões entre as bases decimal, binária, hexadecimal e octal. | [Abrir](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2001/Convers%C3%B5es%20de%20Bases%20Num%C3%A9ricas) |
+
+</details>
+
+<details>
 <summary>Conteúdo 02 · Conceitos de algoritmos</summary>
 
 [Abrir&nbsp;Conteúdo&nbsp;02&nbsp;·&nbsp;Conceitos&nbsp;de&nbsp;algoritmos](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2002)

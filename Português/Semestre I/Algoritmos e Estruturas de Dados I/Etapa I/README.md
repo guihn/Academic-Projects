@@ -7,10 +7,11 @@
 
 # Etapa I
 
-Esta etapa reúne a introdução escrita, os exercícios iniciais em Java, os programas com condições e a primeira avaliação.
+Esta etapa reúne conversões entre bases numéricas, o algoritmo escrito, os exercícios iniciais em Java, os programas com condições e a primeira avaliação.
 
 | Seção | Conteúdo |
 | --- | --- |
+| [Conteúdo&nbsp;01](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2001) | Dez conversões entre as bases decimal, binária, hexadecimal e octal. |
 | [Conteúdo&nbsp;02](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2002) | Um algoritmo escrito explora sequenciamento, decisões condicionais e ações repetidas. |
 | [Conteúdo&nbsp;03](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2003) | As atividades iniciais em Java trabalham entrada numérica, cálculos aritméticos e conceitos de variáveis. A planilha aborda tipos de dados e identificadores. |
 | [Conteúdo&nbsp;04](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2004) | Exercícios de console e caixas de diálogo apresentam fichas formatadas, tabelas de emissão e entrada por recurso de texto. |
