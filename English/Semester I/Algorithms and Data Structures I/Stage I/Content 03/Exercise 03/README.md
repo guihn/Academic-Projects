@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Use the hypotenuse example as the basis for the exercise and calculate the hypotenuse from two legs.
+The program determines the hypotenuse of a right triangle from the lengths of its two legs. It applies the Pythagorean theorem by adding the squared lengths and taking the square root. This page contains the `C03ex03` solution and the `CalculaHipotenusa` example on which the exercise is based.
+
+## Statement
+
+Adapt the `CalculaHipotenusa` example to the class name `C03ex03`. Enter the lengths of both legs and calculate the hypotenuse. For lengths of 10 and 15, check that the result is approximately 18.0277.
 
 ## Solution
 
