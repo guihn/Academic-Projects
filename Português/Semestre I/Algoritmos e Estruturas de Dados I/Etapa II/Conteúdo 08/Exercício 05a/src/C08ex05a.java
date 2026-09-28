@@ -1,0 +1,433 @@
+package SecondStage;
+
+import javax.swing.JOptionPane;
+
+/**
+ * Contar e confirmar votos nulos, verificar a anulação e realizar nova votação para dois
+ * candidatos empatados na liderança.
+ *
+ * Atividade: C08ex05a.
+ */
+public class C08ex05a {
+    static void main() {
+        String votesStr;
+        int votes, votes1C, votes2C, votes3C, nullVotes, voteConfirm, validVotes, rep;
+
+        // Processamento: Contar e confirmar votos nulos, verificar a anulação e realizar nova
+        // votação para dois candidatos empatados na liderança.
+        votes1C = 0;
+        votes2C = 0;
+        votes3C = 0;
+        nullVotes = 0;
+        rep = 100;
+
+        // Cada turno aceita 100 votos contabilizados, incluindo votos nulos confirmados.
+        for (int i = 1; i <= rep; i ++) {
+
+            // Entrada: coletar os valores solicitados por caixas de diálogo.
+            votesStr = JOptionPane.showInputDialog(null,
+                    "Informe o numero do candidato: ",
+                    "Conteúdo 08 | Exercício 05a",
+                    JOptionPane.QUESTION_MESSAGE);
+            votes = Integer.parseInt(votesStr);
+
+            // Contabilizar votos apenas dos candidatos presentes neste turno.
+            switch (votes) {
+                case 1 -> {
+                    votes1C++;
+                    // Saída: apresentar a mensagem correspondente ao resultado atual.
+                    JOptionPane.showMessageDialog(null,
+                            "Voto computado!",
+                            "Conteúdo 08 | Exercício 05a",
+                            JOptionPane.INFORMATION_MESSAGE);
+                }
+                case 2 -> {
+                    votes2C++;
+                    JOptionPane.showMessageDialog(null,
+                            "Voto computado!",
+                            "Conteúdo 08 | Exercício 05a",
+                            JOptionPane.INFORMATION_MESSAGE);
+                }
+                case 3 -> {
+                    votes3C++;
+                    JOptionPane.showMessageDialog(null,
+                            "Voto computado!",
+                            "Conteúdo 08 | Exercício 05a",
+                            JOptionPane.INFORMATION_MESSAGE);
+                }
+                default -> {
+                    
+                    Object[] buttons = {"Sim", "Não"};
+                    voteConfirm = JOptionPane.showOptionDialog(null,
+                            "Você digitou um número que não é 1, 2 ou 3! Seu voto será computado como nulo, tem certeza que deseja isso? ",
+                            "Conteúdo 08 | Exercício 05a",
+                            JOptionPane.YES_NO_OPTION,
+                            JOptionPane.QUESTION_MESSAGE,
+                            null,
+                            buttons,
+                            buttons[1]);
+                    // Não cancela este voto e repete a iteração atual.
+                    if (voteConfirm == 1) {
+                        i--;
+                        JOptionPane.showMessageDialog(null,
+                                "Voto descontabilizado!",
+                                "Conteúdo 08 | Exercício 05a",
+                                JOptionPane.ERROR_MESSAGE);
+                        break;
+                    } else
+                        nullVotes++;
+                    JOptionPane.showMessageDialog(null,
+                            "Voto computado!",
+                            "Conteúdo 08 | Exercício 05a",
+                            JOptionPane.INFORMATION_MESSAGE);
+                }
+            }
+        }
+
+        // Somar os votos dos candidatos antes de compará-los com os votos nulos.
+        validVotes = votes1C + votes2C + votes3C;
+        
+        // Anular este turno quando os votos nulos superarem a soma dos votos dos candidatos.
+        if (nullVotes > validVotes) {
+            JOptionPane.showMessageDialog(null,
+                    "Eleições anuladas devido ao número de votos nulos ser maior que o de votos válidos!",
+                    "Conteúdo 08 | Exercício 05a",
+                    JOptionPane.ERROR_MESSAGE);
+        }
+        
+        else {
+            
+            // O ramo original de empate triplo apenas exibe uma mensagem de desempate por idade.
+            if (votes1C == votes2C && votes1C == votes3C) {
+                JOptionPane.showMessageDialog(null,
+                        "Os candidatos 'Fulano', 'Ciclano' e 'Beltrano' empataram! Foram " + votes1C + " votos para cada! Não teremos 2° turno, pois o candidato MAIS VELHO será eleito!",
+                        "Conteúdo 08 | Exercício 05a",
+                        JOptionPane.INFORMATION_MESSAGE);
+            }
+            
+            else if (votes1C == votes2C && votes1C > votes3C) {
+                JOptionPane.showMessageDialog(null,
+                        "Os candidatos 'Fulano' e 'Ciclano' empataram! Foram " + votes1C + " votos para cada! \n'Beltrano' teve " + votes3C + " votos\nVamos ao 2° turno!",
+                        "Conteúdo 08 | Exercício 05a",
+                        JOptionPane.INFORMATION_MESSAGE);
+
+                // Iniciar o segundo turno com os contadores zerados.
+                votes = 0;
+                votes1C = 0;
+                votes2C = 0;
+                votes3C = 0;
+                nullVotes = 0;
+
+                // Cada turno aceita 100 votos contabilizados, incluindo votos nulos confirmados.
+                for (int i = 1; i <= rep; i ++) {
+
+                    votesStr = JOptionPane.showInputDialog(null,
+                            "Informe o numero do candidato: ",
+                            "Conteúdo 08 | Exercício 05",
+                            JOptionPane.QUESTION_MESSAGE);
+                    votes = Integer.parseInt(votesStr);
+
+                    // Contabilizar votos apenas dos candidatos presentes neste turno.
+                    switch (votes) {
+                        case 1 -> {
+                            votes1C++;
+                            JOptionPane.showMessageDialog(null,
+                                    "Voto computado!",
+                                    "Conteúdo 08 | Exercício 05",
+                                    JOptionPane.INFORMATION_MESSAGE);
+                        }
+                        case 2 -> {
+                            votes2C++;
+                            JOptionPane.showMessageDialog(null,
+                                    "Voto computado!",
+                                    "Conteúdo 08 | Exercício 05",
+                                    JOptionPane.INFORMATION_MESSAGE);
+                        }
+                        default -> {
+                            
+                            Object[] buttons = {"Sim", "Não"};
+                            voteConfirm = JOptionPane.showOptionDialog(null,
+                                    "Você digitou um número que não é 1 ou 2! Seu voto será computado como nulo, tem certeza que deseja isso? ",
+                                    "Conteúdo 08 | Exercício 05a",
+                                    JOptionPane.YES_NO_OPTION,
+                                    JOptionPane.QUESTION_MESSAGE,
+                                    null,
+                                    buttons,
+                                    buttons[1]);
+                            // Não cancela este voto e repete a iteração atual.
+                            if (voteConfirm == 1) {
+                                i--;
+                                JOptionPane.showMessageDialog(null,
+                                        "Voto descontabilizado!",
+                                        "Conteúdo 08 | Exercício 05a",
+                                        JOptionPane.ERROR_MESSAGE);
+                                break;
+                            } else
+                                nullVotes++;
+                            JOptionPane.showMessageDialog(null,
+                                    "Voto computado!",
+                                    "Conteúdo 08 | Exercício 05a",
+                                    JOptionPane.INFORMATION_MESSAGE);
+                        }
+                    }
+                }
+
+                // Somar os votos dos candidatos antes de compará-los com os votos nulos.
+                validVotes = votes1C + votes2C + votes3C;
+                
+                // Anular este turno quando os votos nulos superarem a soma dos votos dos
+                // candidatos.
+                if (nullVotes > validVotes) {
+                    JOptionPane.showMessageDialog(null,
+                            "Eleições anuladas devido ao número de votos nulos ser maior que o de votos válidos!",
+                            "Conteúdo 08 | Exercício 05a",
+                            JOptionPane.ERROR_MESSAGE);
+                }
+                
+                else {
+                    if (votes1C > votes2C) {
+                        JOptionPane.showMessageDialog(null,
+                                "O candidato 'Fulano' venceu! O número de votos dele foi de: " + votes1C + " votos.\n'Ciclano' teve " + votes2C + " votos.",
+                                "Conteúdo 08 | Exercício 05",
+                                JOptionPane.INFORMATION_MESSAGE);
+                    }
+                    else if (votes1C < votes2C) {
+                        JOptionPane.showMessageDialog(null,
+                                "O candidato 'Ciclano' venceu! O número de votos dele foi de: " + votes2C + " votos.\n'Fulano' teve " + votes1C + " votos.",
+                                "Conteúdo 08 | Exercício 05",
+                                JOptionPane.INFORMATION_MESSAGE);
+                    }
+                    else {
+                        JOptionPane.showMessageDialog(null,
+                                "Os candidatos 'Fulano' e 'Ciclano' empataram novamente! Foram " + votes1C + " votos para cada!" + "\nNão teremos 3° turno, então o candidato mais velho será eleito!",
+                                "Conteúdo 08 | Exercício 05a",
+                                JOptionPane.INFORMATION_MESSAGE);
+                    }
+                }
+            }
+            
+            else if (votes1C == votes3C && votes1C > votes2C) {
+                JOptionPane.showMessageDialog(null,
+                        "Os candidatos 'Fulano' e 'Beltrano' empataram! Foram " + votes1C + " votos para cada! \n'Ciclano' teve " + votes2C + " votos.\nVamos ao 2° turno!",
+                        "Conteúdo 08 | Exercício 05a",
+                        JOptionPane.INFORMATION_MESSAGE);
+
+                // Iniciar o segundo turno com os contadores zerados.
+                votes = 0;
+                votes1C = 0;
+                votes2C = 0;
+                votes3C = 0;
+                nullVotes = 0;
+
+                // Cada turno aceita 100 votos contabilizados, incluindo votos nulos confirmados.
+                for (int i = 1; i <= rep; i ++) {
+
+                    votesStr = JOptionPane.showInputDialog(null,
+                            "Informe o numero do candidato: ",
+                            "Conteúdo 08 | Exercício 05a",
+                            JOptionPane.QUESTION_MESSAGE);
+                    votes = Integer.parseInt(votesStr);
+
+                    // Contabilizar votos apenas dos candidatos presentes neste turno.
+                    switch (votes) {
+                        case 1 -> {
+                            votes1C++;
+                            JOptionPane.showMessageDialog(null,
+                                    "Voto computado!",
+                                    "Conteúdo 08 | Exercício 05",
+                                    JOptionPane.INFORMATION_MESSAGE);
+                        }
+                        case 3 -> {
+                            votes3C++;
+                            JOptionPane.showMessageDialog(null,
+                                    "Voto computado!",
+                                    "Conteúdo 08 | Exercício 05",
+                                    JOptionPane.INFORMATION_MESSAGE);
+                        }
+                        default -> {
+                            
+                            Object[] buttons = {"Sim", "Não"};
+                            voteConfirm = JOptionPane.showOptionDialog(null,
+                                    "Você digitou um número que não é 1 ou 3! Seu voto será computado como nulo, tem certeza que deseja isso? ",
+                                    "Conteúdo 08 | Exercício 05a",
+                                    JOptionPane.YES_NO_OPTION,
+                                    JOptionPane.QUESTION_MESSAGE,
+                                    null,
+                                    buttons,
+                                    buttons[1]);
+                            // Não cancela este voto e repete a iteração atual.
+                            if (voteConfirm == 1) {
+                                i--;
+                                JOptionPane.showMessageDialog(null,
+                                        "Voto descontabilizado!",
+                                        "Conteúdo 08 | Exercício 05a",
+                                        JOptionPane.ERROR_MESSAGE);
+                                break;
+                            } else
+                                nullVotes++;
+                            JOptionPane.showMessageDialog(null,
+                                    "Voto computado!",
+                                    "Conteúdo 08 | Exercício 05a",
+                                    JOptionPane.INFORMATION_MESSAGE);
+                        }
+                    }
+                }
+
+                // Somar os votos dos candidatos antes de compará-los com os votos nulos.
+                validVotes = votes1C + votes2C + votes3C;
+                
+                // Anular este turno quando os votos nulos superarem a soma dos votos dos
+                // candidatos.
+                if (nullVotes > validVotes) {
+                    JOptionPane.showMessageDialog(null,
+                            "Eleições anuladas devido ao número de votos nulos ser maior que o de votos válidos!",
+                            "Conteúdo 08 | Exercício 05a",
+                            JOptionPane.ERROR_MESSAGE);
+                }
+                
+                else {
+                    if (votes1C > votes3C) {
+                        JOptionPane.showMessageDialog(null,
+                                "O candidato 'Fulano' venceu! O número de votos dele foi de: " + votes1C + " votos.\n'Beltrano' teve " + votes3C + " votos.",
+                                "Conteúdo 08 | Exercício 05a",
+                                JOptionPane.INFORMATION_MESSAGE);
+                    }
+                    else if (votes1C < votes3C) {
+                        JOptionPane.showMessageDialog(null,
+                                "O candidato 'Beltrano' venceu! O número de votos dele foi de: " + votes3C + " votos.\n'Fulano' teve " + votes1C + " votos.",
+                                "Conteúdo 08 | Exercício 05",
+                                JOptionPane.INFORMATION_MESSAGE);
+                    }
+                    else {
+                        JOptionPane.showMessageDialog(null,
+                                "Os candidatos 'Fulano' e 'Beltrano' empataram novamente! Foram " + votes1C + " votos para cada!\n Não teremos 3° turno, então o candidato mais velho será eleito!",
+                                "Conteúdo 08 | Exercício 05a",
+                                JOptionPane.INFORMATION_MESSAGE);
+                    }
+                }
+            }
+            
+            else if (votes2C == votes3C && votes2C > votes1C) {
+                JOptionPane.showMessageDialog(null,
+                        "Os candidatos 'Ciclano' e 'Beltrano' empataram! Foram " + votes2C + " votos para cada!  \n'Fulano' teve " + votes1C +" votos\n Vamos ao 2° turno!",
+                        "Conteúdo 08 | Exercício 05a",
+                        JOptionPane.INFORMATION_MESSAGE);
+
+                // Iniciar o segundo turno com os contadores zerados.
+                votes = 0;
+                votes1C = 0;
+                votes2C = 0;
+                votes3C = 0;
+                nullVotes = 0;
+
+                // Cada turno aceita 100 votos contabilizados, incluindo votos nulos confirmados.
+                for (int i = 1; i <= rep; i ++) {
+
+                    votesStr = JOptionPane.showInputDialog(null,
+                            "Informe o numero do candidato: ",
+                            "Conteúdo 08 | Exercício 05a",
+                            JOptionPane.QUESTION_MESSAGE);
+                    votes = Integer.parseInt(votesStr);
+
+                    // Contabilizar votos apenas dos candidatos presentes neste turno.
+                    switch (votes) {
+                        case 2 -> {
+                            votes2C++;
+                            JOptionPane.showMessageDialog(null,
+                                    "Voto computado!",
+                                    "Conteúdo 08 | Exercício 05",
+                                    JOptionPane.INFORMATION_MESSAGE);
+                        }
+                        case 3 -> {
+                            votes3C++;
+                            JOptionPane.showMessageDialog(null,
+                                    "Voto computado!",
+                                    "Conteúdo 08 | Exercício 05",
+                                    JOptionPane.INFORMATION_MESSAGE);
+                        }
+                        default -> {
+                            
+                            Object[] buttons = {"Sim", "Não"};
+                            voteConfirm = JOptionPane.showOptionDialog(null,
+                                    "Você digitou um número que não é 2 ou 3! Seu voto será computado como nulo, tem certeza que deseja isso? ",
+                                    "Conteúdo 08 | Exercício 05a",
+                                    JOptionPane.YES_NO_OPTION,
+                                    JOptionPane.QUESTION_MESSAGE,
+                                    null,
+                                    buttons,
+                                    buttons[1]);
+                            // Não cancela este voto e repete a iteração atual.
+                            if (voteConfirm == 1) {
+                                i--;
+                                JOptionPane.showMessageDialog(null,
+                                        "Voto descontabilizado!",
+                                        "Conteúdo 08 | Exercício 05a",
+                                        JOptionPane.ERROR_MESSAGE);
+                                break;
+                            } else
+                                nullVotes++;
+                            JOptionPane.showMessageDialog(null,
+                                    "Voto computado!",
+                                    "Conteúdo 08 | Exercício 05a",
+                                    JOptionPane.INFORMATION_MESSAGE);
+                        }
+                    }
+                }
+
+                // Somar os votos dos candidatos antes de compará-los com os votos nulos.
+                validVotes = votes1C + votes2C + votes3C;
+                
+                // Anular este turno quando os votos nulos superarem a soma dos votos dos
+                // candidatos.
+                if (nullVotes > validVotes) {
+                    JOptionPane.showMessageDialog(null,
+                            "Eleições anuladas devido ao número de votos nulos ser maior que o de votos válidos!",
+                            "Conteúdo 08 | Exercício 05a",
+                            JOptionPane.ERROR_MESSAGE);
+                }
+                
+                else {
+                    if (votes2C > votes3C) {
+                        JOptionPane.showMessageDialog(null,
+                                "O candidato 'Ciclano' venceu! O número de votos dele foi de: " + votes2C + " votos.\n'Beltrano' teve " + votes3C + " votos.",
+                                "Conteúdo 08 | Exercício 05a",
+                                JOptionPane.INFORMATION_MESSAGE);
+                    }
+                    else if (votes2C < votes3C) {
+                        JOptionPane.showMessageDialog(null,
+                                "O candidato 'Beltrano' venceu! O número de votos dele foi de: " + votes3C + " votos.\n'Ciclano' teve " + votes2C + " votos.",
+                                "Conteúdo 08 | Exercício 05",
+                                JOptionPane.INFORMATION_MESSAGE);
+                    }
+                    else {
+                        JOptionPane.showMessageDialog(null,
+                                "Os candidatos 'Ciclano' e 'Beltrano' empataram novamente! Foram " + votes2C + " votos para cada! \nNão teremos 3° turno, então o candidato mais velho será eleito!",
+                                "Conteúdo 08 | Exercício 05a",
+                                JOptionPane.INFORMATION_MESSAGE);
+                    }
+                }
+            }
+            
+            else if (votes1C > votes2C && votes1C > votes3C) {
+                JOptionPane.showMessageDialog(null,
+                        "O candidato 'Fulano' venceu! O número de votos dele foi de: " + votes1C + " votos.\n'Ciclano' teve " + votes2C + " votos.\n'Beltrano' teve " + votes3C + " votos.",
+                        "Conteúdo 08 | Exercício 05a",
+                        JOptionPane.INFORMATION_MESSAGE);
+            }
+            
+            else if (votes2C > votes1C && votes2C > votes3C) {
+                JOptionPane.showMessageDialog(null,
+                        "O candidato 'Ciclano' venceu! O número de votos dele foi de: " + votes2C + " votos.\n'Fulano' teve " + votes1C + " votos.\n'Beltrano' teve " + votes3C + " votos.",
+                        "Conteúdo 08 | Exercício 05a",
+                        JOptionPane.INFORMATION_MESSAGE);
+            }
+            
+            else {
+                JOptionPane.showMessageDialog(null,
+                        "O candidato 'Beltrano' venceu! O número de votos dele foi de: " + votes3C + " votos.\n'Fulano' teve " + votes1C + " votos.\n'Ciclano' teve " + votes2C + " votos.",
+                        "Conteúdo 08 | Exercício 05a",
+                        JOptionPane.INFORMATION_MESSAGE);
+            }
+        }
+    }
+}
