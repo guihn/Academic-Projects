@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Discard defective balls, pack up to 10 per box and rent warehouses holding up to 850 boxes until the event. Include incomplete boxes and warehouses in the cost.
+This exercise estimates the cost of packaging and storing a production of balls until the 2018 World Cup, the setting used in the statement. Defective balls are discarded before calculating boxes and warehouses. Because packaging and storage are purchased in whole units, any remainder requires an additional box or warehouse.
+
+## Statement
+
+Read total ball production, the defective quantity, the price per box, months until the World Cup and monthly rent per warehouse. Each box holds up to 10 balls and each warehouse up to 850 boxes. Calculate the total packaging cost plus storage cost over the period. Count the last box and warehouse even when partly filled.
 
 ## Solution
 
