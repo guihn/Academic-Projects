@@ -9,7 +9,19 @@
 
 ## Description
 
-**Statement summary:** Read a football team from the supplied table and identify its Brazilian state.
+This exercise associates a football team name with its Brazilian state. Several names can lead to the same answer, forming groups of cases in a multiple selection. The program must use the exercise table's mapping and display the entered team's state.
+
+## Statement
+
+Read a team name from the table and report its state:
+
+| Teams | State |
+| --- | --- |
+| América, Atlético, Cruzeiro, Villa Nova | Minas Gerais |
+| Botafogo, Flamengo, Fluminense, Vasco | Rio de Janeiro |
+| Corinthians, Palmeiras, Santos, São Paulo | São Paulo |
+| Grêmio, Internacional, Juventude | Rio Grande do Sul |
+| Náutico, Santa Cruz, Sport | Pernambuco |
 
 ## Solution
 
