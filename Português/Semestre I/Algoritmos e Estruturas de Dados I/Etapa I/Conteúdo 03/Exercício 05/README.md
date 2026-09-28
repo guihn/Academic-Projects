@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Adaptar o exemplo de idade, lendo nome, ano de nascimento e ano de referência.
+A atividade relaciona nome, ano de nascimento e ano de referência para informar a idade que uma pessoa completa nesse ano. O cálculo usa a diferença entre os dois anos, sem considerar o dia e o mês do aniversário. A mensagem final deve identificar a pessoa e apresentar sua idade associada ao ano informado.
+
+## Enunciado
+
+Reproduza o exemplo `CalcIdade` com a classe `C03ex05`. Solicite o nome, o ano de nascimento e o ano atual; calcule `idade = anoAtual - anoNasc` e informe a idade que a pessoa tem ou terá naquele ano. Confira o resultado com os dados digitados.
 
 ## Solução
 
