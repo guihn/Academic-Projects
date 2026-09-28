@@ -25,6 +25,17 @@ Browse the available assignments by semester, course, assessment stage and conte
 [Open&nbsp;Stage&nbsp;I](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I)
 
 <details>
+<summary>Content 01 · Basic computing concepts</summary>
+
+[Open&nbsp;Content&nbsp;01](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2001)
+
+| Number | Title | Description | Page |
+| --- | --- | --- | --- |
+| Written&nbsp;activity | Number Base Conversions | Ten conversions between decimal, binary, hexadecimal and octal. | [Open](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2001/Number%20Base%20Conversions) |
+
+</details>
+
+<details>
 <summary>Content 02 · Algorithm concepts</summary>
 
 [Open&nbsp;Content&nbsp;02&nbsp;·&nbsp;Algorithm&nbsp;concepts](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2002)

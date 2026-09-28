@@ -11,6 +11,7 @@ This stage brings together the written introduction, initial Java exercises, con
 
 | Section | Content |
 | --- | --- |
+| [Content&nbsp;01](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2001) | Ten conversions between decimal, binary, hexadecimal and octal. |
 | [Content&nbsp;02](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2002) | A written algorithm explores sequencing, conditional decisions and repeated actions. |
 | [Content&nbsp;03](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003) | Initial Java activities work with numeric input, arithmetic calculations and variable concepts. The worksheet covers data types and identifiers. |
 | [Content&nbsp;04](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2004) | Console and dialog exercises present formatted records, emission tables and input from a text resource. |
