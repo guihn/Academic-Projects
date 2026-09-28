@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler os raios de dez círculos e calcular cada área usando π = 3.1416.
+O programa aplica o mesmo cálculo de área a dez círculos consecutivos. A cada repetição, um raio é solicitado e sua área é apresentada antes da próxima entrada. A atividade introduz um laço de quantidade fixa sem precisar armazenar todos os raios ao mesmo tempo.
+
+## Enunciado
+
+Solicite os raios de 10 círculos. Para cada raio R, calcule e imprima $A=\pi R^2$, usando π = 3,1416.
 
 ## Solução
 
