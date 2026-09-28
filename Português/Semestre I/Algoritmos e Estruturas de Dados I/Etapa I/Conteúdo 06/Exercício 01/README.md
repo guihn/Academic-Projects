@@ -9,7 +9,13 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler x e escolher a expressão de f(x) conforme sua posição em relação a 4.
+O programa avalia uma função definida por partes, escolhendo a expressão conforme x seja menor, igual ou maior que 4. Nos dois intervalos abertos, o numerador é o mesmo e o denominador muda para uma raiz quadrada diferente. No ponto x = 4, o resultado é definido diretamente como zero.
+
+## Enunciado
+
+Leia x e calcule e imprima f(x) conforme a definição:
+
+$$f(x)=\begin{cases}\dfrac{5x+3}{\sqrt{16-x^2}}, & x<4 \\ 0, & x=4 \\ \dfrac{5x+3}{\sqrt{x^2-16}}, & x>4\end{cases}$$
 
 ## Solução
 
