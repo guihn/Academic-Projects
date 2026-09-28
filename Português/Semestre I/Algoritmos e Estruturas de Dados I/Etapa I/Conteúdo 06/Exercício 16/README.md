@@ -9,7 +9,35 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Usar as duas maiores notas de prova, trabalho final, faltas e idade para calcular e classificar a nota final conforme as tabelas do exercício.
+A atividade calcula uma classificação escolar a partir de notas, frequência e idade. Apenas as duas maiores notas de prova entram na média, cujo peso depende das faltas; o trabalho final recebe um peso definido pela idade. O resultado numérico é então convertido em uma das cinco classificações do exercício.
+
+## Enunciado
+
+Leia o número de faltas, três notas de provas, a nota do trabalho final e a idade. Calcule:
+
+Nota final = média das duas maiores notas de prova × peso 1 + nota do trabalho × peso 2.
+
+| Faltas | Peso&nbsp;1 |
+| --- | --- |
+| Até 5 | 3 |
+| Acima de 5 até 10 | 2 |
+| Acima de 10 | 1 |
+
+| Idade | Peso&nbsp;2 |
+| --- | --- |
+| Até 17 | 1 |
+| De 18 a 50 | 2 |
+| Acima de 50 | 3 |
+
+| Nota&nbsp;final | Resultado |
+| --- | --- |
+| Até 50 | Reprovado |
+| Acima de 50 até 70 | Regular |
+| Acima de 70 até 80 | Bom |
+| Acima de 80 até 90 | Muito bom |
+| Acima de 90 | Excelente |
+
+Apresente o resultado final correspondente à nota calculada.
 
 ## Solução
 
