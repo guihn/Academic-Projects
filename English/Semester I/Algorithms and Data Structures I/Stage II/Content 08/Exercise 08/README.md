@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Evaluate 50 students and report the average grade of those who passed and the count with more than 16 absences.
+The program combines individual student status with two class statistics. The mean must include only the grades of students who passed, while the excessive-absence count is independent of grade. This requires separating classification, grade accumulation and attendance criteria.
+
+## Statement
+
+Read the final grade and absences of 50 students. Report passed when grade ≥ 65 and absences ≤ 16; otherwise report failed. At the end, print the mean grade of students who passed and the number of students with more than 16 absences.
 
 ## Solution
 
