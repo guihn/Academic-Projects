@@ -7,7 +7,7 @@
 
 # Semestre I
 
-Este semestre contém os trabalhos disponíveis de Algoritmos e Estruturas de Dados I. Acesse a disciplina para consultar as etapas de avaliação e suas atividades.
+Este semestre reúne os trabalhos acadêmicos disponíveis das disciplinas listadas abaixo. Acesse cada disciplina para conhecer suas atividades e projetos.
 
 | Disciplina | Atividades |
 | --- | --- |
