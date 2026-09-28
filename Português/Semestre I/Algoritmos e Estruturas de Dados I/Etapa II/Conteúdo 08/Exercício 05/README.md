@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Contar 100 votos para Fulano, Ciclano e Beltrano, com códigos 1, 2 e 3. O enunciado pressupõe ausência de votos nulos e empates.
+O programa apura uma eleição simulada com cem eleitores e três candidatos. Cada voto é identificado por um código numérico e acrescentado ao total do candidato correspondente. Depois da leitura, a comparação dos três totais determina o vencedor nas condições simplificadas do enunciado.
+
+## Enunciado
+
+Apure os votos dos 100 eleitores de uma cidade, todos participantes da eleição. Use os códigos 1 para Fulano, 2 para Ciclano e 3 para Beltrano. Imprima a quantidade de votos de cada candidato e o nome do vencedor. Considere que não há votos brancos, nulos ou empates.
 
 ## Solução
 
