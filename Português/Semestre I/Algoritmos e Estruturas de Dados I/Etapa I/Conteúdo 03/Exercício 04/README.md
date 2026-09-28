@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Resolver as Partes 1 e 2 da planilha referenciada no slide, identificando tipos de dados adequados e avaliando nomes de variáveis.
+A atividade usa planilhas para praticar a escolha de tipos de dados e a formação de identificadores. Na primeira parte, as situações apresentadas devem ser relacionadas a tipos capazes de representar seus valores. Na segunda, nomes de variáveis são avaliados segundo as regras de identificação. As duas planilhas disponíveis contêm registros de respostas para essas partes.
+
+## Enunciado
+
+Resolva as Partes 1 e 2 da planilha “Exercícios de Fixação - Conteúdo 3”: identifique os tipos de dados adequados e avalie os nomes de variáveis propostos. Registre as respostas na planilha e entregue o arquivo na atividade correspondente do Moodle.
 
 ## Trabalho entregue
 
