@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Read final grade and absences for up to 50 students. Passing requires grade at least 65 and at most 16 absences. Stop when the grade is −1.
+This exercise checks the status of up to fifty students using grade and attendance together. Passing requires meeting the minimum grade and staying within the absence limit. The special grade input −1 must end reading before the full class is processed, acting as a sentinel.
+
+## Statement
+
+Read the final grade and absence count of up to 50 students. For each student, report passed when the grade is at least 65 and absences do not exceed 16; otherwise report failed. Stop the repetitions if the entered grade is −1.
 
 ## Solution
 
