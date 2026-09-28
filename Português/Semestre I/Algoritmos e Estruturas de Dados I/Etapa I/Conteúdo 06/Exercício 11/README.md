@@ -9,7 +9,18 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler os nomes das equipes e o placar de sets e distribuir os pontos conforme a tabela do enunciado.
+O programa converte o placar de uma partida de vôlei em pontos para cada equipe. Ele deve identificar o vencedor pelos sets e distinguir vitórias por 3–0 ou 3–1 de uma vitória por 3–2. A saída associa os nomes das duas equipes à pontuação calculada para cada uma.
+
+## Enunciado
+
+Leia os nomes das duas equipes e quantos sets cada uma venceu. Aplique as regras de pontuação da atividade:
+
+| Placar&nbsp;do&nbsp;vencedor | Pontos&nbsp;do&nbsp;vencedor | Pontos&nbsp;do&nbsp;perdedor |
+| --- | --- | --- |
+| 3–0 ou 3–1 | 3 | 0 |
+| 3–2 | 2 | 1 |
+
+Informe a pontuação de cada equipe, independentemente da ordem em que seus nomes foram digitados.
 
 ## Solução
 
