@@ -9,7 +9,14 @@
 
 ## Description
 
-**Statement summary:** Read height and the M or F option and apply the corresponding weight formula from the exercise.
+The program chooses one of two weight formulas defined in the exercise. Inputs are height in metres and the sex code M or F. After selecting the corresponding expression, it displays the resulting weight estimate used in this classroom activity.
+
+## Statement
+
+Read height and sex, using M for male and F for female. Calculate weight with the corresponding formula:
+
+- M: weight = 72.7 × height − 58.
+- F: weight = 62.1 × height − 44.7.
 
 ## Solution
 
