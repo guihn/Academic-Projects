@@ -9,7 +9,15 @@
 
 ## Description
 
-**Statement summary:** Calculate simple daily earnings, 15% tax on earnings and redemption after a R$10 administration fee using the exercise rules.
+This exercise models an investment redemption with simple daily interest. Principal, duration and a percentage rate determine the earnings, from which the exercise tax is withheld. The final amount combines the initial principal, earnings and the tax and administration deductions.
+
+## Statement
+
+Request the principal, number of days and daily percentage rate. Convert the rate to a fraction and display earnings, tax and redemption:
+
+- Earnings = principal × daily rate × days.
+- Tax = 15% of earnings.
+- Redemption = principal + earnings − tax − R$10.00 administration fee.
 
 ## Solution
 
