@@ -9,7 +9,13 @@
 
 ## Description
 
-**Statement summary:** Read x and choose the expression for f(x) according to its position relative to 4.
+The program evaluates a piecewise function by choosing an expression according to whether x is less than, equal to or greater than 4. The two open intervals share a numerator but use different square-root denominators. At x = 4, the result is defined directly as zero.
+
+## Statement
+
+Read x, then calculate and print f(x) according to this definition:
+
+$$f(x)=\begin{cases}\dfrac{5x+3}{\sqrt{16-x^2}}, & x<4 \\ 0, & x=4 \\ \dfrac{5x+3}{\sqrt{x^2-16}}, & x>4\end{cases}$$
 
 ## Solution
 
