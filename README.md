@@ -7,24 +7,22 @@
 
 # Academic Projects
 
-Academic assignments and programming projects by guihn, organized as a portfolio of coursework. The available collection covers Algorithms and Data Structures I at Dom Helder, including Java exercises, a written algorithm, worksheets and assessment programs.
+Academic assignments and projects by guihn, documenting the learning developed throughout the Computer Science degree at Dom Helder. The repository covers all courses in each semester and brings together exercises, reports, practical activities and projects from different areas of study.
 
 English is the default language. Use the selector above to open the equivalent Portuguese presentation.
 
 ## Organization
 
-Browse by semester, course, assessment stage, content and activity. Exercise pages explain the task and the submitted solution, cite the teaching source and provide the complete Java code. Written assignments and worksheets have pages describing their original submitted files. Assessment questions are grouped separately within their stage.
+The work is organized by semester and course so readers can explore the subjects studied and follow the progression of the academic work. Within each course, activities are grouped according to its contents, assessment stages or project structure.
 
-The source programs retain their original calculations. Where a difference from the statement was identified, the activity page explains it. Assessment descriptions are labeled as code summaries when the original statement is unavailable.
+Each activity page presents its context, objectives and development, together with the solution or files available for consultation. The collection offers a view of the concepts explored and the approaches adopted in different assignments.
 
 ## Available academic work
 
-| Semester | Course | Collection |
-| --- | --- | --- |
-| [Semester&nbsp;I](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I) | [Algorithms&nbsp;and&nbsp;Data&nbsp;Structures&nbsp;I](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I) | Stages I and II: 55 Java files and three original assignment documents. |
+Choose a semester or one of the courses with work already available.
+
+| Semester | Course |
+| --- | --- |
+| [Semester&nbsp;I](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I) | [Algorithms&nbsp;and&nbsp;Data&nbsp;Structures&nbsp;I](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I) |
 
 [Open&nbsp;the&nbsp;complete&nbsp;index](https://github.com/guihn/Academic-Projects/tree/main/English)
-
-## Languages and teaching materials
-
-The English and Portuguese pages describe the same activities. Comments and messages follow the selected language. The original submitted Word and Excel files remain in Portuguese and are identified as originals on their pages.
