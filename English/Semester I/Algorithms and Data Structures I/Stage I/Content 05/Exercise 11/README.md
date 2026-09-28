@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Split a nine digit cheque number into a three digit bank code, branch code and sequence.
+The program interprets a nine-digit cheque number as three fixed-size fields. The first three identify the bank, the next three identify the branch and the last three form the sequence number. The output must label each field, showing how a single numeric value can contain independent information.
+
+## Statement
+
+Read a cheque number composed of a bank code, branch code and sequence number, with three digits in each part. Extract and print the three fields separately. For example, 999888777 represents bank 999, branch 888 and sequence 777.
 
 ## Solution
 
