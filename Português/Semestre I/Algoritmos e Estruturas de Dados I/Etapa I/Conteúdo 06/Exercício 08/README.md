@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler nome e altura e calcular os pesos correspondentes aos valores de IMC 20 e 25 da tabela do exercício.
+A atividade usa a altura para encontrar os dois extremos de um intervalo de peso definido por uma tabela didática. Em vez de calcular o IMC de um peso conhecido, o programa isola o peso na fórmula e usa os índices 20 e 25. A saída identifica a pessoa e apresenta os limites mínimo e máximo em quilogramas.
+
+## Enunciado
+
+Leia o nome e a altura em metros. Calcule e imprima os pesos mínimo e máximo da faixa entre IMC 20 e 25 adotada pelo exercício, usando IMC = peso / altura². Na tabela da atividade, valores abaixo de 20 ficam abaixo da faixa e valores acima de 25 ficam acima dela.
 
 ## Solução
 
