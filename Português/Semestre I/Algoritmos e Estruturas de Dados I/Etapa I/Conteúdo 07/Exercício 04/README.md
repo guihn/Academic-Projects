@@ -9,7 +9,19 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler uma equipe de futebol da tabela fornecida e identificar seu estado brasileiro.
+A atividade associa o nome de uma equipe de futebol ao seu estado brasileiro. Vários nomes podem levar à mesma resposta, formando grupos de casos em uma seleção múltipla. O programa deve consultar a correspondência definida na tabela do exercício e apresentar o estado da equipe digitada.
+
+## Enunciado
+
+Leia o nome de uma equipe presente na tabela e informe seu estado:
+
+| Equipes | Estado |
+| --- | --- |
+| América, Atlético, Cruzeiro, Villa Nova | Minas Gerais |
+| Botafogo, Flamengo, Fluminense, Vasco | Rio de Janeiro |
+| Corinthians, Palmeiras, Santos, São Paulo | São Paulo |
+| Grêmio, Internacional, Juventude | Rio Grande do Sul |
+| Náutico, Santa Cruz, Sport | Pernambuco |
 
 ## Solução
 
