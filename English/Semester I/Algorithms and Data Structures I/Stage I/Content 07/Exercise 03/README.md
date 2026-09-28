@@ -9,7 +9,18 @@
 
 ## Description
 
-**Statement summary:** Read a tax amount and overdue days and calculate the fine according to the exercise delay bands.
+The program models a late tax-payment fine using a classroom table. Tax amount and overdue days determine the band and penalty components. Some bands use only a percentage, while others add a daily component; the requested output is the fine amount.
+
+## Statement
+
+Read the tax amount and overdue days. Calculate and print the fine:
+
+| Overdue&nbsp;days | Fine |
+| --- | --- |
+| Up to 5 | Exempt |
+| From 6 through 8 | 2% of tax |
+| From 9 through 10 | 10% of tax + 0.5% of tax per overdue day |
+| Above 10 | 150% of tax + R$1.00 per overdue day |
 
 ## Solution
 
