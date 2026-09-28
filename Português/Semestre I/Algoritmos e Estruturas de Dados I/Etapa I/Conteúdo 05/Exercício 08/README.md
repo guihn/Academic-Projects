@@ -9,7 +9,13 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler a área e o ângulo de um setor circular e calcular seu raio com π = 3.1416.
+O programa encontra o raio de um círculo a partir da área de um setor e de seu ângulo central. A área S e o ângulo α, em graus, são as duas entradas. Para obter o raio, a relação de área do setor é reorganizada e o resultado passa por uma raiz quadrada.
+
+## Enunciado
+
+Solicite a área S e o ângulo α de um setor circular. Calcule e imprima seu raio R usando π = 3,1416 e a relação:
+
+$$S = \frac{\alpha\pi R^2}{360}$$
 
 ## Solução
 
