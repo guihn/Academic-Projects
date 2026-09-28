@@ -9,11 +9,21 @@
 
 ## Description
 
-**Statement summary:** Read x and evaluate the function shown in the slide.
+This exercise evaluates an expression combining division, addition, a power and a square root. The user enters x, and the program must calculate the function while respecting its grouped terms. The x/5 term belongs inside the square root alongside the square of x/4 + 1.
+
+## Statement
+
+Request x, then calculate and print:
+
+$$f(x) = \sqrt{\left(\frac{x}{4}+1\right)^2 + \frac{x}{5}}$$
 
 ## Solution
 
 Calculate the square root of (x/4 + 1)² plus the real fifth root of x, preserving the sign of the fifth root.
+
+### Implementation notes
+
+The statement uses x/5 inside the square root. The code instead uses the real fifth root of x, so it evaluates a different function. This difference has not been changed in the program.
 
 Source file: [C05ex07.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2007/src/C05ex07.java)
 
