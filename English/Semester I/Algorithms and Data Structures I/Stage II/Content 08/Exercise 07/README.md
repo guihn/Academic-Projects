@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Read 50 students and report how many are at most 12, how many are older than 30 and the overall average age.
+This exercise produces age statistics for a class of fifty students. Every age contributes to the overall mean, but only those meeting the limits enter the specific counters. The requested groups are students aged up to 12 and students older than 30.
+
+## Statement
+
+Read the name and age of 50 students. Calculate and print how many are aged up to 12, how many are older than 30, and the mean of all entered ages.
 
 ## Solution
 
