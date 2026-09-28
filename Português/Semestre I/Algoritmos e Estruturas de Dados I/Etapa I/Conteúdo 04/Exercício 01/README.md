@@ -9,7 +9,16 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler primeiro nome, nome do meio, sobrenome e idade e apresentar o sobrenome antes dos demais nomes.
+O programa organiza os dados de identificação de uma pessoa em uma apresentação de duas linhas no console. Primeiro nome, nome do meio, sobrenome e idade são lidos separadamente, permitindo rearranjar os nomes na saída. O sobrenome deve aparecer primeiro, seguido dos demais nomes; a idade ocupa a linha seguinte.
+
+## Enunciado
+
+Solicite o primeiro nome, o nome do meio, o sobrenome e a idade do usuário. Apresente os dados neste formato:
+
+```text
+Sobrenome, PrimeiroNome SegundoNome
+Idade: 99 anos.
+```
 
 ## Solução
 
