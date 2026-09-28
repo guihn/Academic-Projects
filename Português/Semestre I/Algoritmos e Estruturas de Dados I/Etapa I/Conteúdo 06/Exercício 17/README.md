@@ -9,7 +9,23 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Fazer nove perguntas e avaliar as condições de formação, experiência e preferências listadas no exercício.
+O programa combina respostas booleanas a um questionário de seleção fictício para programadores. As perguntas cobrem formação, experiência, criatividade, trabalho em equipe e preferências profissionais. A aptidão resulta da combinação das respostas obrigatórias com as condições adicionais sobre experiência, liderança e remuneração. Uma mensagem final informa se os critérios foram atendidos.
+
+## Enunciado
+
+Faça as nove perguntas abaixo, com respostas verdadeiro ou falso, e informe se a pessoa atende aos critérios da atividade:
+
+1. Tem curso técnico de programação?
+2. Tem curso superior de programação?
+3. Tem menos de três anos de experiência em programação?
+4. Considera-se uma pessoa criativa?
+5. Prefere liderar a ser liderada?
+6. Prefere trabalhar sozinha a trabalhar em equipe?
+7. É autodidata?
+8. Aceitaria remuneração inicial de R$1.500,00?
+9. Só aceitaria trabalhar em escritórios na Grande BH?
+
+As respostas 4 e 7 devem ser verdadeiras; 6 e 9, falsas. As demais admitem verdadeiro ou falso, observando as condições do enunciado: quem tem somente curso técnico deve ter mais de três anos de experiência; quem só aceita liderar não pode aceitar salário de até R$1.500,00.
 
 ## Solução
 
