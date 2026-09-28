@@ -9,7 +9,13 @@
 
 ## Description
 
-**Statement summary:** Read a sphere radius and calculate its surface area and volume using π = 3.1416.
+From a single radius, the program calculates two measurements of a sphere: its surface area and volume. Each result uses a different power of the radius, squared for area and cubed for volume. The exercise uses the specified value of π and presents the two measurements separately.
+
+## Statement
+
+Read a sphere's radius R, then calculate and print its surface area and volume. Use π = 3.1416 and these formulas:
+
+$$A = 4\pi R^2 \qquad V = \frac{4}{3}\pi R^3$$
 
 ## Solution
 
