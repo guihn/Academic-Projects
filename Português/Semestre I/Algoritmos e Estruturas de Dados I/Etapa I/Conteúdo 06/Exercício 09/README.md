@@ -9,7 +9,14 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler a altura e a opção M ou F e aplicar a fórmula de peso correspondente do exercício.
+O programa escolhe uma de duas fórmulas de peso previstas no exercício. As entradas são a altura em metros e o código de sexo M ou F. Depois de selecionar a expressão correspondente, o resultado é apresentado como a estimativa de peso usada nesta atividade didática.
+
+## Enunciado
+
+Leia altura e sexo, usando M para masculino e F para feminino. Calcule o peso pela fórmula correspondente:
+
+- M: peso = 72,7 × altura − 58.
+- F: peso = 62,1 × altura − 44,7.
 
 ## Solução
 
