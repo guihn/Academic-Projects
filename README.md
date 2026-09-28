@@ -5,11 +5,11 @@
 </tr>
 </table>
 
+English is the default language. Use the selector above to open the equivalent Portuguese presentation.
+
 # Academic Projects
 
 Academic assignments and projects by guihn, documenting the learning developed throughout the Computer Science degree at Dom Helder. The repository covers all courses in each semester and brings together exercises, reports, practical activities and projects from different areas of study.
-
-English is the default language. Use the selector above to open the equivalent Portuguese presentation.
 
 ## Organization
 
