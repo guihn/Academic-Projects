@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Extend the election program to handle two or three tied candidates through a second round. Cancel any round where invalid votes outnumber valid votes.
+This exercise extends the previous election to handle invalid votes and ties. The program must compare valid and invalid totals and decide whether the ballot can produce a result. If the leaders are tied, a second round restricted to those candidates must continue the count.
+
+## Statement
+
+Extend the election of 100 voters and candidates 1 — Fulano, 2 — Ciclano and 3 — Beltrano. Handle two-way and three-way ties by holding a second round with only the tied candidates. Count votes other than 1, 2 or 3 as invalid. If invalid votes exceed the sum of valid votes, report that the election is cancelled; apply this check to the second round as well.
 
 ## Solution
 
