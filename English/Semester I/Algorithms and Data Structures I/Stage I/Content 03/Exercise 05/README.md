@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Adapt the age example, reading a name, birth year and reference year.
+This exercise combines a name, birth year and reference year to report the age a person reaches during that year. The calculation subtracts the two years without considering the day or month of the birthday. The final message must identify the person and associate the age with the chosen year.
+
+## Statement
+
+Reproduce the `CalcIdade` example using the class `C03ex05`. Request the name, birth year and current year; calculate `idade = anoAtual - anoNasc` and report the age the person has or will reach during that year. Check the result against the entered values.
 
 ## Solution
 
