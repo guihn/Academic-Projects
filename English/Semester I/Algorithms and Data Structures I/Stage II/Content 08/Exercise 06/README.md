@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Read ten integers, report parity for each, sum the multiples of 4 and count the multiples of 3.
+The program performs three analyses on the same sequence of ten integers. Parity is reported after each input, while a sum of multiples of 4 and a count of multiples of 3 are maintained until the end. A number can contribute to both totals if it meets both divisibility criteria.
+
+## Statement
+
+Read 10 integers and report whether each is even or odd. At the end, print the sum of numbers divisible by 4 and the count of numbers divisible by 3. Use integer remainders to test divisibility.
 
 ## Solution
 
