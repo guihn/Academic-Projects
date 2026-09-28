@@ -9,7 +9,11 @@
 
 ## Description
 
-Code description: read x and combine a power expression with two intermediate variables. The original assessment statement is unavailable.
+This question contains a program that reads x in a dialog and evaluates a numeric expression. In the code, the first term is 0.75x⁷ − 4; the next two intermediate values both receive (5 + x)/2 through a chained assignment. The output presents the result calculated as c1 × c2 + c3. This description is based on the program's behavior.
+
+## Statement
+
+The original statement for this question is unavailable. The description and solution below document the existing code; the formula required by the assessment cannot be confirmed.
 
 ## Solution
 
