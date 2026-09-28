@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Separar um número de cheque de nove dígitos em códigos de banco, agência e sequência, cada um com três dígitos.
+O programa interpreta um número de cheque de nove dígitos como três campos de tamanho fixo. Os primeiros três identificam o banco, os três seguintes identificam a agência e os últimos três representam o sequencial. A saída deve nomear cada campo, mostrando como um único valor numérico pode conter informações independentes.
+
+## Enunciado
+
+Leia um número de cheque composto por código do banco, código da agência e sequencial, com três dígitos em cada parte. Extraia e imprima os três campos separadamente. Por exemplo, 999888777 representa banco 999, agência 888 e sequencial 777.
 
 ## Solução
 
