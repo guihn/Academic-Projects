@@ -9,7 +9,7 @@
 
 ## Description
 
-Summary of the supplied code: calculate a vehicle tax discount using the fuel code and manufacturing year. The original assessment statement is unavailable.
+Code description: calculate a vehicle tax discount using the fuel code and manufacturing year. The original assessment statement is unavailable.
 
 **Supplied source:** [D30912C.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/FirstTest/D30912C.java).
 
@@ -19,7 +19,7 @@ Select the fuel branch and year band, then apply the programmed exemption or dis
 
 ### Implementation notes
 
-The percentages describe this supplied classroom program. No assessment statement is available to confirm them.
+The percentages describe this classroom program. No assessment statement is available to confirm them.
 
 [Source file: D30912C.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/First%20Assessment/Question%20C/src/D30912C.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/First%20Assessment/Question%20C/src/D30912C.java)
 

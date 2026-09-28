@@ -9,7 +9,7 @@
 
 ## Description
 
-Summary of the supplied code: read x and combine a power expression with two intermediate variables. The original assessment statement is unavailable.
+Code description: read x and combine a power expression with two intermediate variables. The original assessment statement is unavailable.
 
 **Supplied source:** [D30912A.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/FirstTest/D30912A.java).
 

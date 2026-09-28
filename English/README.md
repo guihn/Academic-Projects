@@ -7,7 +7,7 @@
 
 # Academic work index
 
-Browse the available assignments by semester, course, assessment stage and content. Open a group to see its activities and follow each page for its description, sources and solution.
+Browse the available assignments by semester, course, assessment stage and content. Open a group to see its activities and follow each page for its description, statement and solution.
 
 <details>
 <summary>Semester I</summary>
@@ -44,7 +44,7 @@ Browse the available assignments by semester, course, assessment stage and conte
 | --- | --- | --- | --- |
 | 01 | Factorial | Adapt the factorial example to the exercise class name and check its calculation for an integer input. | [Open](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2001) |
 | 02 | Arithmetic mean | Adapt the example that reads three integers and calculates their arithmetic mean. | [Open](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2002) |
-| 03 | Hypotenuse | Use the supplied hypotenuse program as the basis for the exercise and calculate the hypotenuse from two legs. | [Open](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2003) |
+| 03 | Hypotenuse | Use the hypotenuse example as the basis for the exercise and calculate the hypotenuse from two legs. | [Open](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2003) |
 | 04 | Data types and identifiers | Complete Parts 1 and 2 of the worksheet referenced by the slide, identifying suitable data types and evaluating variable names. | [Open](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2004) |
 | 05 | Age in a given year | Adapt the age example, reading a name, birth year and reference year. | [Open](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2005) |
 
@@ -134,9 +134,9 @@ Browse the available assignments by semester, course, assessment stage and conte
 
 | Number | Title | Description | Page |
 | --- | --- | --- | --- |
-| A | Assessment function calculation | Summary of the supplied code: read x and combine a power expression with two intermediate variables. The original assessment statement is unavailable. | [Open](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/First%20Assessment/Question%20A) |
-| B | Armstrong number | Summary of the supplied code: test whether a positive three digit integer equals the sum of the cubes of its digits. The original assessment statement is unavailable. | [Open](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/First%20Assessment/Question%20B) |
-| C | Vehicle tax discount exercise | Summary of the supplied code: calculate a vehicle tax discount using the fuel code and manufacturing year. The original assessment statement is unavailable. | [Open](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/First%20Assessment/Question%20C) |
+| A | Assessment function calculation | Code description: read x and combine a power expression with two intermediate variables. The original assessment statement is unavailable. | [Open](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/First%20Assessment/Question%20A) |
+| B | Armstrong number | Code description: test whether a positive three digit integer equals the sum of the cubes of its digits. The original assessment statement is unavailable. | [Open](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/First%20Assessment/Question%20B) |
+| C | Vehicle tax discount exercise | Code description: calculate a vehicle tax discount using the fuel code and manufacturing year. The original assessment statement is unavailable. | [Open](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/First%20Assessment/Question%20C) |
 
 </details>
 </details>

@@ -15,7 +15,7 @@
 
 ## Solution
 
-Classify each record, update the supplied grade and attendance variables and divide the stored grade value by the pass count.
+Classify each record, update the grade and attendance variables and divide the stored grade value by the pass count.
 
 ### Implementation notes
 

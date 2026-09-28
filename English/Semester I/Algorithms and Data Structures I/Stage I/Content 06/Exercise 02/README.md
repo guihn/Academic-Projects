@@ -19,7 +19,7 @@ Prepare the fixed and proportional fines and choose a message using the emission
 
 ### Implementation notes
 
-The supplied code uses 3000 as the upper limit of the middle band. The statement uses 3500.
+The code uses 3000 as the upper limit of the middle band. The statement uses 3500.
 
 [Source file: C06ex02.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2002/src/C06ex02.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2002/src/C06ex02.java)
 

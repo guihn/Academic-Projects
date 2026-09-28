@@ -19,7 +19,7 @@ Divide weight by squared height and choose the corresponding message through suc
 
 ### Implementation notes
 
-The classification and messages belong to the supplied classroom program. For BMI above 27, its message differs from the slide label.
+The classification and messages belong to the classroom program. For BMI above 27, its message differs from the slide label.
 
 [Source file: C06ex04.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2004/src/C06ex04.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2006/Exercise%2004/src/C06ex04.java)
 

@@ -19,7 +19,7 @@ Maintain separate counters while applying the grade ≥ 65 and absences ≤ 16 c
 
 ### Implementation notes
 
-The supplied loop processes three students, matching the reduced example in the slide, rather than the full group of 50.
+The loop processes three students, matching the reduced example in the slide, rather than the full group of 50.
 
 [Source file: C08ex03.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2003/src/C08ex03.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2003/src/C08ex03.java)
 

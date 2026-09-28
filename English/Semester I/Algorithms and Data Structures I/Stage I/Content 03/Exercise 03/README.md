@@ -9,7 +9,7 @@
 
 ## Description
 
-**Statement summary:** Use the supplied hypotenuse program as the basis for the exercise and calculate the hypotenuse from two legs.
+**Statement summary:** Use the hypotenuse example as the basis for the exercise and calculate the hypotenuse from two legs.
 
 **Supplied source:** [C03ex03.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C03ex03.java), [CalculaHipotenusa.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/CalculaHipotenusa.java).
 

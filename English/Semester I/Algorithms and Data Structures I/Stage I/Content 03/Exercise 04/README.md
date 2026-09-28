@@ -13,9 +13,9 @@
 
 ## Submitted work
 
-Two supplied workbooks contain the same two-part activity with different recorded answers. Both are retained as submitted versions.
+Two workbooks contain the same two-part activity with different recorded answers. Both contain answers to the activity.
 
-The original submitted files are in Portuguese and retain their original contents and filenames.
+The assignment files are in Portuguese.
 
 - [C03ex04.xlsx](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2004/C03ex04.xlsx) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2004/C03ex04.xlsx) · [Supplied original](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C03ex04.xlsx)
 - [Exercícios Conteúdo 3 (feito).xlsx](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2004/Exerc%C3%ADcios%20Conte%C3%BAdo%203%20%28feito%29.xlsx) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2003/Exercise%2004/Exerc%C3%ADcios%20Conte%C3%BAdo%203%20%28feito%29.xlsx) · [Supplied original](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/Exerc%C3%ADcios%20Conte%C3%BAdo%203%20%28feito%29.xlsx)

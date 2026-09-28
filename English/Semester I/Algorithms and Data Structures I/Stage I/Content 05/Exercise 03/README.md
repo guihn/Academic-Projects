@@ -19,7 +19,7 @@ Subtract the dependent allowance from the salary and apply the percentage entere
 
 ### Implementation notes
 
-The supplied code asks for the tax percentage. The statement fixes it at 15%. The displayed net amount is the calculation base before this tax.
+The code asks for the tax percentage. The statement fixes it at 15%. The displayed net amount is the calculation base before this tax.
 
 [Source file: C05ex03.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2003/src/C05ex03.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2003/src/C05ex03.java)
 

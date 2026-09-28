@@ -11,4 +11,4 @@ This folder contains the Java source for grades and attendance statistics. The a
 
 | File | Purpose |
 | --- | --- |
-| [C08ex08.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2008/src/C08ex08.java) | Classify each record, update the supplied grade and attendance variables and divide the stored grade value by the pass count. |
+| [C08ex08.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2008/src/C08ex08.java) | Classify each record, update the grade and attendance variables and divide the stored grade value by the pass count. |
