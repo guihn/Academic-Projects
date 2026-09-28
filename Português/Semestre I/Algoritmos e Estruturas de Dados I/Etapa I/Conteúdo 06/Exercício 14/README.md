@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Validar se um inteiro tem quatro dígitos e apresentar esses dígitos na ordem inversa.
+A atividade inverte a ordem dos algarismos de um número inteiro de quatro dígitos. Antes da decomposição, o programa deve verificar se a entrada possui o tamanho exigido. Para uma entrada válida, a saída começa pelas unidades e termina pelos milhares; entradas inválidas recebem uma mensagem explicativa.
+
+## Enunciado
+
+Leia um inteiro de quatro dígitos e imprima-o de trás para frente. Verifique a quantidade de dígitos antes de inverter; se for diferente de quatro, informe “NÚMERO TEM QUE TER 4 DÍGITOS”. Use divisão inteira e resto para decompor o número.
 
 ## Solução
 
