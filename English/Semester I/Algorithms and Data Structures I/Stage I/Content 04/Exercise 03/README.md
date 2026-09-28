@@ -9,7 +9,17 @@
 
 ## Description
 
-**Statement summary:** Read two emission limits and three fine amounts and assemble the table described in the slides.
+The program builds an environmental fine table from parameters chosen by the user. Two emission limits and three fine amounts define the lower, middle and upper bands. The output presents the complete table; this exercise does not read a company's emissions to calculate an individual fine.
+
+## Statement
+
+An environmental department applies fines according to pollutant emissions. Request the two limits and three variable fine amounts, then display these rules:
+
+| Emissions | Fine |
+| --- | --- |
+| Up to the first limit | First fine amount |
+| Above the first limit through the second | Second fine amount |
+| Above the second limit | Third amount per unit of pollutant emitted |
 
 ## Solution
 
