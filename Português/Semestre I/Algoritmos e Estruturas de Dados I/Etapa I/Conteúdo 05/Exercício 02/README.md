@@ -1,0 +1,71 @@
+<table width="100%">
+<tr>
+<td align="left" width="5000"><strong>Português</strong> | <a href="https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Content%2005/Exercise%2002">English</a></td>
+<td align="right" width="5000"><a href="https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs">Índice</a> | <a href="https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005">Pasta&nbsp;anterior</a></td>
+</tr>
+</table>
+
+# Exercício 02 · Área e volume da esfera
+
+## Descrição
+
+**Resumo do enunciado:** Ler o raio de uma esfera e calcular a área da superfície e o volume usando π = 3.1416.
+
+**Fonte do enunciado:** [slides originais da aula](https://github.com/guihn/academic-materials/blob/5a9473bbf24a271032a41b141ab6bd435076c1d5/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Contents/Content%2005/Algoritmos%20-%20Aulas%20-%20Conte%C3%BAdo%205%20-%20Comando%20de%20ATRIBUI%C3%87%C3%83O%2C%20Express%C3%B5es%20Aritm%C3%A9ticas.pptx), slide(s) 35. [Pasta do material](https://github.com/guihn/academic-materials/tree/main/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20I/Contents/Content%2005).
+
+**Código fornecido:** [C05ex02.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C05ex02.java).
+
+## Solução
+
+Aplicar 4πr² para a área da superfície e (4/3)πr³ para o volume, com divisão em ponto flutuante.
+
+[Arquivo fonte: C05ex02.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2002/src/C05ex02.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2002/src/C05ex02.java)
+
+<details>
+<summary>💻 | Código Java</summary>
+
+```java
+package FirstStage;
+
+import javax.swing.JOptionPane;
+
+/**
+ * Aplicar 4πr² para a área da superfície e (4/3)πr³ para o volume, com divisão em ponto
+ * flutuante.
+ *
+ * Atividade: C05ex02.
+ *
+ * @author Guilherme Henrique Moura dos Santos
+ */
+public class C05ex02 {
+
+    static void main() {
+
+        String raiostr;
+
+        double pi = 3.1416, raio, area, volume;
+
+        // Entrada: coletar os valores solicitados por caixas de diálogo.
+        raiostr = JOptionPane.showInputDialog(null,
+                "Informe o valor do raio:",
+                "Conteúdo 05 | Exercício 02",
+                JOptionPane.QUESTION_MESSAGE);
+
+        raio = Double.valueOf(raiostr);
+
+        // Processamento: Aplicar 4πr² para a área da superfície e (4/3)πr³ para o volume, com
+        // divisão em ponto flutuante.
+        area = 4 * pi * Math.pow(raio, 2);
+
+        volume = 4.0 / 3.0 * pi * Math.pow(raio, 3);
+
+        // Saída: apresentar a mensagem correspondente ao resultado atual.
+        JOptionPane.showMessageDialog(null,
+                "Área: " + area + "\nVolume: " + volume,
+                "Conteúdo 05 | Exercício 02",
+                JOptionPane.INFORMATION_MESSAGE);
+    }
+}
+```
+
+</details>
