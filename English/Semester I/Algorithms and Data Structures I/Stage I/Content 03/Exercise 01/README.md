@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Adapt the factorial example to the exercise class name and check its calculation for an integer input.
+The program reads an integer and calculates its factorial by multiplying the positive integers from 1 through that value. The exercise combines console input with a running product inside a loop. The final result is used to check the factorial example studied in class.
+
+## Statement
+
+Reproduce the factorial program from example 4 using the class name `C03ex01`. Correct any typing errors and check the calculation: an input of 5 must produce 120.
 
 ## Solution
 
