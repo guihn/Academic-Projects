@@ -7,24 +7,22 @@
 
 # Projetos Acadêmicos
 
-Atividades acadêmicas e projetos de programação de guihn, organizados como portfólio dos trabalhos das disciplinas. O acervo disponível abrange Algoritmos e Estruturas de Dados I na Dom Helder, incluindo exercícios em Java, algoritmo escrito, planilhas e programas de avaliação.
+Trabalhos e projetos acadêmicos de guihn, reunindo os aprendizados desenvolvidos ao longo da graduação em Ciência da Computação na Dom Helder. O repositório abrange todas as disciplinas de cada semestre e reúne exercícios, relatórios, atividades práticas e projetos de diferentes áreas de estudo.
 
-O inglês é o idioma padrão. Use o seletor acima para abrir a apresentação equivalente em inglês.
+O inglês é o idioma padrão. Esta é a apresentação em português; use o seletor acima para acessar a versão em inglês.
 
 ## Organização
 
-Navegue por semestre, disciplina, etapa de avaliação, conteúdo e atividade. As páginas dos exercícios explicam a tarefa e a solução entregue, citam o material didático e apresentam o código Java completo. Atividades escritas e planilhas possuem páginas que descrevem os arquivos originais entregues. As questões de avaliação estão agrupadas separadamente dentro da etapa.
+Os trabalhos estão organizados por semestre e disciplina, permitindo explorar os temas estudados e acompanhar a evolução da produção acadêmica. Dentro de cada disciplina, as atividades seguem a organização de seus conteúdos, etapas de avaliação ou projetos.
 
-Os programas mantêm os cálculos originais. Quando uma diferença em relação ao enunciado foi identificada, a página da atividade a explica. As descrições das avaliações são identificadas como resumos dos códigos quando o enunciado original está indisponível.
+Cada página apresenta o contexto, os objetivos e o desenvolvimento da atividade, junto da solução ou dos arquivos disponíveis para consulta. O acervo oferece uma visão dos conceitos explorados e das abordagens adotadas em diferentes trabalhos.
 
 ## Trabalhos acadêmicos disponíveis
 
-| Semestre | Disciplina | Acervo |
-| --- | --- | --- |
-| [Semestre&nbsp;I](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I) | [Algoritmos&nbsp;e&nbsp;Estruturas&nbsp;de&nbsp;Dados&nbsp;I](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I) | Etapas I e II: 55 arquivos Java e três documentos originais de atividades. |
+Escolha um semestre ou uma das disciplinas com trabalhos já disponíveis.
+
+| Semestre | Disciplina |
+| --- | --- |
+| [Semestre&nbsp;I](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I) | [Algoritmos&nbsp;e&nbsp;Estruturas&nbsp;de&nbsp;Dados&nbsp;I](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I) |
 
 [Abrir&nbsp;o&nbsp;índice&nbsp;completo](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs)
-
-## Idiomas e materiais didáticos
-
-As páginas em inglês e português descrevem as mesmas atividades. Os comentários e as mensagens seguem o idioma escolhido. Os arquivos originais entregues em Word e Excel permanecem em português e são identificados como originais em suas páginas.
