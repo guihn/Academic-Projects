@@ -9,7 +9,11 @@
 
 ## Description
 
-Code description: test whether a positive three digit integer equals the sum of the cubes of its digits. The original assessment statement is unavailable.
+The program checks whether a positive three-digit integer is an Armstrong number. After validating the range from 100 to 999, it extracts hundreds, tens and units and adds the cubes of the three digits. Comparison with the input determines the final message. This description is based on the program's behavior.
+
+## Statement
+
+The original statement for this question is unavailable. The description and solution below document the check implemented in the code.
 
 ## Solution
 
