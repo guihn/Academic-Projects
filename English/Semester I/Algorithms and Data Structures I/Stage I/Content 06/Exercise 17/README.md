@@ -9,7 +9,23 @@
 
 ## Description
 
-**Statement summary:** Ask nine questions and evaluate the training, experience and preference conditions listed in the exercise.
+The program combines Boolean answers to a fictional programmer selection questionnaire. Questions cover education, experience, creativity, teamwork and professional preferences. Eligibility results from combining mandatory answers with additional conditions involving experience, leadership and pay. A final message reports whether the criteria have been met.
+
+## Statement
+
+Ask the following nine questions with true or false answers, then report whether the person meets the exercise criteria:
+
+1. Do you have technical programming education?
+2. Do you have a higher-education qualification in programming?
+3. Do you have less than three years of programming experience?
+4. Do you consider yourself creative?
+5. Do you prefer leading to being led?
+6. Do you prefer working alone to working in a team?
+7. Are you self-taught?
+8. Would you accept initial pay of R$1,500.00?
+9. Would you only accept work in offices in Greater Belo Horizonte?
+
+Answers 4 and 7 must be true; 6 and 9 must be false. The others allow true or false subject to the statement's conditions: someone with only technical education must have more than three years of experience; someone who only accepts leadership must not accept pay of up to R$1,500.00.
 
 ## Solution
 
