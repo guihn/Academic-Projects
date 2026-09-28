@@ -9,7 +9,13 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler três notas e calcular a média com os respectivos pesos 2, 3 e 5.
+A atividade calcula uma nota final em que as três avaliações têm importâncias diferentes. As notas devem ser lidas na ordem dos pesos 2, 3 e 5, para que cada valor contribua corretamente para o resultado. A soma ponderada é dividida por 10, a soma dos pesos, e a média final é apresentada ao usuário.
+
+## Enunciado
+
+Leia as três notas de um aluno e calcule e imprima sua média ponderada. Use os pesos 2, 3 e 5, respectivamente:
+
+$$M = \frac{2N_1+3N_2+5N_3}{10}$$
 
 ## Solução
 
