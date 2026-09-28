@@ -11,8 +11,6 @@
 
 **Resumo do enunciado:** Ler três notas inteiras, obter a parte inteira da média e atribuir o conceito da tabela do slide.
 
-**Código fornecido:** [C07ex02.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C07ex02.java).
-
 ## Solução
 
 Usar divisão inteira na média e selecionar o texto de saída com switch.
@@ -21,7 +19,7 @@ Usar divisão inteira na média e selecionar o texto de saída com switch.
 
 O código contém uma mensagem adicional para média zero e valida a média final em vez de cada nota de entrada. A mensagem para zero não está definida na tabela do slide.
 
-[Arquivo fonte: C07ex02.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2007/Exerc%C3%ADcio%2002/src/C07ex02.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2007/Exerc%C3%ADcio%2002/src/C07ex02.java)
+Arquivo fonte: [C07ex02.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2007/Exerc%C3%ADcio%2002/src/C07ex02.java)
 
 <details>
 <summary>💻 | Código Java</summary>

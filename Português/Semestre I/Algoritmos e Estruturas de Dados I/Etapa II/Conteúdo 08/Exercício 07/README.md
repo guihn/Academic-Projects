@@ -11,8 +11,6 @@
 
 **Resumo do enunciado:** Ler 50 alunos e informar quantos têm até 12 anos, quantos têm mais de 30 e a média geral de idade.
 
-**Código fornecido:** [C08ex07.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/SecondStage/C08ex07.java).
-
 ## Solução
 
 Acumular todas as idades, manter contadores por faixa e dividir a soma das idades pela quantidade de registros.
@@ -21,7 +19,7 @@ Acumular todas as idades, manter contadores por faixa e dividir a soma das idade
 
 A condição original inclui a idade de 30 anos na faixa superior, enquanto o enunciado pede idades acima de 30.
 
-[Arquivo fonte: C08ex07.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2007/src/C08ex07.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2007/src/C08ex07.java)
+Arquivo fonte: [C08ex07.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2007/src/C08ex07.java)
 
 <details>
 <summary>💻 | Código Java</summary>

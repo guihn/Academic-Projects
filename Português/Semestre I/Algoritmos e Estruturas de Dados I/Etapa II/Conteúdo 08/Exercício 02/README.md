@@ -11,8 +11,6 @@
 
 **Resumo do enunciado:** Ler nota final e faltas de até 50 alunos. A aprovação exige nota de pelo menos 65 e no máximo 16 faltas. Encerrar quando a nota for −1.
 
-**Código fornecido:** [C08ex02.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/SecondStage/C08ex02.java).
-
 ## Solução
 
 Ler cada registro em um laço, interromper nos limites negativos implementados e testar nota e frequência em conjunto.
@@ -21,7 +19,7 @@ Ler cada registro em um laço, interromper nos limites negativos implementados e
 
 O código original encerra quando a nota ou as faltas são menores ou iguais a −1. O enunciado especifica −1 no campo de nota.
 
-[Arquivo fonte: C08ex02.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2002/src/C08ex02.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2002/src/C08ex02.java)
+Arquivo fonte: [C08ex02.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2002/src/C08ex02.java)
 
 <details>
 <summary>💻 | Código Java</summary>

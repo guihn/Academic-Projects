@@ -11,8 +11,6 @@
 
 **Resumo do enunciado:** Ler nome, altura e peso, calcular o IMC e classificá-lo pelas faixas definidas neste exercício didático.
 
-**Código fornecido:** [C06ex04.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C06ex04.java).
-
 ## Solução
 
 Dividir o peso pelo quadrado da altura e escolher a mensagem correspondente por comparações sucessivas.
@@ -21,7 +19,7 @@ Dividir o peso pelo quadrado da altura e escolher a mensagem correspondente por 
 
 A classificação e as mensagens pertencem ao programa didático. Para IMC acima de 27, a mensagem difere do rótulo do slide.
 
-[Arquivo fonte: C06ex04.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2004/src/C06ex04.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2004/src/C06ex04.java)
+Arquivo fonte: [C06ex04.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2004/src/C06ex04.java)
 
 <details>
 <summary>💻 | Código Java</summary>

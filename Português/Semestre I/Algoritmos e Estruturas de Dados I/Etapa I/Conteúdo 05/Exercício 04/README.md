@@ -11,13 +11,11 @@
 
 **Resumo do enunciado:** Ler as coordenadas de dois pontos no plano cartesiano e calcular a distância entre eles.
 
-**Código fornecido:** [C05ex04.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C05ex04.java).
-
 ## Solução
 
 Calcular a raiz quadrada da soma dos quadrados das diferenças entre as coordenadas correspondentes.
 
-[Arquivo fonte: C05ex04.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2004/src/C05ex04.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2004/src/C05ex04.java)
+Arquivo fonte: [C05ex04.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2004/src/C05ex04.java)
 
 <details>
 <summary>💻 | Código Java</summary>

@@ -11,8 +11,6 @@
 
 **Resumo do enunciado:** Ler x e escolher a expressão de f(x) conforme sua posição em relação a 4.
 
-**Código fornecido:** [C06ex01.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C06ex01.java).
-
 ## Solução
 
 Calcular as duas expressões e selecionar a primeira para x < 4, zero para x = 4 ou a segunda para x > 4.
@@ -21,7 +19,7 @@ Calcular as duas expressões e selecionar a primeira para x < 4, zero para x = 4
 
 As duas expressões são avaliadas antes da condição. Algumas entradas produzem argumento negativo na raiz quadrada ou denominador zero.
 
-[Arquivo fonte: C06ex01.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2001/src/C06ex01.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2001/src/C06ex01.java)
+Arquivo fonte: [C06ex01.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2001/src/C06ex01.java)
 
 <details>
 <summary>💻 | Código Java</summary>

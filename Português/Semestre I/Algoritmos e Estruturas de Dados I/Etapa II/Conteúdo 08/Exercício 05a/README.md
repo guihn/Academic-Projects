@@ -11,8 +11,6 @@
 
 **Resumo do enunciado:** Ampliar o programa eleitoral para tratar empates entre dois ou três candidatos por segundo turno. Anular o turno quando votos nulos superarem votos válidos.
 
-**Código fornecido:** [C08ex05a.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/SecondStage/C08ex05a.java).
-
 ## Solução
 
 Contar e confirmar votos nulos, verificar a anulação e realizar nova votação para dois candidatos empatados na liderança.
@@ -21,7 +19,7 @@ Contar e confirmar votos nulos, verificar a anulação e realizar nova votação
 
 O empate triplo exibe uma mensagem sobre eleger o candidato mais velho em vez de realizar o segundo turno solicitado. Um novo empate também usa essa mensagem, sem ler idades nem identificar o candidato mais velho.
 
-[Arquivo fonte: C08ex05a.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2005a/src/C08ex05a.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2005a/src/C08ex05a.java)
+Arquivo fonte: [C08ex05a.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2005a/src/C08ex05a.java)
 
 <details>
 <summary>💻 | Código Java</summary>

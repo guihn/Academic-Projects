@@ -11,13 +11,11 @@
 
 **Resumo do enunciado:** Adaptar o exemplo que lê três inteiros e calcula sua média aritmética.
 
-**Código fornecido:** [C03ex02.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C03ex02.java).
-
 ## Solução
 
 Somar os três valores long e dividir a soma por 3.0 para preservar a parte fracionária.
 
-[Arquivo fonte: C03ex02.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2003/Exerc%C3%ADcio%2002/src/C03ex02.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2003/Exerc%C3%ADcio%2002/src/C03ex02.java)
+Arquivo fonte: [C03ex02.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2003/Exerc%C3%ADcio%2002/src/C03ex02.java)
 
 <details>
 <summary>💻 | Código Java</summary>

@@ -11,8 +11,6 @@
 
 Descrição do código: ler x e combinar uma expressão com potência e duas variáveis intermediárias. O enunciado original da avaliação não está disponível.
 
-**Código fornecido:** [D30912A.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/FirstTest/D30912A.java).
-
 ## Solução
 
 Calcular c1 = 0.75x⁷ − 4, atribuir (5 + x)/2 a c3 e c2 e avaliar c1 × c2 + c3.
@@ -21,7 +19,7 @@ Calcular c1 = 0.75x⁷ − 4, atribuir (5 + x)/2 a c3 e c2 e avaliar c1 × c2 + 
 
 As linhas originais c2 = e c3 = (5 + x) / 2 formam uma atribuição encadeada. Sem o enunciado da avaliação, não é possível confirmar a fórmula pretendida.
 
-[Arquivo fonte: D30912A.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Primeira%20Avalia%C3%A7%C3%A3o/Quest%C3%A3o%20A/src/D30912A.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Primeira%20Avalia%C3%A7%C3%A3o/Quest%C3%A3o%20A/src/D30912A.java)
+Arquivo fonte: [D30912A.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Primeira%20Avalia%C3%A7%C3%A3o/Quest%C3%A3o%20A/src/D30912A.java)
 
 <details>
 <summary>💻 | Código Java</summary>

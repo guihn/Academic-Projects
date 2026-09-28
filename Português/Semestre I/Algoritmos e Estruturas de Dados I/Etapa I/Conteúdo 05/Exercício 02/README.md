@@ -11,13 +11,11 @@
 
 **Resumo do enunciado:** Ler o raio de uma esfera e calcular a área da superfície e o volume usando π = 3.1416.
 
-**Código fornecido:** [C05ex02.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C05ex02.java).
-
 ## Solução
 
 Aplicar 4πr² para a área da superfície e (4/3)πr³ para o volume, com divisão em ponto flutuante.
 
-[Arquivo fonte: C05ex02.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2002/src/C05ex02.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2002/src/C05ex02.java)
+Arquivo fonte: [C05ex02.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2002/src/C05ex02.java)
 
 <details>
 <summary>💻 | Código Java</summary>

@@ -11,13 +11,11 @@
 
 **Resumo do enunciado:** Ler o valor de um imposto e os dias de atraso e calcular a multa pelas faixas do exercício.
 
-**Código fornecido:** [C07ex03.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C07ex03.java).
-
 ## Solução
 
 Usar switch para selecionar isenção, 2%, 10% mais 0.5% por dia ou 150% mais R$1 por dia.
 
-[Arquivo fonte: C07ex03.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2007/Exerc%C3%ADcio%2003/src/C07ex03.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2007/Exerc%C3%ADcio%2003/src/C07ex03.java)
+Arquivo fonte: [C07ex03.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2007/Exerc%C3%ADcio%2003/src/C07ex03.java)
 
 <details>
 <summary>💻 | Código Java</summary>

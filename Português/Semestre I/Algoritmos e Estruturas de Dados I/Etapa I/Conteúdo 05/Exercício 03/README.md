@@ -11,8 +11,6 @@
 
 **Resumo do enunciado:** Descontar R$60 por dependente do salário e calcular 15% dessa base como imposto do exercício.
 
-**Código fornecido:** [C05ex03.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C05ex03.java).
-
 ## Solução
 
 Subtrair o desconto por dependentes do salário e aplicar o percentual informado na janela.
@@ -21,7 +19,7 @@ Subtrair o desconto por dependentes do salário e aplicar o percentual informado
 
 O código solicita o percentual do imposto. O enunciado fixa 15%. O valor exibido como líquido é a base de cálculo antes desse imposto.
 
-[Arquivo fonte: C05ex03.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2003/src/C05ex03.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2003/src/C05ex03.java)
+Arquivo fonte: [C05ex03.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2003/src/C05ex03.java)
 
 <details>
 <summary>💻 | Código Java</summary>

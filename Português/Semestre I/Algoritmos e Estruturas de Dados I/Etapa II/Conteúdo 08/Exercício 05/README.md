@@ -11,13 +11,11 @@
 
 **Resumo do enunciado:** Contar 100 votos para Fulano, Ciclano e Beltrano, com códigos 1, 2 e 3. O enunciado pressupõe ausência de votos nulos e empates.
 
-**Código fornecido:** [C08ex05.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/SecondStage/C08ex05.java).
-
 ## Solução
 
 Contar cada código válido e comparar os totais. Decrementar o contador do laço para repetir uma entrada inválida.
 
-[Arquivo fonte: C08ex05.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2005/src/C08ex05.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2005/src/C08ex05.java)
+Arquivo fonte: [C08ex05.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2005/src/C08ex05.java)
 
 <details>
 <summary>💻 | Código Java</summary>

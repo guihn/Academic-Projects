@@ -11,13 +11,11 @@
 
 **Resumo do enunciado:** Ler horas e minutos de início e fim de um jogo que começa e termina no mesmo dia.
 
-**Código fornecido:** [C06ex13.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C06ex13.java).
-
 ## Solução
 
 Subtrair os horários e emprestar uma hora quando a diferença de minutos for negativa.
 
-[Arquivo fonte: C06ex13.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2013/src/C06ex13.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2013/src/C06ex13.java)
+Arquivo fonte: [C06ex13.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2013/src/C06ex13.java)
 
 <details>
 <summary>💻 | Código Java</summary>

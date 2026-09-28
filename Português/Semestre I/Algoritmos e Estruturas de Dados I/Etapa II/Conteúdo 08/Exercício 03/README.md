@@ -11,8 +11,6 @@
 
 **Resumo do enunciado:** Avaliar 50 alunos por nota e frequência e informar os totais de aprovados e reprovados.
 
-**Código fornecido:** [C08ex03.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/SecondStage/C08ex03.java).
-
 ## Solução
 
 Manter contadores separados ao aplicar a condição nota ≥ 65 e faltas ≤ 16 a cada registro.
@@ -21,7 +19,7 @@ Manter contadores separados ao aplicar a condição nota ≥ 65 e faltas ≤ 16 
 
 O laço processa três alunos, correspondendo ao exemplo reduzido do slide, em vez da turma completa de 50.
 
-[Arquivo fonte: C08ex03.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2003/src/C08ex03.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2003/src/C08ex03.java)
+Arquivo fonte: [C08ex03.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2003/src/C08ex03.java)
 
 <details>
 <summary>💻 | Código Java</summary>

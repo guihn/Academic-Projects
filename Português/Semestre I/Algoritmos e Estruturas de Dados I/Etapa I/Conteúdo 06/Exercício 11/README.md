@@ -11,8 +11,6 @@
 
 **Resumo do enunciado:** Ler os nomes das equipes e o placar de sets e distribuir os pontos conforme a tabela do enunciado.
 
-**Código fornecido:** [C06ex11.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C06ex11.java).
-
 ## Solução
 
 Atribuir 3–0 pontos para placares de sets 3–0 ou 3–1 e 2–1 pontos para placar 3–2, incluindo os casos simétricos.
@@ -21,7 +19,7 @@ Atribuir 3–0 pontos para placares de sets 3–0 ou 3–1 e 2–1 pontos para p
 
 Placares não reconhecidos atribuem 69 pontos a cada equipe na implementação.
 
-[Arquivo fonte: C06ex11.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2011/src/C06ex11.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2011/src/C06ex11.java)
+Arquivo fonte: [C06ex11.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2011/src/C06ex11.java)
 
 <details>
 <summary>💻 | Código Java</summary>

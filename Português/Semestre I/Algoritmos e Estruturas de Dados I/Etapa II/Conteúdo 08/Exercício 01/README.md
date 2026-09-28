@@ -11,13 +11,11 @@
 
 **Resumo do enunciado:** Ler os raios de dez círculos e calcular cada área usando π = 3.1416.
 
-**Código fornecido:** [C08ex01.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/SecondStage/C08ex01.java).
-
 ## Solução
 
 Repetir a entrada e o cálculo da área dez vezes, apresentando cada resultado dentro do laço.
 
-[Arquivo fonte: C08ex01.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2001/src/C08ex01.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2001/src/C08ex01.java)
+Arquivo fonte: [C08ex01.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2001/src/C08ex01.java)
 
 <details>
 <summary>💻 | Código Java</summary>

@@ -11,13 +11,11 @@
 
 **Resumo do enunciado:** Ler primeiro nome, nome do meio, sobrenome e idade e apresentar o sobrenome antes dos demais nomes.
 
-**Código fornecido:** [C04ex01.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C04ex01.java).
-
 ## Solução
 
 Ler os campos de texto antes da idade inteira e reuni-los na mensagem do console.
 
-[Arquivo fonte: C04ex01.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2004/Exerc%C3%ADcio%2001/src/C04ex01.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2004/Exerc%C3%ADcio%2001/src/C04ex01.java)
+Arquivo fonte: [C04ex01.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2004/Exerc%C3%ADcio%2001/src/C04ex01.java)
 
 <details>
 <summary>💻 | Código Java</summary>

@@ -11,8 +11,6 @@
 
 Descrição do código: calcular um desconto de imposto veicular usando o combustível e o ano de fabricação. O enunciado original da avaliação não está disponível.
 
-**Código fornecido:** [D30912C.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/FirstTest/D30912C.java).
-
 ## Solução
 
 Selecionar o ramo do combustível e a faixa de ano e aplicar a isenção ou o percentual de desconto programado ao imposto original.
@@ -21,7 +19,7 @@ Selecionar o ramo do combustível e a faixa de ano e aplicar a isenção ou o pe
 
 Os percentuais descrevem este programa didático. Não há enunciado da avaliação disponível para confirmá-los.
 
-[Arquivo fonte: D30912C.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Primeira%20Avalia%C3%A7%C3%A3o/Quest%C3%A3o%20C/src/D30912C.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Primeira%20Avalia%C3%A7%C3%A3o/Quest%C3%A3o%20C/src/D30912C.java)
+Arquivo fonte: [D30912C.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Primeira%20Avalia%C3%A7%C3%A3o/Quest%C3%A3o%20C/src/D30912C.java)
 
 <details>
 <summary>💻 | Código Java</summary>

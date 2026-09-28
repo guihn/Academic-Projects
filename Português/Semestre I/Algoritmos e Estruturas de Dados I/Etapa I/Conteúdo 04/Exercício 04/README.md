@@ -11,13 +11,11 @@
 
 **Resumo do enunciado:** Ler as partes do nome e a idade e apresentá-las usando caixas de diálogo.
 
-**Código fornecido:** [C04ex04.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C04ex04.java).
-
 ## Solução
 
 Converter a idade de texto para inteiro e exibir o sobrenome antes dos demais nomes.
 
-[Arquivo fonte: C04ex04.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2004/Exerc%C3%ADcio%2004/src/C04ex04.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2004/Exerc%C3%ADcio%2004/src/C04ex04.java)
+Arquivo fonte: [C04ex04.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2004/Exerc%C3%ADcio%2004/src/C04ex04.java)
 
 <details>
 <summary>💻 | Código Java</summary>

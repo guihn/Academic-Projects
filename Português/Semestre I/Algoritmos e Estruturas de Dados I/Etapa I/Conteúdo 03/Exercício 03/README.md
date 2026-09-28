@@ -11,15 +11,13 @@
 
 **Resumo do enunciado:** Usar o exemplo de hipotenusa como base do exercício e calcular a hipotenusa a partir dos dois catetos.
 
-**Código fornecido:** [C03ex03.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C03ex03.java), [CalculaHipotenusa.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/CalculaHipotenusa.java).
-
 ## Solução
 
 Elevar cada cateto ao quadrado, somar os quadrados e elevar a soma à potência 1/2.
 
 ### Hipotenusa
 
-[Arquivo fonte: C03ex03.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2003/Exerc%C3%ADcio%2003/src/C03ex03.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2003/Exerc%C3%ADcio%2003/src/C03ex03.java)
+Arquivo fonte: [C03ex03.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2003/Exerc%C3%ADcio%2003/src/C03ex03.java)
 
 <details>
 <summary>💻 | Código Java</summary>
@@ -71,7 +69,7 @@ Calcular a hipotenusa dentro de um bloco try que fecha o Scanner automaticamente
 
 A segunda mensagem ainda pede o cateto 1, embora a entrada seja armazenada em cateto2. O pacote original é Etapa1.Stage1.
 
-[Arquivo fonte: CalculaHipotenusa.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2003/Exerc%C3%ADcio%2003/src/CalculaHipotenusa.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2003/Exerc%C3%ADcio%2003/src/CalculaHipotenusa.java)
+Arquivo fonte: [CalculaHipotenusa.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2003/Exerc%C3%ADcio%2003/src/CalculaHipotenusa.java)
 
 <details>
 <summary>💻 | Código Java</summary>

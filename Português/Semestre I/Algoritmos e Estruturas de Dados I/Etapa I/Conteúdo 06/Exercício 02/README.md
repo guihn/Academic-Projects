@@ -11,8 +11,6 @@
 
 **Resumo do enunciado:** Aplicar a tabela do slide: isenção até 1500, R$3000 acima de 1500 até 3500 e R$5000 por unidade emitida acima de 3500.
 
-**Código fornecido:** [C06ex02.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C06ex02.java).
-
 ## Solução
 
 Preparar as multas fixa e proporcional e escolher a mensagem pelos limites de emissão do código.
@@ -21,7 +19,7 @@ Preparar as multas fixa e proporcional e escolher a mensagem pelos limites de em
 
 O código usa 3000 como limite superior da faixa intermediária. O enunciado usa 3500.
 
-[Arquivo fonte: C06ex02.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2002/src/C06ex02.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2002/src/C06ex02.java)
+Arquivo fonte: [C06ex02.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2002/src/C06ex02.java)
 
 <details>
 <summary>💻 | Código Java</summary>

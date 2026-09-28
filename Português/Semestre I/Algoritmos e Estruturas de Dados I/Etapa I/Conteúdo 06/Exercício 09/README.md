@@ -11,13 +11,11 @@
 
 **Resumo do enunciado:** Ler a altura e a opção M ou F e aplicar a fórmula de peso correspondente do exercício.
 
-**Código fornecido:** [C06ex09.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C06ex09.java).
-
 ## Solução
 
 Usar 72.7h − 58 para M e 62.1h − 44.7 para F, informando que outras entradas são inválidas.
 
-[Arquivo fonte: C06ex09.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2009/src/C06ex09.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2009/src/C06ex09.java)
+Arquivo fonte: [C06ex09.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2009/src/C06ex09.java)
 
 <details>
 <summary>💻 | Código Java</summary>

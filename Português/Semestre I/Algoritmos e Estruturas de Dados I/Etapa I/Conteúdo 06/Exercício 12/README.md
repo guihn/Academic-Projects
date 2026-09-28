@@ -11,13 +11,11 @@
 
 **Resumo do enunciado:** Descartar bolas defeituosas, embalar até 10 por caixa e alugar galpões com capacidade de até 850 caixas até o evento. Incluir caixas e galpões incompletos no custo.
 
-**Código fornecido:** [C06ex12.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C06ex12.java).
-
 ## Solução
 
 Arredondar as quantidades de caixas e galpões para cima com Math.ceil e somar os custos de embalagem e aluguel.
 
-[Arquivo fonte: C06ex12.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2012/src/C06ex12.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2012/src/C06ex12.java)
+Arquivo fonte: [C06ex12.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2012/src/C06ex12.java)
 
 <details>
 <summary>💻 | Código Java</summary>

@@ -11,13 +11,11 @@
 
 **Resumo do enunciado:** Calcular mensalidade do pacote, diárias de pay-per-view, serviços extras e imposto da cidade usando as tabelas do exercício.
 
-**Código fornecido:** [C06ex15.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C06ex15.java).
-
 ## Solução
 
 Selecionar as taxas por cidade e pacote, limitar o pay-per-view Basic a R$65 e aplicar o imposto da cidade sobre o subtotal.
 
-[Arquivo fonte: C06ex15.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2015/src/C06ex15.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2015/src/C06ex15.java)
+Arquivo fonte: [C06ex15.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2015/src/C06ex15.java)
 
 <details>
 <summary>💻 | Código Java</summary>

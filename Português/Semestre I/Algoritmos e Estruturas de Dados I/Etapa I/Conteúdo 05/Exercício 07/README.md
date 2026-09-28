@@ -11,13 +11,11 @@
 
 **Resumo do enunciado:** Ler x e avaliar a função apresentada no slide.
 
-**Código fornecido:** [C05ex07.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C05ex07.java).
-
 ## Solução
 
 Calcular a raiz quadrada de (x/4 + 1)² mais a raiz quinta real de x, preservando o sinal da raiz quinta.
 
-[Arquivo fonte: C05ex07.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2007/src/C05ex07.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2007/src/C05ex07.java)
+Arquivo fonte: [C05ex07.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2007/src/C05ex07.java)
 
 <details>
 <summary>💻 | Código Java</summary>

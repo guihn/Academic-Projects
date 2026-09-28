@@ -11,13 +11,11 @@
 
 **Resumo do enunciado:** Ler a área e o ângulo de um setor circular e calcular seu raio com π = 3.1416.
 
-**Código fornecido:** [C05ex08.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C05ex08.java).
-
 ## Solução
 
 Calcular a raiz quadrada de 360S dividido por απ, com o ângulo em graus.
 
-[Arquivo fonte: C05ex08.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2008/src/C05ex08.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2008/src/C05ex08.java)
+Arquivo fonte: [C05ex08.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2008/src/C05ex08.java)
 
 <details>
 <summary>💻 | Código Java</summary>

@@ -11,8 +11,6 @@
 
 Descrição do código: testar se um inteiro positivo de três dígitos é igual à soma dos cubos de seus dígitos. O enunciado original da avaliação não está disponível.
 
-**Código fornecido:** [D30912B.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/FirstTest/D30912B.java).
-
 ## Solução
 
 Validar 100–999, extrair centenas, dezenas e unidades e comparar a soma de seus cubos com o número original.
@@ -21,7 +19,7 @@ Validar 100–999, extrair centenas, dezenas e unidades e comparar a soma de seu
 
 A mensagem pede até três dígitos, mas a validação aceita exatamente três dígitos positivos.
 
-[Arquivo fonte: D30912B.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Primeira%20Avalia%C3%A7%C3%A3o/Quest%C3%A3o%20B/src/D30912B.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Primeira%20Avalia%C3%A7%C3%A3o/Quest%C3%A3o%20B/src/D30912B.java)
+Arquivo fonte: [D30912B.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Primeira%20Avalia%C3%A7%C3%A3o/Quest%C3%A3o%20B/src/D30912B.java)
 
 <details>
 <summary>💻 | Código Java</summary>

@@ -11,13 +11,11 @@
 
 **Resumo do enunciado:** Ler o nome do apostador e a quantidade de acertos em 13 jogos e atribuir ausência de prêmio, outro cartão ou o prêmio em dinheiro previsto.
 
-**Código fornecido:** [C07ex01.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C07ex01.java).
-
 ## Solução
 
 Tratar as faixas baixas de acertos com if e selecionar o prêmio de 11, 12 ou 13 acertos com switch.
 
-[Arquivo fonte: C07ex01.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2007/Exerc%C3%ADcio%2001/src/C07ex01.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2007/Exerc%C3%ADcio%2001/src/C07ex01.java)
+Arquivo fonte: [C07ex01.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2007/Exerc%C3%ADcio%2001/src/C07ex01.java)
 
 <details>
 <summary>💻 | Código Java</summary>

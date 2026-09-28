@@ -11,8 +11,6 @@
 
 **Resumo do enunciado:** Ler uma temperatura em Celsius e convertê-la para Kelvin e Fahrenheit.
 
-**Código fornecido:** [C05ex05.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C05ex05.java).
-
 ## Solução
 
 Somar 273.15 para Kelvin e calcular 1.8 vezes Celsius mais 32 para Fahrenheit.
@@ -21,7 +19,7 @@ Somar 273.15 para Kelvin e calcular 1.8 vezes Celsius mais 32 para Fahrenheit.
 
 A implementação usa 273.15 na conversão para Kelvin. O exemplo do slide usa o deslocamento arredondado 273.
 
-[Arquivo fonte: C05ex05.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2005/src/C05ex05.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2005/src/C05ex05.java)
+Arquivo fonte: [C05ex05.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2005/Exerc%C3%ADcio%2005/src/C05ex05.java)
 
 <details>
 <summary>💻 | Código Java</summary>

@@ -11,8 +11,6 @@
 
 **Resumo do enunciado:** Ler a quantidade de participantes e depois seus nomes, idades e opções M/F e calcular uma média de idade por grupo.
 
-**Código fornecido:** [C08ex09.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/SecondStage/C08ex09.java).
-
 ## Solução
 
 Acumular idades e contagens das opções M e F reconhecidas e calcular as duas médias em ponto flutuante.
@@ -21,7 +19,7 @@ Acumular idades e contagens das opções M e F reconhecidas e calcular as duas m
 
 Os valores de entrada aceitos permanecem M, Masculino, F e Feminino nas duas versões. Um grupo sem participantes produz NaN porque não há verificação de contagem zero.
 
-[Arquivo fonte: C08ex09.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2009/src/C08ex09.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2009/src/C08ex09.java)
+Arquivo fonte: [C08ex09.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2009/src/C08ex09.java)
 
 <details>
 <summary>💻 | Código Java</summary>

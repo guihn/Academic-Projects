@@ -11,8 +11,6 @@
 
 **Resumo do enunciado:** Validar se um inteiro tem quatro dígitos e apresentar esses dígitos na ordem inversa.
 
-**Código fornecido:** [C06ex14.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C06ex14.java).
-
 ## Solução
 
 Rejeitar valores fora de 1000–9999, extrair os dígitos e concatená-los das unidades aos milhares.
@@ -21,7 +19,7 @@ Rejeitar valores fora de 1000–9999, extrair os dígitos e concatená-los das u
 
 A mensagem original de entrada pede cinco dígitos e alguns títulos indicam Conteúdo 05, embora a validação e a atividade correspondam a quatro dígitos e ao Conteúdo 06.
 
-[Arquivo fonte: C06ex14.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2014/src/C06ex14.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2014/src/C06ex14.java)
+Arquivo fonte: [C06ex14.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2014/src/C06ex14.java)
 
 <details>
 <summary>💻 | Código Java</summary>

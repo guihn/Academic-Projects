@@ -11,8 +11,6 @@
 
 **Resumo do enunciado:** Fazer nove perguntas e avaliar as condições de formação, experiência e preferências listadas no exercício.
 
-**Código fornecido:** [C06ex17.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/FirstStage/C06ex17.java).
-
 ## Solução
 
 Armazenar as comparações das opções das janelas e combiná-las com E, OU, negação e uma comparação de preferências exclusivas.
@@ -21,7 +19,7 @@ Armazenar as comparações das opções das janelas e combiná-las com E, OU, ne
 
 Os botões estão na ordem Sim/Não, mas toda resposta vira true quando o índice 1 (Não) é selecionado. Isso inverte o significado esperado pelos nomes das variáveis.
 
-[Arquivo fonte: C06ex17.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2017/src/C06ex17.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2017/src/C06ex17.java)
+Arquivo fonte: [C06ex17.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2006/Exerc%C3%ADcio%2017/src/C06ex17.java)
 
 <details>
 <summary>💻 | Código Java</summary>

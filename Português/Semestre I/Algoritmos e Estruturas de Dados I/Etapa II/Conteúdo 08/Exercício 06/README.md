@@ -11,8 +11,6 @@
 
 **Resumo do enunciado:** Ler dez inteiros, informar a paridade de cada um, somar os múltiplos de 4 e contar os múltiplos de 3.
 
-**Código fornecido:** [C08ex06.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/SecondStage/C08ex06.java).
-
 ## Solução
 
 Usar restos para classificar cada número e manter a soma e a contagem dentro do laço.
@@ -21,7 +19,7 @@ Usar restos para classificar cada número e manter a soma e a contagem dentro do
 
 O else if original torna exclusivas as verificações de divisibilidade. Números divisíveis por 4 e por 3 entram na soma, mas ficam fora da contagem de múltiplos de 3.
 
-[Arquivo fonte: C08ex06.java](https://github.com/guihn/Academic-Projects/blob/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2006/src/C08ex06.java) · [Baixar](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2006/src/C08ex06.java)
+Arquivo fonte: [C08ex06.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2006/src/C08ex06.java)
 
 <details>
 <summary>💻 | Código Java</summary>
