@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler nomes e idades de 50 alunos e contar os que têm até 18 anos e os que têm mais de 18.
+A atividade divide os alunos de uma turma em duas faixas de idade. Nome e idade são lidos para cada pessoa, e a idade determina qual contador deve ser incrementado. A fronteira de 18 anos pertence à primeira faixa, de modo que cada aluno seja contado uma única vez.
+
+## Enunciado
+
+Leia nome e idade de todos os 50 alunos de uma turma. Calcule e imprima a quantidade de alunos com até 18 anos e a quantidade com mais de 18 anos.
 
 ## Solução
 
