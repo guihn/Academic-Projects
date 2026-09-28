@@ -30,7 +30,3 @@ Os programas mantêm os cálculos originais. Quando uma diferença em relação 
 As páginas em inglês e português descrevem as mesmas atividades. Os comentários e as mensagens seguem o idioma escolhido. Os arquivos originais entregues em Word e Excel permanecem em português e são identificados como originais em suas páginas.
 
 Os slides de aula e as referências didáticas estão disponíveis em [Academic Materials](https://github.com/guihn/academic-materials/tree/main). Este repositório apresenta as atividades e suas soluções, com links para os materiais correspondentes.
-
-## Padrões da documentação
-
-[Padrão&nbsp;de&nbsp;comentários](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Padr%C3%A3o%20de%20Coment%C3%A1rios) · [Regras do repositório](https://github.com/guihn/repo-rules/tree/main/Academic%20Projects)
