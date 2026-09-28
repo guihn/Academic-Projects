@@ -9,7 +9,19 @@
 
 ## Description
 
-**Statement summary:** Read a name, height and weight, calculate BMI and classify it using the bands defined in this classroom exercise.
+This exercise practices chained conditions using a classroom BMI table. The program reads a name, height in metres and weight in kilograms, calculates weight divided by squared height and selects a category. The message must associate the name with the result from the exercise bands.
+
+## Statement
+
+Read name, height and weight and report the category defined in this exercise. Calculate BMI = weight / height² and apply:
+
+| BMI | Exercise&nbsp;category |
+| --- | --- |
+| Below 18 | Undernourished |
+| From 18 to below 20 | Underweight |
+| From 20 through 25 | Ideal weight |
+| Above 25 through 27 | Overweight |
+| Above 27 | Obese |
 
 ## Solution
 
