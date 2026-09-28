@@ -9,7 +9,13 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler o raio de uma esfera e calcular a área da superfície e o volume usando π = 3.1416.
+A partir de um único raio, o programa calcula duas medidas de uma esfera: a área de sua superfície e seu volume. Cada resultado depende de uma potência diferente do raio, ao quadrado para a área e ao cubo para o volume. A atividade usa o valor de π definido no enunciado e apresenta as duas medidas separadamente.
+
+## Enunciado
+
+Leia o raio R de uma esfera e calcule e imprima sua área superficial e seu volume. Use π = 3,1416 e as fórmulas:
+
+$$A = 4\pi R^2 \qquad V = \frac{4}{3}\pi R^3$$
 
 ## Solução
 
