@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ampliar o programa eleitoral para tratar empates entre dois ou três candidatos por segundo turno. Anular o turno quando votos nulos superarem votos válidos.
+A atividade amplia a eleição anterior para tratar votos nulos e empates. O programa deve comparar os votos válidos com os nulos e decidir se a votação pode produzir um resultado. Se houver empate entre líderes, um segundo turno restrito aos candidatos empatados deve continuar a apuração.
+
+## Enunciado
+
+Complemente a eleição de 100 eleitores e dos candidatos 1 — Fulano, 2 — Ciclano e 3 — Beltrano. Preveja empate duplo ou triplo; nesses casos, realize segundo turno apenas com os candidatos empatados. Conte como nulos os votos diferentes de 1, 2 ou 3. Se os nulos superarem a soma dos votos válidos, informe que a eleição está anulada; aplique também essa verificação ao segundo turno.
 
 ## Solução
 
