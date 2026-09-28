@@ -9,7 +9,18 @@
 
 ## Description
 
-**Statement summary:** Read team names and the set score and allocate points according to the table in the statement.
+The program converts a volleyball match score into points for each team. It must identify the winner from the sets and distinguish 3–0 or 3–1 wins from a 3–2 win. The output associates both team names with their calculated points.
+
+## Statement
+
+Read both team names and how many sets each won. Apply the exercise scoring rules:
+
+| Winner's&nbsp;score | Winner's&nbsp;points | Loser's&nbsp;points |
+| --- | --- | --- |
+| 3–0 or 3–1 | 3 | 0 |
+| 3–2 | 2 | 1 |
+
+Report each team's points regardless of the order in which the names were entered.
 
 ## Solution
 
