@@ -9,7 +9,35 @@
 
 ## Description
 
-**Statement summary:** Use the two highest test grades, final assignment, absences and age to calculate and classify the final score according to the exercise tables.
+This exercise calculates an academic classification from grades, attendance and age. Only the two highest test grades enter the mean, whose weight depends on absences; the final assignment receives a weight based on age. The numeric result is then converted into one of the exercise's five classifications.
+
+## Statement
+
+Read absences, three test grades, the final assignment grade and age. Calculate:
+
+Final score = mean of the two highest test grades × weight 1 + assignment grade × weight 2.
+
+| Absences | Weight&nbsp;1 |
+| --- | --- |
+| Up to 5 | 3 |
+| Above 5 through 10 | 2 |
+| Above 10 | 1 |
+
+| Age | Weight&nbsp;2 |
+| --- | --- |
+| Up to 17 | 1 |
+| From 18 through 50 | 2 |
+| Above 50 | 3 |
+
+| Final&nbsp;score | Result |
+| --- | --- |
+| Up to 50 | Failed |
+| Above 50 through 70 | Fair |
+| Above 70 through 80 | Good |
+| Above 80 through 90 | Very good |
+| Above 90 | Excellent |
+
+Display the final result corresponding to the calculated score.
 
 ## Solution
 
