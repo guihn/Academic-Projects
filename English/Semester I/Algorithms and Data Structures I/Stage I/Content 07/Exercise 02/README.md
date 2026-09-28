@@ -9,7 +9,21 @@
 
 ## Description
 
-**Statement summary:** Read three integer grades, take the integer part of their mean and assign the category from the slide table.
+This exercise turns three partial grades into a letter category. It first calculates the arithmetic mean and discards its fractional part. The integer part determines a category from the table, practicing multiple selection with discrete values.
+
+## Statement
+
+Read three integer grades between 0 and 10. Calculate the final grade as the integer part of their arithmetic mean and print the category:
+
+| Final&nbsp;grade | Category |
+| --- | --- |
+| 9 or 10 | A |
+| 8 | B |
+| 7 | C |
+| 5 or 6 | D |
+| 1, 2, 3 or 4 | E |
+
+The statement's table does not define a category for a zero final grade.
 
 ## Solution
 
