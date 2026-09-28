@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler 50 alunos e informar quantos têm até 12 anos, quantos têm mais de 30 e a média geral de idade.
+A atividade produz estatísticas de idade para uma turma de cinquenta alunos. Todas as idades participam da média geral, mas apenas as que atendem aos limites entram nos contadores específicos. Os grupos pedidos são alunos com até 12 anos e alunos com mais de 30 anos.
+
+## Enunciado
+
+Leia nome e idade de 50 alunos. Calcule e imprima quantos têm até 12 anos, quantos têm mais de 30 anos e a média de todas as idades informadas.
 
 ## Solução
 
