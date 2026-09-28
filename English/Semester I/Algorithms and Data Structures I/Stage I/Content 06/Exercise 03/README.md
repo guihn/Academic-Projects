@@ -9,7 +9,17 @@
 
 ## Description
 
-**Statement summary:** Calculate a salary consisting of R$240 plus commission: zero up to R$1000 in sales, 10% through R$10000, or R$1000 above that.
+The program calculates a salesperson's monthly pay from their sales. The salary combines a fixed component and a commission that varies by sales band. The output must show total pay, including the fixed component in every band.
+
+## Statement
+
+Request the month's total sales and calculate salary as R$240.00 plus the commission in this table:
+
+| Monthly&nbsp;sales | Commission |
+| --- | --- |
+| Up to R$1,000.00 | Zero |
+| Above R$1,000.00 through R$10,000.00 | 10% of sales |
+| Above R$10,000.00 | Fixed R$1,000.00 |
 
 ## Solution
 
