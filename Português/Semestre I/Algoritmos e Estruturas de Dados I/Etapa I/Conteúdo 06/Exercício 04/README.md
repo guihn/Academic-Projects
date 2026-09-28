@@ -9,7 +9,19 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler nome, altura e peso, calcular o IMC e classificá-lo pelas faixas definidas neste exercício didático.
+A atividade pratica condições encadeadas usando uma tabela didática de IMC. O programa recebe nome, altura em metros e peso em quilogramas, calcula a razão entre peso e altura ao quadrado e seleciona uma classificação. A mensagem deve associar o nome ao resultado obtido pelas faixas do exercício.
+
+## Enunciado
+
+Leia nome, altura e peso e informe a classificação definida nesta atividade. Calcule IMC = peso / altura² e aplique:
+
+| IMC | Classificação&nbsp;do&nbsp;exercício |
+| --- | --- |
+| Menor que 18 | Desnutrida |
+| De 18 até menos de 20 | Abaixo do peso |
+| De 20 a 25 | Peso ideal |
+| Acima de 25 até 27 | Acima do peso |
+| Acima de 27 | Obesa |
 
 ## Solução
 
