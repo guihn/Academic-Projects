@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler nota final e faltas de até 50 alunos. A aprovação exige nota de pelo menos 65 e no máximo 16 faltas. Encerrar quando a nota for −1.
+A atividade verifica a situação de até cinquenta alunos usando nota e frequência em conjunto. A aprovação exige atingir a nota mínima e respeitar o limite de faltas. A entrada especial −1 no campo de nota deve interromper a leitura antes de completar a turma, funcionando como sentinela.
+
+## Enunciado
+
+Leia a nota final e o total de faltas de até 50 alunos. Para cada aluno, informe aprovado quando a nota for pelo menos 65 e as faltas não ultrapassarem 16; nos demais casos, informe reprovado. Interrompa as repetições se a nota digitada for −1.
 
 ## Solução
 
