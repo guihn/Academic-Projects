@@ -9,7 +9,17 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Aplicar a tabela do slide: isenção até 1500, R$3000 acima de 1500 até 3500 e R$5000 por unidade emitida acima de 3500.
+A atividade calcula uma multa ambiental pela faixa de emissão de uma empresa. O programa recebe a quantidade de poluentes e deve decidir entre isenção, multa fixa e multa proporcional à quantidade total emitida. Os limites das faixas precisam ser respeitados para que valores nas fronteiras recebam o tratamento previsto.
+
+## Enunciado
+
+Leia a quantidade de poluentes emitidos, em mg/(t·m²), e calcule e imprima a multa segundo a tabela do exercício:
+
+| Quantidade | Multa |
+| --- | --- |
+| Até 1500 | Isento |
+| Acima de 1500 até 3500 | R$3.000,00 |
+| Acima de 3500 | R$5.000,00 × quantidade de poluentes |
 
 ## Solução
 
