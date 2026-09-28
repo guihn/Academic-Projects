@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Determine whether an integer is divisible by both 5 and 7 using remainders.
+The program checks a joint property of an integer: being a multiple of both 5 and 7. Each divisibility test is determined by a remainder, and the two results must be combined. Divisibility by only one of the values is therefore insufficient to satisfy the requested condition.
+
+## Statement
+
+Request an integer and report whether it is divisible by both 5 and 7. Use the `%` operator: a zero remainder indicates divisibility. Keep the variables used in these operations as integers.
 
 ## Solution
 
