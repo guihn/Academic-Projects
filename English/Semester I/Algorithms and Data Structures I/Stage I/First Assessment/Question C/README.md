@@ -9,11 +9,22 @@
 
 ## Description
 
-Code description: calculate a vehicle tax discount using the fuel code and manufacturing year. The original assessment statement is unavailable.
+This question contains a simulation of a discount on a vehicle tax amount. The program reads the initial amount, fuel and manufacturing year, then selects an exemption or discount percentage and displays the amount payable. Fuel options are A for alcohol, G for gasoline and D for diesel. This description is based on the rules implemented for the exercise.
+
+## Statement
+
+The original statement for this question is unavailable. The description and solution below present the simulation implemented in the code without confirming the criteria originally required by the assessment.
 
 ## Solution
 
 Select the fuel branch and year band, then apply the programmed exemption or discount percentage to the original tax amount.
+
+| Manufacturing&nbsp;year | A:&nbsp;alcohol | G:&nbsp;gasoline | D:&nbsp;diesel |
+| --- | --- | --- | --- |
+| Before 1960 | Exempt | Exempt | Exempt |
+| 1960–1970 | 55% discount | 50% discount | 50% discount |
+| 1971–1980 | 25% discount | 20% discount | 20% discount |
+| After 1980 | 5% discount | No discount | No discount |
 
 ### Implementation notes
 
