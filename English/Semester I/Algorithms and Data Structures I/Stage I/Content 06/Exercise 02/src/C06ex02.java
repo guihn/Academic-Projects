@@ -39,7 +39,7 @@ public class C06ex02 {
                     "Content 06 | Exercise 02",
                     JOptionPane.INFORMATION_MESSAGE);
 
-        // The supplied upper limit is 3000; the statement uses 3500.
+        // The upper limit in the code is 3000; the statement uses 3500.
         else if (pollutant >= 1500 && pollutant <= 3000)
             JOptionPane.showMessageDialog(null,
                     "Fine: R$" + fee15x35,

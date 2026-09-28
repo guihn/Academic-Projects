@@ -49,7 +49,7 @@ public class C04ex05 {
 
         float salary;
 
-        // Input: read the bundled employee record in its original field order.
+        // Input: read the employee record in field order.
         Scanner archive = new Scanner(C04ex05.class.getResourceAsStream("/FirstStage/fichafuncionaldeGuilherme.txt"));
 
         name = archive.nextLine();

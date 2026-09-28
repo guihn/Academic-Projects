@@ -3,7 +3,7 @@ package SecondStage;
 import javax.swing.JOptionPane;
 
 /**
- * Classify each record, update the supplied grade and attendance variables and divide the stored
+ * Classify each record, update the grade and attendance variables and divide the stored
  * grade value by the pass count.
  *
  * Assignment: C08ex08.
@@ -19,7 +19,7 @@ public class C08ex08 {
         over16Absenses = 0;
 
         int i;
-        // Processing: Classify each record, update the supplied grade and attendance variables and
+        // Processing: Classify each record, update the grade and attendance variables and
         // divide the stored grade value by the pass count.
         for (i = 1; i <= rep; i++) {
             // Input: collect the requested values through dialog boxes.
