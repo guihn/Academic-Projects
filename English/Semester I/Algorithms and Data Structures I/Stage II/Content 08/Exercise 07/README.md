@@ -1,0 +1,89 @@
+<table width="100%">
+<tr>
+<td align="left" width="5000"><strong>English</strong> | <a href="https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20II/Conte%C3%BAdo%2008/Exerc%C3%ADcio%2007">Português</a></td>
+<td align="right" width="5000"><a href="https://github.com/guihn/Academic-Projects/tree/main/English">Index</a> | <a href="https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008">Parent&nbsp;folder</a></td>
+</tr>
+</table>
+
+# Exercise 07 · Age statistics
+
+## Description
+
+**Statement summary:** Read 50 students and report how many are at most 12, how many are older than 30 and the overall average age.
+
+**Statement source:** [original lecture slides](https://github.com/guihn/academic-materials/blob/5a9473bbf24a271032a41b141ab6bd435076c1d5/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Contents/Content%2008/Algoritmos%20-%20Aulas%20-%20Conte%C3%BAdo%208%20-%20Comando%20de%20Repeti%C3%A7%C3%A3o%20%E2%80%93%20FOR.pptx), slide(s) 61. [Material folder](https://github.com/guihn/academic-materials/tree/main/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Contents/Content%2008).
+
+**Supplied source:** [C08ex07.java](https://github.com/guihn/tasks/blob/0711e6064e059fbd110bb9d329f433c6f187bd03/src/SecondStage/C08ex07.java).
+
+## Solution
+
+Accumulate all ages, maintain age band counters and divide the total age by the record count.
+
+### Implementation notes
+
+The original condition includes age 30 in the upper group, whereas the statement asks for ages above 30.
+
+[Source file: C08ex07.java](https://github.com/guihn/Academic-Projects/blob/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2007/src/C08ex07.java) · [Download](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I/Stage%20II/Content%2008/Exercise%2007/src/C08ex07.java)
+
+<details>
+<summary>💻 | Java code</summary>
+
+```java
+package SecondStage;
+
+import javax.swing.JOptionPane;
+import java.awt.*;
+
+/**
+ * Accumulate all ages, maintain age band counters and divide the total age by the record count.
+ *
+ * Assignment: C08ex07.
+ */
+public class C08ex07 {
+    static void main() {
+        String name, ageStr;
+        int age, allages, untiltwelve, higherthirty, rep;
+        float mediaOfAllAges;
+
+        allages = 0;
+        untiltwelve = 0;
+        higherthirty = 0;
+        rep = 50;
+
+        // Processing: Accumulate all ages, maintain age band counters and divide the total age by
+        // the record count.
+        for (int i = 1; i <= rep; i ++) {
+            // Input: collect the requested values through dialog boxes.
+            name = JOptionPane.showInputDialog(null,
+                    "Enter your name:",
+                    "Content 08 | Exercise 07",
+                    JOptionPane.QUESTION_MESSAGE);
+            ageStr = JOptionPane.showInputDialog(null,
+                    "Enter your age:",
+                    "Content 08 | Exercise 07",
+                    JOptionPane.QUESTION_MESSAGE);
+            age = Integer.parseInt(ageStr);
+
+            if (age <=12) {
+                untiltwelve++;
+                allages += age;
+            }
+            // The original comparison includes age 30 in this group.
+            else if (age >=30) {
+                higherthirty++;
+                allages += age;
+            }
+            else {
+                allages += age;
+            }
+        }
+
+        mediaOfAllAges = (float) allages / rep;
+        // Output: display the message for the current result.
+        JOptionPane.showMessageDialog(null,
+                "Students aged up to 12: " + untiltwelve + "\nStudents aged above 30: " + higherthirty + "\nAverage of the reported ages: " + mediaOfAllAges );
+    }
+}
+```
+
+</details>
