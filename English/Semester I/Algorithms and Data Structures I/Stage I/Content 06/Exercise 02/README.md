@@ -9,7 +9,17 @@
 
 ## Description
 
-**Statement summary:** Apply the slide table: exemption up to 1500, R$3000 above 1500 through 3500, and R$5000 per emitted unit above 3500.
+This exercise calculates an environmental fine from a company's emission band. The program reads the quantity of pollutants and must choose between exemption, a fixed fine and a fine proportional to total emissions. Band boundaries must be respected so values at the limits receive the specified treatment.
+
+## Statement
+
+Read pollutant emissions in mg/(t·m²), then calculate and print the fine using the exercise table:
+
+| Quantity | Fine |
+| --- | --- |
+| Up to 1500 | Exempt |
+| Above 1500 through 3500 | R$3,000.00 |
+| Above 3500 | R$5,000.00 × pollutant quantity |
 
 ## Solution
 
