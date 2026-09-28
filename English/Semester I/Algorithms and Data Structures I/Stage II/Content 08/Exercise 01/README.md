@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Read the radii of ten circles and calculate each area using π = 3.1416.
+The program applies the same area calculation to ten consecutive circles. Each iteration requests a radius and displays its area before the next input. The exercise introduces a fixed-count loop without requiring all radii to be stored at once.
+
+## Statement
+
+Request the radii of 10 circles. For each radius R, calculate and print $A=\pi R^2$, using π = 3.1416.
 
 ## Solution
 
