@@ -9,7 +9,14 @@
 
 ## Description
 
-**Statement summary:** Deduct R$60 per dependent from a salary and calculate 15% of that base as the exercise income tax.
+This exercise models a tax withholding calculation using fixed classroom rules. Salary and the number of dependents determine a base reduced by a per-person allowance. The specified percentage must then be applied to that base to obtain the withholding amount.
+
+## Statement
+
+Request the salary and number of dependents. Calculate and display income tax using the exercise rules:
+
+- Net base = salary − number of dependents × R$60.00.
+- Income tax = 15% of the net base.
 
 ## Solution
 
