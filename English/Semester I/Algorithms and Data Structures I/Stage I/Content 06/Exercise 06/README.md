@@ -9,7 +9,15 @@
 
 ## Description
 
-**Statement summary:** Read A, B and C and calculate the real roots of a quadratic equation using the quadratic formula.
+This exercise calculates the real roots of a quadratic equation from coefficients A, B and C. The discriminant determines whether there are two distinct roots, a repeated root or no real roots. The program must present the result appropriate to the identified case.
+
+## Statement
+
+Request A, B and C for $f(x)=Ax^2+Bx+C$, then calculate and print its real roots using the quadratic formula:
+
+$$\Delta=B^2-4AC \qquad x=\frac{-B\pm\sqrt{\Delta}}{2A}$$
+
+Distinguish negative, zero and positive discriminants.
 
 ## Solution
 
