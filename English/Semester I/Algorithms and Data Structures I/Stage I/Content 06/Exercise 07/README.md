@@ -9,7 +9,19 @@
 
 ## Description
 
-**Statement summary:** Calculate profit sharing using the exercise salary bands and deduct 25% of the gross amount.
+The program models profit sharing using rules defined by the exercise. Salary selects a fixed allowance and a percentage, whose sum forms the gross amount. After deducting 25% of that amount, the output must report the employee's net participation.
+
+## Statement
+
+Read the salary and calculate net profit sharing using these rules:
+
+| Salary | Fixed&nbsp;allowance | Salary&nbsp;percentage |
+| --- | --- | --- |
+| Up to R$300.00 | R$500.00 | 70% |
+| Above R$300.00 through R$1,000.00 | R$200.00 | 50% |
+| Above R$1,000.00 | Zero | 30% |
+
+Gross participation = fixed allowance + percentage of salary. Tax is 25% of gross participation. Display net participation = gross participation − tax.
 
 ## Solution
 
