@@ -39,7 +39,7 @@ public class C06ex02 {
                     "Conteúdo 06 | Exercício 02",
                     JOptionPane.INFORMATION_MESSAGE);
 
-        // O limite superior fornecido é 3000; o enunciado usa 3500.
+        // O limite superior no código é 3000; o enunciado usa 3500.
         else if (pollutant >= 1500 && pollutant <= 3000)
             JOptionPane.showMessageDialog(null,
                     "Multa: R$" + fee15x35,

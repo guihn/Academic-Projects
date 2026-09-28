@@ -30,7 +30,7 @@ package SecondStage;
 import javax.swing.JOptionPane;
 
 /**
- * Classificar cada registro, atualizar as variáveis de nota e frequência fornecidas e dividir o
+ * Classificar cada registro, atualizar as variáveis de nota e frequência e dividir o
  * valor de nota armazenado pela quantidade de aprovados.
  *
  * Atividade: C08ex08.
@@ -47,7 +47,7 @@ public class C08ex08 {
 
         int i;
         // Processamento: Classificar cada registro, atualizar as variáveis de nota e frequência
-        // fornecidas e dividir o valor de nota armazenado pela quantidade de aprovados.
+        // e dividir o valor de nota armazenado pela quantidade de aprovados.
         for (i = 1; i <= rep; i++) {
             // Entrada: coletar os valores solicitados por caixas de diálogo.
             finalNoteStr = JOptionPane.showInputDialog(null,

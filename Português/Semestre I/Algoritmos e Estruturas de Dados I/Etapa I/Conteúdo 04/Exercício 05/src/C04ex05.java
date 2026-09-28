@@ -22,7 +22,7 @@ public class C04ex05 {
 
         float salary;
 
-        // Entrada: ler a ficha funcional fornecida na ordem original dos campos.
+        // Entrada: ler os campos da ficha funcional na ordem do arquivo.
         Scanner archive = new Scanner(C04ex05.class.getResourceAsStream("/FirstStage/fichafuncionaldeGuilherme.txt"));
 
         name = archive.nextLine();
