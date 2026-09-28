@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Count 100 votes for Fulano, Ciclano and Beltrano, with candidate codes 1, 2 and 3. The statement assumes no invalid votes or ties.
+The program counts a simulated election with one hundred voters and three candidates. Each vote is identified by a numeric code and added to the corresponding candidate's total. After reading all votes, comparing the three totals determines the winner under the statement's simplified conditions.
+
+## Statement
+
+Count the votes of a city's 100 voters, all of whom participated. Use code 1 for Fulano, 2 for Ciclano and 3 for Beltrano. Print each candidate's vote count and the winner's name. Assume no blank votes, invalid votes or ties.
 
 ## Solution
 
