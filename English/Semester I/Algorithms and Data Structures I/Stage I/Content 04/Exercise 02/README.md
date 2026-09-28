@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Read personal document numbers, company and salary and present an employee record.
+This exercise brings personal and employment details together in an employee record. The program requests a name, four identification documents, an employer and a salary, then arranges these fields into labeled groups. It practices reading different data types and producing readable console output with a monetary salary value.
+
+## Statement
+
+Read the person's name, CPF, identity document, voter registration, driver's license, salary and employer name. Print an employee record with the name in its heading, the four labeled document numbers, and the employer and salary in Brazilian reais at the end.
 
 ## Solution
 
