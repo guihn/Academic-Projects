@@ -9,7 +9,13 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler as coordenadas de dois pontos no plano cartesiano e calcular a distância entre eles.
+O programa mede a distância em linha reta entre dois pontos do plano cartesiano. Cada ponto é definido por suas coordenadas x e y, totalizando quatro valores de entrada. As diferenças entre as coordenadas são combinadas pelo teorema de Pitágoras para produzir uma única distância.
+
+## Enunciado
+
+Leia as coordenadas dos pontos $(x_1,y_1)$ e $(x_2,y_2)$ e calcule e imprima a distância entre eles:
+
+$$d = \sqrt{(x_1-x_2)^2 + (y_1-y_2)^2}$$
 
 ## Solução
 
