@@ -9,7 +9,15 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Calcular rendimento diário simples, imposto de 15% sobre o rendimento e resgate após taxa administrativa de R$10, conforme as regras do exercício.
+A atividade simula o resgate de uma aplicação com juros simples diários. Capital, prazo e taxa percentual permitem calcular o rendimento, do qual é retido o imposto definido no exercício. O valor final combina o capital inicial, o rendimento e os descontos de imposto e administração.
+
+## Enunciado
+
+Solicite capital aplicado, número de dias e taxa diária percentual. Converta a taxa para fração e apresente o rendimento, o imposto e o resgate:
+
+- Rendimento = capital × taxa diária × dias.
+- Imposto = 15% do rendimento.
+- Resgate = capital + rendimento − imposto − R$10,00 de administração.
 
 ## Solução
 
