@@ -9,7 +9,13 @@
 
 ## Description
 
-**Statement summary:** Read the coordinates of two points in the Cartesian plane and calculate the distance between them.
+The program measures the straight-line distance between two points in the Cartesian plane. Each point is defined by x and y coordinates, giving four input values. Coordinate differences are combined through the Pythagorean theorem to produce one distance.
+
+## Statement
+
+Read the coordinates of $(x_1,y_1)$ and $(x_2,y_2)$, then calculate and print their distance:
+
+$$d = \sqrt{(x_1-x_2)^2 + (y_1-y_2)^2}$$
 
 ## Solution
 
