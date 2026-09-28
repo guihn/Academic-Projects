@@ -9,7 +9,19 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Calcular a participação nos lucros pelas faixas salariais do exercício e descontar 25% do valor bruto.
+O programa simula o cálculo de participação nos lucros com regras definidas pelo exercício. O salário seleciona uma parcela fixa e um percentual, cuja soma forma o valor bruto. Depois de descontar 25% desse valor, a saída deve informar a participação líquida do empregado.
+
+## Enunciado
+
+Leia o salário e calcule a participação líquida nos lucros pelas regras abaixo:
+
+| Salário | Parcela&nbsp;fixa | Percentual&nbsp;do&nbsp;salário |
+| --- | --- | --- |
+| Até R$300,00 | R$500,00 | 70% |
+| Acima de R$300,00 até R$1.000,00 | R$200,00 | 50% |
+| Acima de R$1.000,00 | Zero | 30% |
+
+PL bruto = parcela fixa + percentual sobre o salário. O imposto corresponde a 25% do PL bruto. Apresente PL líquido = PL bruto − imposto.
 
 ## Solução
 
