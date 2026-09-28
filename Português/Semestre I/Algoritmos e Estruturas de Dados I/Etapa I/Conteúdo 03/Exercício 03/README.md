@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Usar o exemplo de hipotenusa como base do exercício e calcular a hipotenusa a partir dos dois catetos.
+O programa determina a hipotenusa de um triângulo retângulo a partir dos comprimentos de seus dois catetos. O cálculo aplica o teorema de Pitágoras: soma os quadrados dos catetos e extrai a raiz quadrada. A página reúne a resolução `C03ex03` e o exemplo `CalculaHipotenusa` usado como base da atividade.
+
+## Enunciado
+
+Adapte o exemplo `CalculaHipotenusa` para o nome de classe `C03ex03`. Informe os dois catetos e calcule a hipotenusa. Para catetos de comprimentos 10 e 15, confira se o resultado é aproximadamente 18,0277.
 
 ## Solução
 
