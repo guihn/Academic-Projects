@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Read a five digit integer and display one digit per line.
+The program decomposes a five-digit number and displays each position on its own line. The original order must be retained, from the ten-thousands digit to the units digit. The exercise uses integer quotients and remainders to separate digits without converting them into a character sequence.
+
+## Statement
+
+Read a five-digit integer and print it vertically, one digit per line. Use integer variables in the integer division `/` and remainder `%` operations that separate the digits.
 
 ## Solution
 
