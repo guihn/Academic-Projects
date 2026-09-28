@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Read the number of participants, then their names, ages and M/F options, and calculate a separate average age for each group.
+This exercise calculates two mean ages for a group whose size is chosen by the user. After the initial count, each record contains a name, age and sex. Separate sums and counts allow the female and male group means to be displayed after all records are read.
+
+## Statement
+
+First request the number of people. Then read each person's name, age and sex, using M for male and F for female. At the end, print the mean age of women and the mean age of men separately.
 
 ## Solution
 
