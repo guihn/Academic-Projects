@@ -9,7 +9,11 @@
 
 ## Descrição
 
-Descrição do código: ler x e combinar uma expressão com potência e duas variáveis intermediárias. O enunciado original da avaliação não está disponível.
+Esta questão contém um programa que lê x em uma caixa de diálogo e avalia uma expressão numérica. No código, o primeiro termo é 0,75x⁷ − 4; os dois valores intermediários seguintes recebem (5 + x)/2 por uma atribuição encadeada. A saída apresenta o valor calculado como c1 × c2 + c3. Esta descrição se baseia no comportamento do programa.
+
+## Enunciado
+
+O enunciado original desta questão não está disponível. A descrição e a solução abaixo documentam o código existente; não é possível confirmar a fórmula exigida pela avaliação.
 
 ## Solução
 
