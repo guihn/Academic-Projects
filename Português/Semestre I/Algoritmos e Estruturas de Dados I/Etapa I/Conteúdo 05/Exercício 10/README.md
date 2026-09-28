@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler um inteiro de cinco dígitos e apresentar um dígito por linha.
+O programa decompõe um número de cinco algarismos e apresenta cada posição em uma linha. A ordem original deve ser mantida, da dezena de milhar até a unidade. A atividade usa quocientes e restos de divisões inteiras para separar os dígitos sem convertê-los em uma sequência de caracteres.
+
+## Enunciado
+
+Leia um número inteiro de cinco dígitos e imprima-o na vertical, um algarismo por linha. Use variáveis inteiras nas operações de divisão inteira `/` e resto `%` empregadas na decomposição.
 
 ## Solução
 
