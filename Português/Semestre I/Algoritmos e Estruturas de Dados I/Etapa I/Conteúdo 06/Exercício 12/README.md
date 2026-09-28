@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Descartar bolas defeituosas, embalar até 10 por caixa e alugar galpões com capacidade de até 850 caixas até o evento. Incluir caixas e galpões incompletos no custo.
+A atividade estima o custo de embalar e armazenar uma produção de bolas até a Copa do Mundo de 2018, contexto usado no enunciado. As bolas defeituosas são descartadas antes do cálculo de caixas e galpões. Como embalagens e espaços são contratados por inteiro, qualquer sobra exige uma caixa ou um galpão adicional.
+
+## Enunciado
+
+Leia a produção total de bolas, a quantidade defeituosa, o preço de cada caixa, os meses até a Copa e o aluguel mensal de um galpão. Cada caixa comporta até 10 bolas e cada galpão até 850 caixas. Calcule o custo total de embalagem mais o custo de armazenamento durante o período. Conte também a última caixa e o último galpão, mesmo incompletos.
 
 ## Solução
 
