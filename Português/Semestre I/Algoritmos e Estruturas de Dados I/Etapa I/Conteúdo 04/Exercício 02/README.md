@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler documentos pessoais, empresa e salário e apresentar uma ficha funcional.
+A atividade reúne informações pessoais e profissionais em uma ficha funcional. O programa solicita o nome, quatro documentos, a empresa e o salário, organizando esses campos em grupos identificados. O objetivo é praticar diferentes tipos de entrada e compor uma saída legível no console, com o salário apresentado como valor monetário.
+
+## Enunciado
+
+Leia o nome da pessoa, CPF, identidade, título de eleitor, carteira de motorista, salário e nome da empresa em que trabalha. Imprima uma ficha funcional com o nome no cabeçalho, os quatro documentos identificados e, ao final, a empresa e o salário em reais.
 
 ## Solução
 
