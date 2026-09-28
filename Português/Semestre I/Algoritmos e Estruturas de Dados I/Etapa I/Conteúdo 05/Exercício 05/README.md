@@ -9,7 +9,13 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler uma temperatura em Celsius e convertê-la para Kelvin e Fahrenheit.
+A atividade converte uma temperatura de entrada para duas escalas diferentes. O usuário informa Celsius e recebe os valores correspondentes em Kelvin e Fahrenheit. O exercício exige reorganizar as relações entre as escalas para que ambas as saídas sejam calculadas diretamente a partir da mesma entrada.
+
+## Enunciado
+
+Leia uma temperatura em Celsius e apresente os valores equivalentes em Kelvin e Fahrenheit. As relações adotadas no enunciado são:
+
+$$C = K - 273 \qquad C = \frac{5F - 160}{9}$$
 
 ## Solução
 
