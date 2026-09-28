@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Avaliar 50 alunos por nota e frequência e informar os totais de aprovados e reprovados.
+O programa amplia a classificação individual de alunos com uma contagem geral da turma. Cada nota e quantidade de faltas determina aprovação ou reprovação e atualiza o contador correspondente. Ao final das cinquenta leituras previstas, os totais devem mostrar a distribuição dos resultados.
+
+## Enunciado
+
+Leia nota final e faltas de 50 alunos. Informe a situação de cada um: aprovado com nota ≥ 65 e faltas ≤ 16, ou reprovado nos demais casos. Ao final, imprima quantos alunos foram aprovados e quantos foram reprovados.
 
 ## Solução
 
