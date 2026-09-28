@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler a quantidade de participantes e depois seus nomes, idades e opções M/F e calcular uma média de idade por grupo.
+A atividade calcula duas médias de idade para um conjunto de pessoas de tamanho definido pelo usuário. Após a quantidade inicial, cada registro contém nome, idade e sexo. Somas e contagens separadas permitem apresentar a média do grupo feminino e a do masculino ao final da leitura.
+
+## Enunciado
+
+Solicite primeiro a quantidade de pessoas. Depois, leia nome, idade e sexo de cada uma, usando M para masculino e F para feminino. Ao final, imprima separadamente a idade média das mulheres e a idade média dos homens.
 
 ## Solução
 
