@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Adaptar o exemplo que lê três inteiros e calcula sua média aritmética.
+A atividade calcula a média aritmética de três números inteiros informados pelo usuário. O programa deve somar os valores e dividir o total por três, preservando a parte decimal do resultado. A leitura e a apresentação no console permitem acompanhar a passagem dos dados de entrada para o cálculo da média.
+
+## Enunciado
+
+Reproduza o programa do exemplo 6 com o nome de classe `C03ex02`. Leia três números inteiros e apresente sua média aritmética. Confira o programa com as entradas 8, 12 e 63: a média deve ser 27,66666…
 
 ## Solução
 
