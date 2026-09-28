@@ -9,7 +9,17 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler dois limites de emissão e três valores de multa e montar a tabela descrita nos slides.
+O programa monta uma tabela de multas ambientais a partir de parâmetros definidos pelo usuário. São informados dois limites de emissão e três valores de multa, que compõem as faixas inferior, intermediária e superior. A saída apresenta a tabela completa; esta atividade não recebe a emissão de uma empresa para calcular uma multa individual.
+
+## Enunciado
+
+Uma secretaria ambiental aplica multas conforme a quantidade de poluentes emitidos. Solicite os dois limites e os três valores variáveis da tabela e apresente as regras:
+
+| Quantidade&nbsp;emitida | Multa |
+| --- | --- |
+| Até o primeiro limite | Primeiro valor de multa |
+| Acima do primeiro limite até o segundo | Segundo valor de multa |
+| Acima do segundo limite | Terceiro valor por unidade de poluente emitida |
 
 ## Solução
 
