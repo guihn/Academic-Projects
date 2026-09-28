@@ -9,7 +9,11 @@
 
 ## Descrição
 
-Descrição do código: testar se um inteiro positivo de três dígitos é igual à soma dos cubos de seus dígitos. O enunciado original da avaliação não está disponível.
+O programa verifica se um inteiro positivo de três dígitos é um número Armstrong. Depois de validar a faixa de 100 a 999, ele separa centenas, dezenas e unidades e soma os cubos dos três algarismos. A comparação com o número lido determina a mensagem final. Esta descrição se baseia no comportamento do programa.
+
+## Enunciado
+
+O enunciado original desta questão não está disponível. A descrição e a solução abaixo documentam a verificação implementada no código.
 
 ## Solução
 
