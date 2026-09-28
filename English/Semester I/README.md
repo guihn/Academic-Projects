@@ -7,7 +7,7 @@
 
 # Semester I
 
-This semester contains the available work from Algorithms and Data Structures I. Open the course to browse assessment stages and their activities.
+This semester brings together the available academic work from the courses listed below. Open each course to explore its activities and projects.
 
 | Course | Activities |
 | --- | --- |
