@@ -9,7 +9,26 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Calcular mensalidade do pacote, diárias de pay-per-view, serviços extras e imposto da cidade usando as tabelas do exercício.
+O programa compõe uma conta mensal de TV a cabo com cobrança fixa, consumo diário, serviços extras e imposto municipal. O pacote determina o preço fixo e a regra do pay-per-view, enquanto a cidade determina o percentual de imposto. A atividade exige aplicar o limite de cobrança do pacote Basic antes de calcular o imposto sobre o subtotal.
+
+## Enunciado
+
+Solicite código do pacote, dias de pay-per-view, valor dos extras e cidade. Calcule a conta pelas tabelas:
+
+| Pacote | Código | Mensalidade | Pay-per-view |
+| --- | --- | --- | --- |
+| Basic | 1 | R$65,00 | R$1,20 por dia, limitado a R$65,00 |
+| Advanced | 2 | R$104,00 | R$2,10 por dia |
+| Premium | 3 | R$137,00 | Isento |
+
+| Cidade | Imposto |
+| --- | --- |
+| Belo Horizonte | Isento |
+| São Paulo | 1% |
+| Rio de Janeiro | 1,5% |
+| Demais cidades | 2% |
+
+Some mensalidade, pay-per-view e extras; aplique o imposto sobre essa soma e acrescente-o ao valor da conta.
 
 ## Solução
 
