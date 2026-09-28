@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Read starting and ending hours and minutes for a game that starts and ends on the same day.
+The program calculates elapsed time between the start and end of a game played on the same day. Hours and minutes are read into four integer variables, and the difference must be presented in those units. When the ending minutes are smaller than the starting minutes, the calculation must borrow an hour.
+
+## Statement
+
+Read starting hour, starting minute, ending hour and ending minute into separate integer variables. Assume the game ended on the day it began. Calculate the duration and display “The game lasted xxx hours and yyy minutes”.
 
 ## Solution
 
