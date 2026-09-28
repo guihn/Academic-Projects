@@ -9,7 +9,16 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler as partes do nome e a idade e apresentá-las usando caixas de diálogo.
+Esta atividade retoma a apresentação de nome e idade, agora com interação por caixas de diálogo. Cada parte do nome e a idade são solicitadas ao usuário, e uma janela final reúne os dados em duas linhas. A mudança de interface mantém o sobrenome antes dos demais nomes e a identificação explícita da idade.
+
+## Enunciado
+
+Solicite primeiro nome, nome do meio, sobrenome e idade. Use caixas de diálogo tanto para a entrada quanto para a saída, apresentando:
+
+```text
+Sobrenome, PrimeiroNome SegundoNome
+Idade: 99 anos.
+```
 
 ## Solução
 
