@@ -9,7 +9,19 @@
 
 ## Description
 
-**Statement summary:** Read a bettor name and the number of correct predictions in 13 games, then assign no prize, another slip or the stated cash prize.
+The program determines a betting prize from the number of correct predictions across 13 games. Lower bands produce no prize or another slip, while 11, 12 and 13 correct predictions correspond to cash amounts. The output must identify the bettor and the prize associated with their total.
+
+## Statement
+
+Read the bettor's name and number of correct predictions. Calculate and print the prize using the exercise table:
+
+| Correct&nbsp;predictions | Prize |
+| --- | --- |
+| Up to 5 | None |
+| From 6 through 10 | Another slip |
+| 11 | R$100.00 |
+| 12 | R$1,000.00 |
+| 13 | R$50,000.00 |
 
 ## Solution
 
