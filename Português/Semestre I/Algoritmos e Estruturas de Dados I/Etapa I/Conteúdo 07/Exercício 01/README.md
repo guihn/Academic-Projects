@@ -9,7 +9,19 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler o nome do apostador e a quantidade de acertos em 13 jogos e atribuir ausência de prêmio, outro cartão ou o prêmio em dinheiro previsto.
+O programa determina o prêmio de uma aposta a partir da quantidade de acertos em 13 jogos. As faixas menores resultam em ausência de prêmio ou em um novo cartão, enquanto 11, 12 e 13 acertos correspondem a valores em dinheiro. A saída deve identificar o apostador e o prêmio associado ao seu total.
+
+## Enunciado
+
+Leia o nome do apostador e sua quantidade de acertos. Calcule e imprima o prêmio conforme a tabela da atividade:
+
+| Acertos | Prêmio |
+| --- | --- |
+| Até 5 | Nenhum |
+| De 6 a 10 | Outro cartão |
+| 11 | R$100,00 |
+| 12 | R$1.000,00 |
+| 13 | R$50.000,00 |
 
 ## Solução
 
