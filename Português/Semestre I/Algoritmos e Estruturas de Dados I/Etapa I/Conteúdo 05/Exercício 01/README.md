@@ -9,7 +9,13 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler x e avaliar a função polinomial especificada no slide.
+O programa avalia uma função polinomial para um valor real de x escolhido pelo usuário. O cálculo combina uma potência cúbica, um termo linear e uma constante, respeitando a precedência das operações. A saída relaciona o valor de entrada ao resultado da função.
+
+## Enunciado
+
+Leia o valor de x e calcule e apresente a função:
+
+$$f(x) = x^3 + 4x + 10$$
 
 ## Solução
 
