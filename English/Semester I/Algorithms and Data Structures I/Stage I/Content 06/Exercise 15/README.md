@@ -9,7 +9,26 @@
 
 ## Description
 
-**Statement summary:** Calculate the monthly package fee, daily pay-per-view usage, extra services and city tax using the exercise tables.
+The program builds a monthly cable bill from a fixed charge, daily usage, extra services and city tax. The package determines the fixed fee and pay-per-view rule, while the city determines the tax percentage. The Basic package's usage cap must be applied before calculating tax on the subtotal.
+
+## Statement
+
+Request package code, pay-per-view days, extra-service amount and city. Calculate the bill using these tables:
+
+| Package | Code | Monthly&nbsp;fee | Pay-per-view |
+| --- | --- | --- | --- |
+| Basic | 1 | R$65.00 | R$1.20 per day, capped at R$65.00 |
+| Advanced | 2 | R$104.00 | R$2.10 per day |
+| Premium | 3 | R$137.00 | Exempt |
+
+| City | Tax |
+| --- | --- |
+| Belo Horizonte | Exempt |
+| São Paulo | 1% |
+| Rio de Janeiro | 1.5% |
+| Other cities | 2% |
+
+Add the monthly fee, pay-per-view and extras; apply tax to that sum and add it to the bill.
 
 ## Solution
 
