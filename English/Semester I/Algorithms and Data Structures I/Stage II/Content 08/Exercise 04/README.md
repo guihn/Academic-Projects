@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Read names and ages of 50 students and count those aged up to 18 and those older than 18.
+This exercise divides a class into two age bands. Name and age are read for each person, and age determines which counter to increment. Age 18 belongs to the first band so each student is counted exactly once.
+
+## Statement
+
+Read the name and age of all 50 students in a class. Calculate and print the number aged up to 18 and the number older than 18.
 
 ## Solution
 
