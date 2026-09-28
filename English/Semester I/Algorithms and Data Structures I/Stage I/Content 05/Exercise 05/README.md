@@ -9,7 +9,13 @@
 
 ## Description
 
-**Statement summary:** Read a Celsius temperature and convert it to Kelvin and Fahrenheit.
+This exercise converts one input temperature to two different scales. The user enters Celsius and receives the corresponding Kelvin and Fahrenheit values. The relationships between scales must be rearranged so both outputs are calculated directly from the same input.
+
+## Statement
+
+Read a temperature in Celsius and display its Kelvin and Fahrenheit equivalents. The statement uses these relationships:
+
+$$C = K - 273 \qquad C = \frac{5F - 160}{9}$$
 
 ## Solution
 
