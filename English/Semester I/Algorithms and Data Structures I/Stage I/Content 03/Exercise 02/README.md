@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Adapt the example that reads three integers and calculates their arithmetic mean.
+This exercise calculates the arithmetic mean of three integers entered by the user. The program must add the values and divide the total by three while retaining the fractional part. Console input and output show how the entered values become the calculated mean.
+
+## Statement
+
+Reproduce the program from example 6 using the class name `C03ex02`. Read three integers and display their arithmetic mean. Check the program with the inputs 8, 12 and 63: the mean must be 27.66666…
 
 ## Solution
 
