@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Ler uma ficha funcional de um arquivo texto e apresentar os dados em uma caixa de diálogo.
+O programa transforma uma ficha armazenada em texto em uma apresentação por caixa de diálogo. Ele lê os campos pessoais e profissionais na ordem do arquivo, reúne os documentos e formata o salário. A atividade explora a leitura de um recurso externo ao código e a composição de uma ficha funcional a partir desses dados.
+
+## Enunciado
+
+Leia de um arquivo texto chamado `ficha.txt` o nome, CPF, identidade, título de eleitor, carteira de motorista, salário e empresa de uma pessoa. Apresente a ficha funcional em uma caixa de diálogo, identificando o nome, os documentos, a empresa e o salário.
 
 ## Solução
 
@@ -17,7 +21,7 @@ Ler o recurso do classpath na ordem dos campos, consumir a quebra de linha pende
 
 ### Observações da implementação
 
-O recurso necessário é /FirstStage/fichafuncionaldeGuilherme.txt. O conteúdo e o nome foram preservados. A formatação monetária e a leitura decimal dependem da localidade do ambiente.
+O enunciado chama o arquivo de entrada de ficha.txt; a implementação lê /FirstStage/fichafuncionaldeGuilherme.txt. A formatação monetária e a leitura decimal dependem da localidade do ambiente.
 
 Arquivo fonte: [C04ex05.java](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I/Etapa%20I/Conte%C3%BAdo%2004/Exerc%C3%ADcio%2005/src/C04ex05.java)
 
