@@ -9,7 +9,11 @@
 
 ## Description
 
-**Statement summary:** Evaluate 50 students by grade and attendance and report the total who passed and failed.
+The program extends individual student classification with class-wide counts. Each grade and absence count determines pass or fail status and updates the corresponding counter. After the fifty required records, the totals must show the distribution of results.
+
+## Statement
+
+Read the final grade and absences of 50 students. Report each student's status: passed with grade ≥ 65 and absences ≤ 16, or failed otherwise. At the end, print how many students passed and how many failed.
 
 ## Solution
 
