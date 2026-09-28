@@ -9,7 +9,16 @@
 
 ## Description
 
-**Statement summary:** Read first name, middle name, surname and age, then present the surname before the given names.
+The program arranges a person's identification details into a two-line console presentation. First name, middle name, surname and age are read separately so the names can be reordered in the output. The surname must appear first, followed by the given names, with the age on the next line.
+
+## Statement
+
+Request the user's first name, middle name, surname and age. Display the details in this format:
+
+```text
+Surname, FirstName MiddleName
+Age: 99 years.
+```
 
 ## Solution
 
