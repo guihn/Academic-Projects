@@ -9,7 +9,11 @@
 
 ## Descrição
 
-**Resumo do enunciado:** Adaptar o exemplo de fatorial ao nome da classe do exercício e conferir o cálculo para uma entrada inteira.
+O programa recebe um número inteiro e calcula seu fatorial, multiplicando os inteiros positivos de 1 até o valor informado. A atividade trabalha a leitura pelo console e a atualização de um produto acumulado dentro de um laço. Ao final, o resultado permite conferir a execução do exemplo de fatorial estudado em aula.
+
+## Enunciado
+
+Reproduza o programa de fatorial do exemplo 4 com o nome de classe `C03ex01`. Corrija eventuais erros de digitação e confira o cálculo: para a entrada 5, o resultado deve ser 120.
 
 ## Solução
 
