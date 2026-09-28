@@ -9,7 +9,13 @@
 
 ## Description
 
-**Statement summary:** Read x and evaluate the polynomial function specified in the slide.
+The program evaluates a polynomial for a real value of x chosen by the user. The calculation combines a cubic power, a linear term and a constant while respecting operator precedence. The output associates the input value with the function result.
+
+## Statement
+
+Read x, then calculate and display the function:
+
+$$f(x) = x^3 + 4x + 10$$
 
 ## Solution
 
