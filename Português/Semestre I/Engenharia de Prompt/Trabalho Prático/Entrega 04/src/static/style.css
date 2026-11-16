@@ -1,0 +1,334 @@
+:root {
+  color-scheme: dark;
+  font-family: Arial, sans-serif;
+  color: #ededf0;
+  background: #101013;
+  font-size: 16px
+}
+
+* {
+  box-sizing: border-box
+}
+
+body {
+  margin: 0
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 32px 24px
+}
+
+header,
+.row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between
+}
+
+header {
+  justify-content: flex-start;
+  margin-bottom: 45px
+}
+
+.brand {
+  background: #dedee3;
+  color: #17171b;
+  border-radius: 15px;
+  padding: 16px;
+  font-size: 28px;
+  font-weight: bold
+}
+
+.brand span {
+  color: #333338
+}
+
+h1 {
+  margin: 4px 0;
+  font-size: 26px
+}
+
+.eyebrow {
+  font-size: 11px;
+  letter-spacing: 2px;
+  margin: 0
+}
+
+.tag {
+  margin-left: auto;
+  font-size: 12px;
+  border: 1px solid #45454e;
+  padding: 8px 12px;
+  border-radius: 30px
+}
+
+.intro h2 {
+  font-size: 40px;
+  line-height: 1.12;
+  margin: 0 0 18px;
+  letter-spacing: -1.5px
+}
+
+.intro p {
+  max-width: 650px;
+  color: #bdbdc6;
+  line-height: 1.6
+}
+
+.card {
+  background: #1b1b20;
+  border: 1px solid #383840;
+  border-radius: 16px;
+  padding: 26px;
+  margin-top: 22px;
+  box-shadow: 0 5px 18px #00000020
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-top: 0
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin: 10px 0 8px
+}
+
+textarea,
+input,
+select {
+  font: inherit;
+  color: inherit;
+  border: 1px solid #666670;
+  border-radius: 8px;
+  padding: 12px;
+  width: 100%;
+  background: #101013
+}
+
+textarea {
+  resize: vertical;
+  line-height: 1.5
+}
+
+button {
+  font: inherit;
+  background: #e2e2e8;
+  color: #17171b;
+  border: 0;
+  border-radius: 8px;
+  padding: 13px 18px;
+  cursor: pointer;
+  margin-top: 16px
+}
+
+button:disabled {
+  opacity: .5;
+  cursor: wait
+}
+
+.secondary {
+  background: #303036;
+  color: #ededf0
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px
+}
+
+pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  background: #101013;
+  padding: 18px;
+  border-radius: 8px;
+  font-size: 12px;
+  line-height: 1.5;
+  max-height: 500px;
+  overflow: auto
+}
+
+details {
+  margin-top: 20px
+}
+
+footer {
+  font-size: 12px;
+  line-height: 1.7;
+  color: #bdbdc6;
+  margin: 28px 0
+}
+
+#message {
+  line-height: 1.5
+}
+
+#risk {
+  font-size: 26px;
+  font-weight: bold
+}
+
+#history p {
+  border-bottom: 1px solid #383840;
+  padding: 12px 0
+}
+
+.error {
+  color: #ffb4ad
+}
+
+@media(max-width:640px) {
+  main {
+    padding: 24px 16px
+  }
+
+  .intro h2 {
+    font-size: 32px
+  }
+
+  .card {
+    padding: 20px
+  }
+
+  .row {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 8px
+  }
+
+  .grid {
+    grid-template-columns: 1fr
+  }
+
+  .tag {
+    display: none
+  }
+}
+
+.date-control {
+  position: relative;
+  width: 230px;
+  max-width: 100%
+}
+
+.date-control>#date {
+  padding-right: 48px
+}
+
+.date-control .date-calendar {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  color: #e2e2e8;
+  border-left: 1px solid #383840;
+  border-radius: 0 7px 7px 0
+}
+
+.date-calendar:hover {
+  background: #303036
+}
+
+.date-calendar:focus-visible {
+  outline: 2px solid #e2e2e8;
+  outline-offset: 2px
+}
+
+.date-control .date-picker-native {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  padding: 0;
+  border: 0;
+  pointer-events: none
+}
+
+.connection-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px
+}
+
+.connection-actions button {
+  margin-top: 0
+}
+
+.install-link {
+  color: #e2e2e8;
+  padding: 12px 0
+}
+
+#connection-status,
+#connection-message {
+  line-height: 1.6
+}
+
+.card li {
+  line-height: 1.6;
+  margin-bottom: 8px
+}
+
+.row>*,
+.grid>* {
+  min-width: 0;
+}
+
+h1,
+h2,
+p,
+li,
+option {
+  overflow-wrap: anywhere;
+}
+
+button:hover {
+  filter: brightness(.9);
+}
+
+:focus-visible {
+  outline: 2px solid #f1f1f4;
+  outline-offset: 3px;
+}
+
+.checkbox {
+  display: flex;
+  gap: 10px;
+  align-items: start;
+  line-height: 1.5;
+}
+
+.checkbox input {
+  width: auto;
+  margin-top: 5px;
+  accent-color: #d0d0d7;
+}
+
+#report-result,
+#service-result,
+#writeoff-history {
+  line-height: 1.6;
+}
+
+#report-history button,
+#service-history button {
+  display: block;
+  text-align: left;
+  width: 100%;
+}

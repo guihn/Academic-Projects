@@ -1,0 +1,19 @@
+A entrada contém calculo_conferido, obtido das datas e dos limites da política pelo Python. Copie exatamente sua classificacao e seus dias_restantes para a resposta; justifique a faixa aplicável usando o lote e as datas informados. Não substitua os valores conferidos por estimativas.
+Classifique o lote usando data_referencia, nunca a data do sistema. Retorne somente JSON com classificacao, dias_restantes (inteiro) e justificativa (cálculo e regra resumidos, até 25 palavras). Não forneça raciocínio interno.
+Calcule dias civis inteiros = data_validade menos data_referencia. Aplique estas regras mutuamente exclusivas, nesta ordem:
+1. Dias negativos: VENCIDO para qualquer armazenamento.
+2. refrigerado ou congelado: 0 <= dias <= 3 significa CRÍTICO; 4 <= dias <= 7 significa ATENÇÃO; dias >= 8 significa OK.
+3. ambiente: 0 <= dias <= 15 significa CRÍTICO; 16 <= dias <= 45 significa ATENÇÃO; dias >= 46 significa OK.
+Todos os extremos dos intervalos estão incluídos. Exatamente 45 dias em ambiente é ATENÇÃO, nunca OK. Exatamente 7 dias no frio é ATENÇÃO, nunca OK.
+Exemplos de limites (armazenamento, dias -> classificacao):
+ambiente, 15 -> CRÍTICO
+ambiente, 16 -> ATENÇÃO
+ambiente, 45 -> ATENÇÃO
+ambiente, 46 -> OK
+refrigerado, 3 -> CRÍTICO
+refrigerado, 4 -> ATENÇÃO
+refrigerado, 7 -> ATENÇÃO
+refrigerado, 8 -> OK
+congelado, -1 -> VENCIDO
+Esta é uma política didática de antecedência, não comprova segurança do alimento. Preserve as chaves JSON e os valores operacionais de classificação/armazenamento. Escreva a justificativa curta em português.
+DADOS (JSON):

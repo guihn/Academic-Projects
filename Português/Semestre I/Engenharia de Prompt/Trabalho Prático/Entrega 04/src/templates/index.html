@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ValidaMarket · Controle de validade</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body><main>
+  <header><span class="brand">V<span>+</span></span><div><p class="eyebrow">PREVENÇÃO DE PERDAS</p><h1>ValidaMarket</h1></div><span class="tag">Protótipo E4</span></header>
+  <section class="intro">
+    <h2>Controle de validade.<br>Planejamento da próxima ação.</h2>
+    <p>Análise da validade de lotes com extração por IA, conferência dos dados e aprovação humana.</p>
+    <p id="provider" role="status">Consultando conexão…</p>
+  </section>
+  <section class="card" aria-labelledby="google-title">
+    <h2 id="google-title">Conexão com conta Google</h2>
+    <p>O Gemini usa a conta ativa no cliente oficial deste computador. A senha é informada apenas ao Google.</p>
+    <p id="connection-status" role="status">Verificando a disponibilidade do cliente…</p>
+    <div class="connection-actions">
+      <button id="google-login" type="button">Login Google</button>
+      <button id="google-check" class="secondary" type="button">Verificação da conexão</button>
+      <a class="install-link" href="https://antigravity.google/docs/install?tab=cli" target="_blank" rel="noopener noreferrer">Cliente oficial Google</a>
+    </div>
+    <p id="connection-message" role="status" aria-live="polite"></p>
+    <details><summary>Autorização e troca de conta</summary>
+      <p>O login abre o cliente oficial em um terminal local. Sem sessão ativa, a autorização ocorre no navegador. O comando <code>/logout</code> encerra uma sessão existente no cliente. Após a autorização, o cliente pode ser fechado e a conexão pode ser verificada nesta página.</p>
+      <p>O comando <code>agy</code> permite abrir o cliente manualmente. No pacote Windows, o executável fica em <code>cliente_google/agy.exe</code>. A sessão fica no cofre do sistema operacional e não acompanha os arquivos do projeto.</p>
+    </details>
+  </section>
+  <section class="card"><h2>1. Descrição do lote</h2>
+    <form id="entry">
+      <label for="text">Produto, lote, validade, quantidade, setor e conservação</label>
+      <textarea id="text" required minlength="3" maxlength="4000" rows="4" placeholder="Iogurte natural 170g, lote IG-5521, validade 18/11/2026, 36 unidades, gôndola refrigerados, refrigerado"></textarea>
+      <div class="row"><div><label for="date">Data de referência</label><div class="date-control">
+        <input id="date" type="text" inputmode="numeric" placeholder="dd/mm/aaaa" pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" maxlength="10" value="{{today[8:10]}}/{{today[5:7]}}/{{today[0:4]}}" aria-label="Data de referência (dd/mm/aaaa)" required>
+        <button id="reference-calendar" class="date-calendar" type="button" aria-label="Calendário da data de referência" title="Seleção de data"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 11h18"/></svg></button>
+        <input id="date-picker" class="date-picker-native" type="date" value="{{today}}" tabindex="-1" aria-label="Data no calendário">
+      </div></div><button id="extract">Extração com IA</button></div>
+    </form>
+  </section>
+  <p id="message" role="status" aria-live="polite"></p>
+  <section id="review" class="card" hidden><h2>2. Conferência dos dados</h2><p>Campos extraídos disponíveis para comparação com a embalagem e correção antes da análise.</p><form id="confirmation"><div id="fields" class="grid"></div><button>Confirmação e classificação com IA</button></form></section>
+  <section id="result" class="card" hidden><h2>3. Avaliação da recomendação</h2><div id="risk"></div><p id="action"></p><p id="deadline"></p><button id="approve">Aprovação e geração de alerta</button><pre id="alert" hidden></pre><details><summary>Log da execução</summary><pre id="log"></pre></details><button id="download" class="secondary">Download do log JSON</button></section>
+  <section class="card"><div class="row"><h2>Histórico local</h2><button id="refresh" class="secondary">Atualização do histórico</button></div><div id="history">Nenhum registro carregado.</div></section>
+  <section class="card" aria-labelledby="writeoff-title"><h2 id="writeoff-title">4. Registro de baixa realizada</h2>
+    <p>A aprovação de uma recomendação não movimenta estoque. Este registro declara uma baixa já realizada pelo operador. O saldo se refere a esta análise; análises repetidas do mesmo lote não representam estoque adicional.</p>
+    <form id="writeoff-form"><label for="writeoff-record">Análise aprovada</label><select id="writeoff-record" required></select>
+      <div class="grid"><div><label for="writeoff-quantity">Quantidade baixada (unidades)</label><input id="writeoff-quantity" type="number" min="1" step="1" required></div>
+      <div><label for="writeoff-reason">Motivo</label><select id="writeoff-reason"><option value="vencimento">Vencimento</option><option value="avaria">Avaria</option><option value="outro">Outro</option></select></div></div>
+      <label for="writeoff-value">Valor total da baixa em R$ (opcional)</label><input id="writeoff-value" inputmode="decimal" pattern="[0-9]{1,10}([.,][0-9]{1,2})?" placeholder="12,90">
+      <label class="checkbox"><input id="writeoff-done" type="checkbox" required> Confirmação de que a movimentação física foi realizada.</label>
+      <p>A data do registro é a data de referência informada acima.</p><button>Registro da baixa</button>
+    </form><div id="writeoff-history"></div>
+  </section>
+  <section class="card" aria-labelledby="report-title"><h2 id="report-title">5. Relatório semanal de perdas</h2>
+    <p>Resumo dos sete dias encerrados na data de referência acima. Os totais são calculados pelo programa; o Gemini apresenta hipóteses e medidas preventivas. Valores não informados ficam fora da soma financeira.</p>
+    <button id="report-generate">Geração do relatório com IA</button><div id="report-result" aria-live="polite"></div>
+    <button id="report-download" class="secondary" hidden>Download do relatório JSON</button><details><summary>Relatórios anteriores</summary><div id="report-history"></div></details>
+  </section>
+  <section class="card" aria-labelledby="service-title"><h2 id="service-title">6. Atendimento sobre validade</h2>
+    <form id="service-form"><label for="service-text">Dúvida ou relato (sem dados pessoais)</label><textarea id="service-text" minlength="3" maxlength="2000" rows="3" required placeholder="Encontrei um iogurte vencido na gôndola de refrigerados. Como devo proceder?"></textarea><button>Atendimento com IA</button></form>
+    <div id="service-result" aria-live="polite"></div><button id="service-download" class="secondary" hidden>Download do atendimento JSON</button><details><summary>Atendimentos anteriores</summary><div id="service-history"></div></details>
+  </section>
+  <footer>Política didática de antecedência. A classificação não comprova condições sanitárias. A aprovação registra uma decisão; não executa descarte físico nem envia mensagens externas.</footer>
+</main><script src="/static/app.js"></script></body>
+</html>
