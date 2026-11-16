@@ -1,0 +1,29 @@
+{
+  "versao": "1.0",
+  "commit": "d0b07fdd740eff1b304545ef54d3e183a852d56e",
+  "zip_sha256": "19bce29467123ed40eaea2f471d76229bf07d35d42d14ee1aecfba29f558fa45",
+  "resultado": "aprovado",
+  "ambiente": "Windows x64; PATH do processo limitado a System32",
+  "entrada": "Iniciar.bat, extraído em pasta com espaços",
+  "python_incluido": true,
+  "cliente_google_incluido": true,
+  "criacao_de_venv": false,
+  "credenciais_no_pacote": false,
+  "status_http": {
+    "aplicativo": "validamarket",
+    "autenticacao": "Conta Google local",
+    "cliente_disponivel": true,
+    "conexao": {
+      "estado": "nao_verificada",
+      "verificada_em": null
+    },
+    "modelo": "gemini-3.8-flash-low",
+    "sistema": "Windows"
+  },
+  "limite": "Valida inicialização e descoberta do cliente oficial sem instalações globais. A autorização pessoal Google é concluída pelo usuário no cliente oficial.",
+  "interface_windows": "aprovada",
+  "erros_javascript": [],
+  "conta_google_embutida": false,
+  "sem_sessao_bloqueado_com_http": 502,
+  "regressao_edicao_de_entrada": "aprovada; fixtures de interface, sem atribuir esses outputs ao LLM"
+}

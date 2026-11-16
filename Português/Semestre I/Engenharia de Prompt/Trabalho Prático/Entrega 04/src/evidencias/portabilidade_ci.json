@@ -1,0 +1,28 @@
+{
+  "workflow": "https://github.com/guihn/Academic-Projects/actions/runs/43740948902",
+  "commit": "523984d261eacc4a59a421f89f3a7541d5188758",
+  "resultado": "success",
+  "verificacoes": [
+    {
+      "nome": "verificar (ubuntu-latest, 3.11)",
+      "resultado": "success"
+    },
+    {
+      "nome": "portatil_windows",
+      "resultado": "success"
+    },
+    {
+      "nome": "verificar (windows-latest, 3.13)",
+      "resultado": "success"
+    },
+    {
+      "nome": "verificar (ubuntu-latest, 3.13)",
+      "resultado": "success"
+    },
+    {
+      "nome": "verificar (windows-latest, 3.11)",
+      "resultado": "success"
+    }
+  ],
+  "descricao": "ZIP extraído e Iniciar.bat executado em Windows com PATH restrito ao System32, usando Python e cliente Google incluídos. Interface Chromium, máscara de data, calendário e erro de ausência de sessão verificados. Nenhuma conta Google conectada ao runner."
+}

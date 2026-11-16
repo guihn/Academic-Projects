@@ -1,0 +1,9 @@
+{
+  "respostas_reais_recebidas": 37,
+  "observacao": "Resultados observados; falhas não são substituídas por respostas locais.",
+  "tipo": "Gemini real com conta Google via Antigravity CLI (sem mock)",
+  "total_lotes_executados": 10,
+  "passaram": 10,
+  "falharam": 0,
+  "data_incompleta_passou": true
+}

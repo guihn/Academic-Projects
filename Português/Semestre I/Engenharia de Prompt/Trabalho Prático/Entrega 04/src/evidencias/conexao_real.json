@@ -1,0 +1,15 @@
+{
+  "data_utc": "2026-11-15T17:00:27.965566+00:00",
+  "tipo": "Botão Verificar conexão, com cliente Google e sessão reais no Gentoo",
+  "http_status": 200,
+  "resposta": {
+    "conexao": {
+      "estado": "conectada",
+      "verificada_em": "2026-11-15T17:00:27.902666+00:00"
+    },
+    "mensagem": "Conexão com Gemini verificada usando a conta Google ativa no cliente deste computador.",
+    "modelo": "gemini-3.8-flash-low"
+  },
+  "erros_javascript": [],
+  "credenciais_exportadas": false
+}

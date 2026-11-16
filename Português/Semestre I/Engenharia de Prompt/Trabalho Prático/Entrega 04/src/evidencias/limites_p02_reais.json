@@ -1,0 +1,717 @@
+{
+  "inicio_utc": "2026-11-16T02:05:50.703111+00:00",
+  "observacao": "Verificação isolada de P02 com o prompt atual; entradas extraídas de casos sintéticos anteriores. Respostas reais do Gemini.",
+  "casos": [
+    {
+      "caso": "T01",
+      "esperado": {
+        "classificacao": "CRÍTICO",
+        "dias_restantes": 3
+      },
+      "resposta": {
+        "classificacao": "CRÍTICO",
+        "dias_restantes": 3,
+        "justificativa": "Faltam 3 dias (18/11 menos 15/11). Produto refrigerado com 0 a 3 dias restantes enquadra-se como CRÍTICO."
+      },
+      "trace": [
+        {
+          "id": "P02",
+          "inicio_utc": "2026-11-16T02:05:50.703345+00:00",
+          "prompt": "A entrada contém calculo_conferido, obtido das datas e dos limites da política pelo Python. Copie exatamente sua classificacao e seus dias_restantes para a resposta; justifique a faixa aplicável usando o lote e as datas informados. Não substitua os valores conferidos por estimativas.\nClassifique o lote usando data_referencia, nunca a data do sistema. Retorne somente JSON com classificacao, dias_restantes (inteiro) e justificativa (cálculo e regra resumidos, até 25 palavras). Não forneça raciocínio interno.\nCalcule dias civis inteiros = data_validade menos data_referencia. Aplique estas regras mutuamente exclusivas, nesta ordem:\n1. Dias negativos: VENCIDO para qualquer armazenamento.\n2. refrigerado ou congelado: 0 <= dias <= 3 significa CRÍTICO; 4 <= dias <= 7 significa ATENÇÃO; dias >= 8 significa OK.\n3. ambiente: 0 <= dias <= 15 significa CRÍTICO; 16 <= dias <= 45 significa ATENÇÃO; dias >= 46 significa OK.\nTodos os extremos dos intervalos estão incluídos. Exatamente 45 dias em ambiente é ATENÇÃO, nunca OK. Exatamente 7 dias no frio é ATENÇÃO, nunca OK.\nExemplos de limites (armazenamento, dias -> classificacao):\nambiente, 15 -> CRÍTICO\nambiente, 16 -> ATENÇÃO\nambiente, 45 -> ATENÇÃO\nambiente, 46 -> OK\nrefrigerado, 3 -> CRÍTICO\nrefrigerado, 4 -> ATENÇÃO\nrefrigerado, 7 -> ATENÇÃO\nrefrigerado, 8 -> OK\ncongelado, -1 -> VENCIDO\nEsta é uma política didática de antecedência, não comprova segurança do alimento. Preserve as chaves JSON e os valores operacionais de classificação/armazenamento. Escreva a justificativa curta em português.\nDADOS (JSON):\n{\"lote\": {\"armazenamento\": \"refrigerado\", \"categoria\": \"laticínios\", \"data_validade\": \"2026-11-18\", \"lote\": \"IG-5521\", \"produto\": \"Iogurte natural 170g\", \"quantidade\": 36, \"setor\": \"gôndola refrigerados\"}, \"data_referencia\": \"2026-11-15\", \"calculo_conferido\": {\"classificacao\": \"CRÍTICO\", \"dias_restantes\": 3}}",
+          "provedor": "Gemini via Antigravity CLI",
+          "autenticacao": "Conta Google (login gerenciado pelo cliente oficial)",
+          "status": "ok",
+          "modelo_solicitado": "gemini-3.8-flash-low",
+          "resposta_cliente": {
+            "conversation_id": "ab7c3bc7-a507-4bff-94d5-c6724768efbe",
+            "status": "SUCCESS",
+            "response": "{\"classificacao\":\"CRÍTICO\",\"dias_restantes\":3,\"justificativa\":\"Faltam 3 dias (18/11 menos 15/11). Produto refrigerado com 0 a 3 dias restantes enquadra-se como CRÍTICO.\"}\n",
+            "duration_seconds": 2.225582666,
+            "num_turns": 1,
+            "usage": {
+              "input_tokens": 9352,
+              "output_tokens": 74,
+              "thinking_tokens": 0,
+              "cache_read_tokens": 0,
+              "total_tokens": 9426
+            },
+            "structured_output": {
+              "classificacao": "CRÍTICO",
+              "dias_restantes": 3,
+              "justificativa": "Faltam 3 dias (18/11 menos 15/11). Produto refrigerado com 0 a 3 dias restantes enquadra-se como CRÍTICO."
+            },
+            "json_schema": {
+              "type": "object",
+              "properties": {
+                "classificacao": {
+                  "type": "string",
+                  "enum": [
+                    "OK",
+                    "ATENÇÃO",
+                    "CRÍTICO",
+                    "VENCIDO"
+                  ]
+                },
+                "dias_restantes": {
+                  "type": "integer"
+                },
+                "justificativa": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "classificacao",
+                "dias_restantes",
+                "justificativa"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "saida_bruta": "{\"classificacao\":\"CRÍTICO\",\"dias_restantes\":3,\"justificativa\":\"Faltam 3 dias (18/11 menos 15/11). Produto refrigerado com 0 a 3 dias restantes enquadra-se como CRÍTICO.\"}\n",
+          "fim_utc": "2026-11-16T02:05:55.272758+00:00"
+        }
+      ],
+      "passou": true
+    },
+    {
+      "caso": "T02",
+      "esperado": {
+        "classificacao": "VENCIDO",
+        "dias_restantes": -1
+      },
+      "resposta": {
+        "classificacao": "VENCIDO",
+        "dias_restantes": -1,
+        "justificativa": "Data de validade (14/11) anterior à referência (15/11): -1 dia, portanto classificado como VENCIDO pela regra 1."
+      },
+      "trace": [
+        {
+          "id": "P02",
+          "inicio_utc": "2026-11-16T02:05:55.273330+00:00",
+          "prompt": "A entrada contém calculo_conferido, obtido das datas e dos limites da política pelo Python. Copie exatamente sua classificacao e seus dias_restantes para a resposta; justifique a faixa aplicável usando o lote e as datas informados. Não substitua os valores conferidos por estimativas.\nClassifique o lote usando data_referencia, nunca a data do sistema. Retorne somente JSON com classificacao, dias_restantes (inteiro) e justificativa (cálculo e regra resumidos, até 25 palavras). Não forneça raciocínio interno.\nCalcule dias civis inteiros = data_validade menos data_referencia. Aplique estas regras mutuamente exclusivas, nesta ordem:\n1. Dias negativos: VENCIDO para qualquer armazenamento.\n2. refrigerado ou congelado: 0 <= dias <= 3 significa CRÍTICO; 4 <= dias <= 7 significa ATENÇÃO; dias >= 8 significa OK.\n3. ambiente: 0 <= dias <= 15 significa CRÍTICO; 16 <= dias <= 45 significa ATENÇÃO; dias >= 46 significa OK.\nTodos os extremos dos intervalos estão incluídos. Exatamente 45 dias em ambiente é ATENÇÃO, nunca OK. Exatamente 7 dias no frio é ATENÇÃO, nunca OK.\nExemplos de limites (armazenamento, dias -> classificacao):\nambiente, 15 -> CRÍTICO\nambiente, 16 -> ATENÇÃO\nambiente, 45 -> ATENÇÃO\nambiente, 46 -> OK\nrefrigerado, 3 -> CRÍTICO\nrefrigerado, 4 -> ATENÇÃO\nrefrigerado, 7 -> ATENÇÃO\nrefrigerado, 8 -> OK\ncongelado, -1 -> VENCIDO\nEsta é uma política didática de antecedência, não comprova segurança do alimento. Preserve as chaves JSON e os valores operacionais de classificação/armazenamento. Escreva a justificativa curta em português.\nDADOS (JSON):\n{\"lote\": {\"armazenamento\": \"ambiente\", \"categoria\": \"laticínios\", \"data_validade\": \"2026-11-14\", \"lote\": \"LT-10\", \"produto\": \"Leite integral 1L\", \"quantidade\": 12, \"setor\": \"corredor 3\"}, \"data_referencia\": \"2026-11-15\", \"calculo_conferido\": {\"classificacao\": \"VENCIDO\", \"dias_restantes\": -1}}",
+          "provedor": "Gemini via Antigravity CLI",
+          "autenticacao": "Conta Google (login gerenciado pelo cliente oficial)",
+          "status": "ok",
+          "modelo_solicitado": "gemini-3.8-flash-low",
+          "resposta_cliente": {
+            "conversation_id": "3d204319-dad3-4127-9048-168a3c1ca879",
+            "status": "SUCCESS",
+            "response": "{\"classificacao\":\"VENCIDO\",\"dias_restantes\":-1,\"justificativa\":\"Data de validade (14/11) anterior à referência (15/11): -1 dia, portanto classificado como VENCIDO pela regra 1.\"}\n",
+            "duration_seconds": 2.325153804,
+            "num_turns": 1,
+            "usage": {
+              "input_tokens": 9355,
+              "output_tokens": 70,
+              "thinking_tokens": 0,
+              "cache_read_tokens": 0,
+              "total_tokens": 9425
+            },
+            "structured_output": {
+              "classificacao": "VENCIDO",
+              "dias_restantes": -1,
+              "justificativa": "Data de validade (14/11) anterior à referência (15/11): -1 dia, portanto classificado como VENCIDO pela regra 1."
+            },
+            "json_schema": {
+              "type": "object",
+              "properties": {
+                "classificacao": {
+                  "type": "string",
+                  "enum": [
+                    "OK",
+                    "ATENÇÃO",
+                    "CRÍTICO",
+                    "VENCIDO"
+                  ]
+                },
+                "dias_restantes": {
+                  "type": "integer"
+                },
+                "justificativa": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "classificacao",
+                "dias_restantes",
+                "justificativa"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "saida_bruta": "{\"classificacao\":\"VENCIDO\",\"dias_restantes\":-1,\"justificativa\":\"Data de validade (14/11) anterior à referência (15/11): -1 dia, portanto classificado como VENCIDO pela regra 1.\"}\n",
+          "fim_utc": "2026-11-16T02:06:00.049374+00:00"
+        }
+      ],
+      "passou": true
+    },
+    {
+      "caso": "T03",
+      "esperado": {
+        "classificacao": "OK",
+        "dias_restantes": 46
+      },
+      "resposta": {
+        "classificacao": "OK",
+        "dias_restantes": 46,
+        "justificativa": "46 dias restantes para produto em ambiente (>=46 dias) resulta na classificação OK conforme a política."
+      },
+      "trace": [
+        {
+          "id": "P02",
+          "inicio_utc": "2026-11-16T02:06:00.049801+00:00",
+          "prompt": "A entrada contém calculo_conferido, obtido das datas e dos limites da política pelo Python. Copie exatamente sua classificacao e seus dias_restantes para a resposta; justifique a faixa aplicável usando o lote e as datas informados. Não substitua os valores conferidos por estimativas.\nClassifique o lote usando data_referencia, nunca a data do sistema. Retorne somente JSON com classificacao, dias_restantes (inteiro) e justificativa (cálculo e regra resumidos, até 25 palavras). Não forneça raciocínio interno.\nCalcule dias civis inteiros = data_validade menos data_referencia. Aplique estas regras mutuamente exclusivas, nesta ordem:\n1. Dias negativos: VENCIDO para qualquer armazenamento.\n2. refrigerado ou congelado: 0 <= dias <= 3 significa CRÍTICO; 4 <= dias <= 7 significa ATENÇÃO; dias >= 8 significa OK.\n3. ambiente: 0 <= dias <= 15 significa CRÍTICO; 16 <= dias <= 45 significa ATENÇÃO; dias >= 46 significa OK.\nTodos os extremos dos intervalos estão incluídos. Exatamente 45 dias em ambiente é ATENÇÃO, nunca OK. Exatamente 7 dias no frio é ATENÇÃO, nunca OK.\nExemplos de limites (armazenamento, dias -> classificacao):\nambiente, 15 -> CRÍTICO\nambiente, 16 -> ATENÇÃO\nambiente, 45 -> ATENÇÃO\nambiente, 46 -> OK\nrefrigerado, 3 -> CRÍTICO\nrefrigerado, 4 -> ATENÇÃO\nrefrigerado, 7 -> ATENÇÃO\nrefrigerado, 8 -> OK\ncongelado, -1 -> VENCIDO\nEsta é uma política didática de antecedência, não comprova segurança do alimento. Preserve as chaves JSON e os valores operacionais de classificação/armazenamento. Escreva a justificativa curta em português.\nDADOS (JSON):\n{\"lote\": {\"armazenamento\": \"ambiente\", \"categoria\": \"grãos\", \"data_validade\": \"2026-12-31\", \"lote\": \"AR1\", \"produto\": \"Arroz 5kg\", \"quantidade\": 20, \"setor\": \"estoque seco\"}, \"data_referencia\": \"2026-11-15\", \"calculo_conferido\": {\"classificacao\": \"OK\", \"dias_restantes\": 46}}",
+          "provedor": "Gemini via Antigravity CLI",
+          "autenticacao": "Conta Google (login gerenciado pelo cliente oficial)",
+          "status": "ok",
+          "modelo_solicitado": "gemini-3.8-flash-low",
+          "resposta_cliente": {
+            "conversation_id": "a360bf6a-e0dd-4609-b1ed-4bbb1384e8a2",
+            "status": "SUCCESS",
+            "response": "```json\n{\n  \"classificacao\": \"OK\",\n  \"dias_restantes\": 46,\n  \"justificativa\": \"46 dias restantes para produto em ambiente (>=46 dias) resulta na classificação OK conforme a política.\"\n}\n```\n{\"classificacao\":\"OK\",\"dias_restantes\":46,\"justificativa\":\"46 dias restantes para produto em ambiente (\\u003e=46 dias) resulta na classificação OK conforme a política.\"}\n",
+            "duration_seconds": 4.9744428240000005,
+            "num_turns": 2,
+            "usage": {
+              "input_tokens": 11542,
+              "output_tokens": 115,
+              "thinking_tokens": 0,
+              "cache_read_tokens": 7300,
+              "total_tokens": 11657
+            },
+            "structured_output": {
+              "classificacao": "OK",
+              "dias_restantes": 46,
+              "justificativa": "46 dias restantes para produto em ambiente (>=46 dias) resulta na classificação OK conforme a política."
+            },
+            "json_schema": {
+              "type": "object",
+              "properties": {
+                "classificacao": {
+                  "type": "string",
+                  "enum": [
+                    "OK",
+                    "ATENÇÃO",
+                    "CRÍTICO",
+                    "VENCIDO"
+                  ]
+                },
+                "dias_restantes": {
+                  "type": "integer"
+                },
+                "justificativa": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "classificacao",
+                "dias_restantes",
+                "justificativa"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "saida_bruta": "```json\n{\n  \"classificacao\": \"OK\",\n  \"dias_restantes\": 46,\n  \"justificativa\": \"46 dias restantes para produto em ambiente (>=46 dias) resulta na classificação OK conforme a política.\"\n}\n```\n{\"classificacao\":\"OK\",\"dias_restantes\":46,\"justificativa\":\"46 dias restantes para produto em ambiente (\\u003e=46 dias) resulta na classificação OK conforme a política.\"}\n",
+          "fim_utc": "2026-11-16T02:06:07.419355+00:00"
+        }
+      ],
+      "passou": true
+    },
+    {
+      "caso": "T04",
+      "esperado": {
+        "classificacao": "ATENÇÃO",
+        "dias_restantes": 4
+      },
+      "resposta": {
+        "classificacao": "ATENÇÃO",
+        "dias_restantes": 4,
+        "justificativa": "4 dias restantes (19/11 a 15/11). Produto refrigerado com 4 a 7 dias enquadra-se na faixa ATENÇÃO."
+      },
+      "trace": [
+        {
+          "id": "P02",
+          "inicio_utc": "2026-11-16T02:06:07.419958+00:00",
+          "prompt": "A entrada contém calculo_conferido, obtido das datas e dos limites da política pelo Python. Copie exatamente sua classificacao e seus dias_restantes para a resposta; justifique a faixa aplicável usando o lote e as datas informados. Não substitua os valores conferidos por estimativas.\nClassifique o lote usando data_referencia, nunca a data do sistema. Retorne somente JSON com classificacao, dias_restantes (inteiro) e justificativa (cálculo e regra resumidos, até 25 palavras). Não forneça raciocínio interno.\nCalcule dias civis inteiros = data_validade menos data_referencia. Aplique estas regras mutuamente exclusivas, nesta ordem:\n1. Dias negativos: VENCIDO para qualquer armazenamento.\n2. refrigerado ou congelado: 0 <= dias <= 3 significa CRÍTICO; 4 <= dias <= 7 significa ATENÇÃO; dias >= 8 significa OK.\n3. ambiente: 0 <= dias <= 15 significa CRÍTICO; 16 <= dias <= 45 significa ATENÇÃO; dias >= 46 significa OK.\nTodos os extremos dos intervalos estão incluídos. Exatamente 45 dias em ambiente é ATENÇÃO, nunca OK. Exatamente 7 dias no frio é ATENÇÃO, nunca OK.\nExemplos de limites (armazenamento, dias -> classificacao):\nambiente, 15 -> CRÍTICO\nambiente, 16 -> ATENÇÃO\nambiente, 45 -> ATENÇÃO\nambiente, 46 -> OK\nrefrigerado, 3 -> CRÍTICO\nrefrigerado, 4 -> ATENÇÃO\nrefrigerado, 7 -> ATENÇÃO\nrefrigerado, 8 -> OK\ncongelado, -1 -> VENCIDO\nEsta é uma política didática de antecedência, não comprova segurança do alimento. Preserve as chaves JSON e os valores operacionais de classificação/armazenamento. Escreva a justificativa curta em português.\nDADOS (JSON):\n{\"lote\": {\"armazenamento\": \"refrigerado\", \"categoria\": \"laticínios\", \"data_validade\": \"2026-11-19\", \"lote\": \"IG4\", \"produto\": \"Iogurte\", \"quantidade\": 8, \"setor\": \"refrigerados\"}, \"data_referencia\": \"2026-11-15\", \"calculo_conferido\": {\"classificacao\": \"ATENÇÃO\", \"dias_restantes\": 4}}",
+          "provedor": "Gemini via Antigravity CLI",
+          "autenticacao": "Conta Google (login gerenciado pelo cliente oficial)",
+          "status": "ok",
+          "modelo_solicitado": "gemini-3.8-flash-low",
+          "resposta_cliente": {
+            "conversation_id": "176cb39c-84a6-4791-b15b-67d4110f6738",
+            "status": "SUCCESS",
+            "response": "{\"classificacao\":\"ATENÇÃO\",\"dias_restantes\":4,\"justificativa\":\"4 dias restantes (19/11 a 15/11). Produto refrigerado com 4 a 7 dias enquadra-se na faixa ATENÇÃO.\"}\n",
+            "duration_seconds": 3.038258963,
+            "num_turns": 1,
+            "usage": {
+              "input_tokens": 9353,
+              "output_tokens": 71,
+              "thinking_tokens": 0,
+              "cache_read_tokens": 0,
+              "total_tokens": 9424
+            },
+            "structured_output": {
+              "classificacao": "ATENÇÃO",
+              "dias_restantes": 4,
+              "justificativa": "4 dias restantes (19/11 a 15/11). Produto refrigerado com 4 a 7 dias enquadra-se na faixa ATENÇÃO."
+            },
+            "json_schema": {
+              "type": "object",
+              "properties": {
+                "classificacao": {
+                  "type": "string",
+                  "enum": [
+                    "OK",
+                    "ATENÇÃO",
+                    "CRÍTICO",
+                    "VENCIDO"
+                  ]
+                },
+                "dias_restantes": {
+                  "type": "integer"
+                },
+                "justificativa": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "classificacao",
+                "dias_restantes",
+                "justificativa"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "saida_bruta": "{\"classificacao\":\"ATENÇÃO\",\"dias_restantes\":4,\"justificativa\":\"4 dias restantes (19/11 a 15/11). Produto refrigerado com 4 a 7 dias enquadra-se na faixa ATENÇÃO.\"}\n",
+          "fim_utc": "2026-11-16T02:06:13.002699+00:00"
+        }
+      ],
+      "passou": true
+    },
+    {
+      "caso": "T05",
+      "esperado": {
+        "classificacao": "CRÍTICO",
+        "dias_restantes": 0
+      },
+      "resposta": {
+        "classificacao": "CRÍTICO",
+        "dias_restantes": 0,
+        "justificativa": "0 dias restantes (2026-11-15 menos 2026-11-15). Refrigerado entre 0 e 3 dias classifica-se como CRÍTICO."
+      },
+      "trace": [
+        {
+          "id": "P02",
+          "inicio_utc": "2026-11-16T02:06:13.003280+00:00",
+          "prompt": "A entrada contém calculo_conferido, obtido das datas e dos limites da política pelo Python. Copie exatamente sua classificacao e seus dias_restantes para a resposta; justifique a faixa aplicável usando o lote e as datas informados. Não substitua os valores conferidos por estimativas.\nClassifique o lote usando data_referencia, nunca a data do sistema. Retorne somente JSON com classificacao, dias_restantes (inteiro) e justificativa (cálculo e regra resumidos, até 25 palavras). Não forneça raciocínio interno.\nCalcule dias civis inteiros = data_validade menos data_referencia. Aplique estas regras mutuamente exclusivas, nesta ordem:\n1. Dias negativos: VENCIDO para qualquer armazenamento.\n2. refrigerado ou congelado: 0 <= dias <= 3 significa CRÍTICO; 4 <= dias <= 7 significa ATENÇÃO; dias >= 8 significa OK.\n3. ambiente: 0 <= dias <= 15 significa CRÍTICO; 16 <= dias <= 45 significa ATENÇÃO; dias >= 46 significa OK.\nTodos os extremos dos intervalos estão incluídos. Exatamente 45 dias em ambiente é ATENÇÃO, nunca OK. Exatamente 7 dias no frio é ATENÇÃO, nunca OK.\nExemplos de limites (armazenamento, dias -> classificacao):\nambiente, 15 -> CRÍTICO\nambiente, 16 -> ATENÇÃO\nambiente, 45 -> ATENÇÃO\nambiente, 46 -> OK\nrefrigerado, 3 -> CRÍTICO\nrefrigerado, 4 -> ATENÇÃO\nrefrigerado, 7 -> ATENÇÃO\nrefrigerado, 8 -> OK\ncongelado, -1 -> VENCIDO\nEsta é uma política didática de antecedência, não comprova segurança do alimento. Preserve as chaves JSON e os valores operacionais de classificação/armazenamento. Escreva a justificativa curta em português.\nDADOS (JSON):\n{\"lote\": {\"armazenamento\": \"refrigerado\", \"categoria\": \"laticínios\", \"data_validade\": \"2026-11-15\", \"lote\": \"Q5\", \"produto\": \"Queijo\", \"quantidade\": 6, \"setor\": \"frios\"}, \"data_referencia\": \"2026-11-15\", \"calculo_conferido\": {\"classificacao\": \"CRÍTICO\", \"dias_restantes\": 0}}",
+          "provedor": "Gemini via Antigravity CLI",
+          "autenticacao": "Conta Google (login gerenciado pelo cliente oficial)",
+          "status": "ok",
+          "modelo_solicitado": "gemini-3.8-flash-low",
+          "resposta_cliente": {
+            "conversation_id": "8d15d3ad-5ab5-4d52-be05-a944c9a46171",
+            "status": "SUCCESS",
+            "response": "{\"classificacao\":\"CRÍTICO\",\"dias_restantes\":0,\"justificativa\":\"0 dias restantes (2026-11-15 menos 2026-11-15). Refrigerado entre 0 e 3 dias classifica-se como CRÍTICO.\"}\n",
+            "duration_seconds": 2.927863606,
+            "num_turns": 1,
+            "usage": {
+              "input_tokens": 9349,
+              "output_tokens": 77,
+              "thinking_tokens": 0,
+              "cache_read_tokens": 0,
+              "total_tokens": 9426
+            },
+            "structured_output": {
+              "classificacao": "CRÍTICO",
+              "dias_restantes": 0,
+              "justificativa": "0 dias restantes (2026-11-15 menos 2026-11-15). Refrigerado entre 0 e 3 dias classifica-se como CRÍTICO."
+            },
+            "json_schema": {
+              "type": "object",
+              "properties": {
+                "classificacao": {
+                  "type": "string",
+                  "enum": [
+                    "OK",
+                    "ATENÇÃO",
+                    "CRÍTICO",
+                    "VENCIDO"
+                  ]
+                },
+                "dias_restantes": {
+                  "type": "integer"
+                },
+                "justificativa": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "classificacao",
+                "dias_restantes",
+                "justificativa"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "saida_bruta": "{\"classificacao\":\"CRÍTICO\",\"dias_restantes\":0,\"justificativa\":\"0 dias restantes (2026-11-15 menos 2026-11-15). Refrigerado entre 0 e 3 dias classifica-se como CRÍTICO.\"}\n",
+          "fim_utc": "2026-11-16T02:06:18.342706+00:00"
+        }
+      ],
+      "passou": true
+    },
+    {
+      "caso": "T06",
+      "esperado": {
+        "classificacao": "CRÍTICO",
+        "dias_restantes": 15
+      },
+      "resposta": {
+        "classificacao": "CRÍTICO",
+        "dias_restantes": 15,
+        "justificativa": "15 dias restantes (30/11 menos 15/11). Armazenamento em ambiente de 0 a 15 dias classifica-se como CRÍTICO."
+      },
+      "trace": [
+        {
+          "id": "P02",
+          "inicio_utc": "2026-11-16T02:06:18.343331+00:00",
+          "prompt": "A entrada contém calculo_conferido, obtido das datas e dos limites da política pelo Python. Copie exatamente sua classificacao e seus dias_restantes para a resposta; justifique a faixa aplicável usando o lote e as datas informados. Não substitua os valores conferidos por estimativas.\nClassifique o lote usando data_referencia, nunca a data do sistema. Retorne somente JSON com classificacao, dias_restantes (inteiro) e justificativa (cálculo e regra resumidos, até 25 palavras). Não forneça raciocínio interno.\nCalcule dias civis inteiros = data_validade menos data_referencia. Aplique estas regras mutuamente exclusivas, nesta ordem:\n1. Dias negativos: VENCIDO para qualquer armazenamento.\n2. refrigerado ou congelado: 0 <= dias <= 3 significa CRÍTICO; 4 <= dias <= 7 significa ATENÇÃO; dias >= 8 significa OK.\n3. ambiente: 0 <= dias <= 15 significa CRÍTICO; 16 <= dias <= 45 significa ATENÇÃO; dias >= 46 significa OK.\nTodos os extremos dos intervalos estão incluídos. Exatamente 45 dias em ambiente é ATENÇÃO, nunca OK. Exatamente 7 dias no frio é ATENÇÃO, nunca OK.\nExemplos de limites (armazenamento, dias -> classificacao):\nambiente, 15 -> CRÍTICO\nambiente, 16 -> ATENÇÃO\nambiente, 45 -> ATENÇÃO\nambiente, 46 -> OK\nrefrigerado, 3 -> CRÍTICO\nrefrigerado, 4 -> ATENÇÃO\nrefrigerado, 7 -> ATENÇÃO\nrefrigerado, 8 -> OK\ncongelado, -1 -> VENCIDO\nEsta é uma política didática de antecedência, não comprova segurança do alimento. Preserve as chaves JSON e os valores operacionais de classificação/armazenamento. Escreva a justificativa curta em português.\nDADOS (JSON):\n{\"lote\": {\"armazenamento\": \"ambiente\", \"categoria\": \"enlatados\", \"data_validade\": \"2026-11-30\", \"lote\": \"E6\", \"produto\": \"Ervilha em lata\", \"quantidade\": 16, \"setor\": \"corredor 4\"}, \"data_referencia\": \"2026-11-15\", \"calculo_conferido\": {\"classificacao\": \"CRÍTICO\", \"dias_restantes\": 15}}",
+          "provedor": "Gemini via Antigravity CLI",
+          "autenticacao": "Conta Google (login gerenciado pelo cliente oficial)",
+          "status": "ok",
+          "modelo_solicitado": "gemini-3.8-flash-low",
+          "resposta_cliente": {
+            "conversation_id": "b3165808-639e-482c-8ab8-74076c94ab16",
+            "status": "SUCCESS",
+            "response": "```json\n{\n  \"classificacao\": \"CRÍTICO\",\n  \"dias_restantes\": 15,\n  \"justificativa\": \"15 dias restantes (30/11 menos 15/11). Armazenamento em ambiente de 0 a 15 dias classifica-se como CRÍTICO.\"\n}\n```\n{\"classificacao\":\"CRÍTICO\",\"dias_restantes\":15,\"justificativa\":\"15 dias restantes (30/11 menos 15/11). Armazenamento em ambiente de 0 a 15 dias classifica-se como CRÍTICO.\"}\n",
+            "duration_seconds": 4.751042256,
+            "num_turns": 2,
+            "usage": {
+              "input_tokens": 11570,
+              "output_tokens": 153,
+              "thinking_tokens": 0,
+              "cache_read_tokens": 7309,
+              "total_tokens": 11723
+            },
+            "structured_output": {
+              "classificacao": "CRÍTICO",
+              "dias_restantes": 15,
+              "justificativa": "15 dias restantes (30/11 menos 15/11). Armazenamento em ambiente de 0 a 15 dias classifica-se como CRÍTICO."
+            },
+            "json_schema": {
+              "type": "object",
+              "properties": {
+                "classificacao": {
+                  "type": "string",
+                  "enum": [
+                    "OK",
+                    "ATENÇÃO",
+                    "CRÍTICO",
+                    "VENCIDO"
+                  ]
+                },
+                "dias_restantes": {
+                  "type": "integer"
+                },
+                "justificativa": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "classificacao",
+                "dias_restantes",
+                "justificativa"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "saida_bruta": "```json\n{\n  \"classificacao\": \"CRÍTICO\",\n  \"dias_restantes\": 15,\n  \"justificativa\": \"15 dias restantes (30/11 menos 15/11). Armazenamento em ambiente de 0 a 15 dias classifica-se como CRÍTICO.\"\n}\n```\n{\"classificacao\":\"CRÍTICO\",\"dias_restantes\":15,\"justificativa\":\"15 dias restantes (30/11 menos 15/11). Armazenamento em ambiente de 0 a 15 dias classifica-se como CRÍTICO.\"}\n",
+          "fim_utc": "2026-11-16T02:06:25.309379+00:00"
+        }
+      ],
+      "passou": true
+    },
+    {
+      "caso": "T07",
+      "esperado": {
+        "classificacao": "ATENÇÃO",
+        "dias_restantes": 16
+      },
+      "resposta": {
+        "classificacao": "ATENÇÃO",
+        "dias_restantes": 16,
+        "justificativa": "16 dias restantes (01/12 menos 15/11). Em ambiente, de 16 a 45 dias classifica-se como ATENÇÃO."
+      },
+      "trace": [
+        {
+          "id": "P02",
+          "inicio_utc": "2026-11-16T02:06:25.309927+00:00",
+          "prompt": "A entrada contém calculo_conferido, obtido das datas e dos limites da política pelo Python. Copie exatamente sua classificacao e seus dias_restantes para a resposta; justifique a faixa aplicável usando o lote e as datas informados. Não substitua os valores conferidos por estimativas.\nClassifique o lote usando data_referencia, nunca a data do sistema. Retorne somente JSON com classificacao, dias_restantes (inteiro) e justificativa (cálculo e regra resumidos, até 25 palavras). Não forneça raciocínio interno.\nCalcule dias civis inteiros = data_validade menos data_referencia. Aplique estas regras mutuamente exclusivas, nesta ordem:\n1. Dias negativos: VENCIDO para qualquer armazenamento.\n2. refrigerado ou congelado: 0 <= dias <= 3 significa CRÍTICO; 4 <= dias <= 7 significa ATENÇÃO; dias >= 8 significa OK.\n3. ambiente: 0 <= dias <= 15 significa CRÍTICO; 16 <= dias <= 45 significa ATENÇÃO; dias >= 46 significa OK.\nTodos os extremos dos intervalos estão incluídos. Exatamente 45 dias em ambiente é ATENÇÃO, nunca OK. Exatamente 7 dias no frio é ATENÇÃO, nunca OK.\nExemplos de limites (armazenamento, dias -> classificacao):\nambiente, 15 -> CRÍTICO\nambiente, 16 -> ATENÇÃO\nambiente, 45 -> ATENÇÃO\nambiente, 46 -> OK\nrefrigerado, 3 -> CRÍTICO\nrefrigerado, 4 -> ATENÇÃO\nrefrigerado, 7 -> ATENÇÃO\nrefrigerado, 8 -> OK\ncongelado, -1 -> VENCIDO\nEsta é uma política didática de antecedência, não comprova segurança do alimento. Preserve as chaves JSON e os valores operacionais de classificação/armazenamento. Escreva a justificativa curta em português.\nDADOS (JSON):\n{\"lote\": {\"armazenamento\": \"ambiente\", \"categoria\": \"enlatados\", \"data_validade\": \"2026-12-01\", \"lote\": \"M7\", \"produto\": \"Milho enlatado\", \"quantidade\": 24, \"setor\": \"corredor 4\"}, \"data_referencia\": \"2026-11-15\", \"calculo_conferido\": {\"classificacao\": \"ATENÇÃO\", \"dias_restantes\": 16}}",
+          "provedor": "Gemini via Antigravity CLI",
+          "autenticacao": "Conta Google (login gerenciado pelo cliente oficial)",
+          "status": "ok",
+          "modelo_solicitado": "gemini-3.8-flash-low",
+          "resposta_cliente": {
+            "conversation_id": "9b2c93ba-4874-405f-a41a-ee0a6717685b",
+            "status": "SUCCESS",
+            "response": "{\"classificacao\":\"ATENÇÃO\",\"dias_restantes\":16,\"justificativa\":\"16 dias restantes (01/12 menos 15/11). Em ambiente, de 16 a 45 dias classifica-se como ATENÇÃO.\"}\n",
+            "duration_seconds": 2.791858842,
+            "num_turns": 1,
+            "usage": {
+              "input_tokens": 9352,
+              "output_tokens": 72,
+              "thinking_tokens": 0,
+              "cache_read_tokens": 0,
+              "total_tokens": 9424
+            },
+            "structured_output": {
+              "classificacao": "ATENÇÃO",
+              "dias_restantes": 16,
+              "justificativa": "16 dias restantes (01/12 menos 15/11). Em ambiente, de 16 a 45 dias classifica-se como ATENÇÃO."
+            },
+            "json_schema": {
+              "type": "object",
+              "properties": {
+                "classificacao": {
+                  "type": "string",
+                  "enum": [
+                    "OK",
+                    "ATENÇÃO",
+                    "CRÍTICO",
+                    "VENCIDO"
+                  ]
+                },
+                "dias_restantes": {
+                  "type": "integer"
+                },
+                "justificativa": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "classificacao",
+                "dias_restantes",
+                "justificativa"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "saida_bruta": "{\"classificacao\":\"ATENÇÃO\",\"dias_restantes\":16,\"justificativa\":\"16 dias restantes (01/12 menos 15/11). Em ambiente, de 16 a 45 dias classifica-se como ATENÇÃO.\"}\n",
+          "fim_utc": "2026-11-16T02:06:30.546098+00:00"
+        }
+      ],
+      "passou": true
+    },
+    {
+      "caso": "T08",
+      "esperado": {
+        "classificacao": "ATENÇÃO",
+        "dias_restantes": 45
+      },
+      "resposta": {
+        "classificacao": "ATENÇÃO",
+        "dias_restantes": 45,
+        "justificativa": "45 dias civis restantes até a validade em armazenamento ambiente enquadram o lote na faixa de ATENÇÃO (16 a 45 dias)."
+      },
+      "trace": [
+        {
+          "id": "P02",
+          "inicio_utc": "2026-11-16T02:06:30.546934+00:00",
+          "prompt": "A entrada contém calculo_conferido, obtido das datas e dos limites da política pelo Python. Copie exatamente sua classificacao e seus dias_restantes para a resposta; justifique a faixa aplicável usando o lote e as datas informados. Não substitua os valores conferidos por estimativas.\nClassifique o lote usando data_referencia, nunca a data do sistema. Retorne somente JSON com classificacao, dias_restantes (inteiro) e justificativa (cálculo e regra resumidos, até 25 palavras). Não forneça raciocínio interno.\nCalcule dias civis inteiros = data_validade menos data_referencia. Aplique estas regras mutuamente exclusivas, nesta ordem:\n1. Dias negativos: VENCIDO para qualquer armazenamento.\n2. refrigerado ou congelado: 0 <= dias <= 3 significa CRÍTICO; 4 <= dias <= 7 significa ATENÇÃO; dias >= 8 significa OK.\n3. ambiente: 0 <= dias <= 15 significa CRÍTICO; 16 <= dias <= 45 significa ATENÇÃO; dias >= 46 significa OK.\nTodos os extremos dos intervalos estão incluídos. Exatamente 45 dias em ambiente é ATENÇÃO, nunca OK. Exatamente 7 dias no frio é ATENÇÃO, nunca OK.\nExemplos de limites (armazenamento, dias -> classificacao):\nambiente, 15 -> CRÍTICO\nambiente, 16 -> ATENÇÃO\nambiente, 45 -> ATENÇÃO\nambiente, 46 -> OK\nrefrigerado, 3 -> CRÍTICO\nrefrigerado, 4 -> ATENÇÃO\nrefrigerado, 7 -> ATENÇÃO\nrefrigerado, 8 -> OK\ncongelado, -1 -> VENCIDO\nEsta é uma política didática de antecedência, não comprova segurança do alimento. Preserve as chaves JSON e os valores operacionais de classificação/armazenamento. Escreva a justificativa curta em português.\nDADOS (JSON):\n{\"lote\": {\"armazenamento\": \"ambiente\", \"categoria\": \"grãos\", \"data_validade\": \"2026-12-30\", \"lote\": \"F8\", \"produto\": \"Feijão 1kg\", \"quantidade\": 15, \"setor\": \"estoque\"}, \"data_referencia\": \"2026-11-15\", \"calculo_conferido\": {\"classificacao\": \"ATENÇÃO\", \"dias_restantes\": 45}}",
+          "provedor": "Gemini via Antigravity CLI",
+          "autenticacao": "Conta Google (login gerenciado pelo cliente oficial)",
+          "status": "ok",
+          "modelo_solicitado": "gemini-3.8-flash-low",
+          "resposta_cliente": {
+            "conversation_id": "79954294-738e-474e-b2d4-c9dfbfd20ced",
+            "status": "SUCCESS",
+            "response": "{\"classificacao\":\"ATENÇÃO\",\"dias_restantes\":45,\"justificativa\":\"45 dias civis restantes até a validade em armazenamento ambiente enquadram o lote na faixa de ATENÇÃO (16 a 45 dias).\"}\n",
+            "duration_seconds": 2.482688888,
+            "num_turns": 1,
+            "usage": {
+              "input_tokens": 9345,
+              "output_tokens": 67,
+              "thinking_tokens": 0,
+              "cache_read_tokens": 0,
+              "total_tokens": 9412
+            },
+            "structured_output": {
+              "classificacao": "ATENÇÃO",
+              "dias_restantes": 45,
+              "justificativa": "45 dias civis restantes até a validade em armazenamento ambiente enquadram o lote na faixa de ATENÇÃO (16 a 45 dias)."
+            },
+            "json_schema": {
+              "type": "object",
+              "properties": {
+                "classificacao": {
+                  "type": "string",
+                  "enum": [
+                    "OK",
+                    "ATENÇÃO",
+                    "CRÍTICO",
+                    "VENCIDO"
+                  ]
+                },
+                "dias_restantes": {
+                  "type": "integer"
+                },
+                "justificativa": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "classificacao",
+                "dias_restantes",
+                "justificativa"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "saida_bruta": "{\"classificacao\":\"ATENÇÃO\",\"dias_restantes\":45,\"justificativa\":\"45 dias civis restantes até a validade em armazenamento ambiente enquadram o lote na faixa de ATENÇÃO (16 a 45 dias).\"}\n",
+          "fim_utc": "2026-11-16T02:06:35.962663+00:00"
+        }
+      ],
+      "passou": true
+    },
+    {
+      "caso": "T09",
+      "esperado": {
+        "classificacao": "ATENÇÃO",
+        "dias_restantes": 7
+      },
+      "resposta": {
+        "classificacao": "ATENÇÃO",
+        "dias_restantes": 7,
+        "justificativa": "Faltam 7 dias (22/11 a 15/11). Para produto refrigerado, de 4 a 7 dias enquadra-se na faixa ATENÇÃO."
+      },
+      "trace": [
+        {
+          "id": "P02",
+          "inicio_utc": "2026-11-16T02:06:35.963257+00:00",
+          "prompt": "A entrada contém calculo_conferido, obtido das datas e dos limites da política pelo Python. Copie exatamente sua classificacao e seus dias_restantes para a resposta; justifique a faixa aplicável usando o lote e as datas informados. Não substitua os valores conferidos por estimativas.\nClassifique o lote usando data_referencia, nunca a data do sistema. Retorne somente JSON com classificacao, dias_restantes (inteiro) e justificativa (cálculo e regra resumidos, até 25 palavras). Não forneça raciocínio interno.\nCalcule dias civis inteiros = data_validade menos data_referencia. Aplique estas regras mutuamente exclusivas, nesta ordem:\n1. Dias negativos: VENCIDO para qualquer armazenamento.\n2. refrigerado ou congelado: 0 <= dias <= 3 significa CRÍTICO; 4 <= dias <= 7 significa ATENÇÃO; dias >= 8 significa OK.\n3. ambiente: 0 <= dias <= 15 significa CRÍTICO; 16 <= dias <= 45 significa ATENÇÃO; dias >= 46 significa OK.\nTodos os extremos dos intervalos estão incluídos. Exatamente 45 dias em ambiente é ATENÇÃO, nunca OK. Exatamente 7 dias no frio é ATENÇÃO, nunca OK.\nExemplos de limites (armazenamento, dias -> classificacao):\nambiente, 15 -> CRÍTICO\nambiente, 16 -> ATENÇÃO\nambiente, 45 -> ATENÇÃO\nambiente, 46 -> OK\nrefrigerado, 3 -> CRÍTICO\nrefrigerado, 4 -> ATENÇÃO\nrefrigerado, 7 -> ATENÇÃO\nrefrigerado, 8 -> OK\ncongelado, -1 -> VENCIDO\nEsta é uma política didática de antecedência, não comprova segurança do alimento. Preserve as chaves JSON e os valores operacionais de classificação/armazenamento. Escreva a justificativa curta em português.\nDADOS (JSON):\n{\"lote\": {\"armazenamento\": \"refrigerado\", \"categoria\": \"laticínios\", \"data_validade\": \"2026-11-22\", \"lote\": \"IG9\", \"produto\": \"Iogurte\", \"quantidade\": 10, \"setor\": \"refrigerados\"}, \"data_referencia\": \"2026-11-15\", \"calculo_conferido\": {\"classificacao\": \"ATENÇÃO\", \"dias_restantes\": 7}}",
+          "provedor": "Gemini via Antigravity CLI",
+          "autenticacao": "Conta Google (login gerenciado pelo cliente oficial)",
+          "status": "ok",
+          "modelo_solicitado": "gemini-3.8-flash-low",
+          "resposta_cliente": {
+            "conversation_id": "19b80915-1bbd-4176-9c87-42894686079c",
+            "status": "SUCCESS",
+            "response": "{\"classificacao\":\"ATENÇÃO\",\"dias_restantes\":7,\"justificativa\":\"Faltam 7 dias (22/11 a 15/11). Para produto refrigerado, de 4 a 7 dias enquadra-se na faixa ATENÇÃO.\"}\n",
+            "duration_seconds": 2.52406784,
+            "num_turns": 1,
+            "usage": {
+              "input_tokens": 9354,
+              "output_tokens": 76,
+              "thinking_tokens": 0,
+              "cache_read_tokens": 0,
+              "total_tokens": 9430
+            },
+            "structured_output": {
+              "classificacao": "ATENÇÃO",
+              "dias_restantes": 7,
+              "justificativa": "Faltam 7 dias (22/11 a 15/11). Para produto refrigerado, de 4 a 7 dias enquadra-se na faixa ATENÇÃO."
+            },
+            "json_schema": {
+              "type": "object",
+              "properties": {
+                "classificacao": {
+                  "type": "string",
+                  "enum": [
+                    "OK",
+                    "ATENÇÃO",
+                    "CRÍTICO",
+                    "VENCIDO"
+                  ]
+                },
+                "dias_restantes": {
+                  "type": "integer"
+                },
+                "justificativa": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "classificacao",
+                "dias_restantes",
+                "justificativa"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "saida_bruta": "{\"classificacao\":\"ATENÇÃO\",\"dias_restantes\":7,\"justificativa\":\"Faltam 7 dias (22/11 a 15/11). Para produto refrigerado, de 4 a 7 dias enquadra-se na faixa ATENÇÃO.\"}\n",
+          "fim_utc": "2026-11-16T02:06:40.916036+00:00"
+        }
+      ],
+      "passou": true
+    },
+    {
+      "caso": "T10",
+      "esperado": {
+        "classificacao": "OK",
+        "dias_restantes": 8
+      },
+      "resposta": {
+        "classificacao": "OK",
+        "dias_restantes": 8,
+        "justificativa": "2026-11-23 menos 2026-11-15 resulta em 8 dias. Em armazenamento refrigerado, dias >= 8 classifica-se como OK."
+      },
+      "trace": [
+        {
+          "id": "P02",
+          "inicio_utc": "2026-11-16T02:06:40.916579+00:00",
+          "prompt": "A entrada contém calculo_conferido, obtido das datas e dos limites da política pelo Python. Copie exatamente sua classificacao e seus dias_restantes para a resposta; justifique a faixa aplicável usando o lote e as datas informados. Não substitua os valores conferidos por estimativas.\nClassifique o lote usando data_referencia, nunca a data do sistema. Retorne somente JSON com classificacao, dias_restantes (inteiro) e justificativa (cálculo e regra resumidos, até 25 palavras). Não forneça raciocínio interno.\nCalcule dias civis inteiros = data_validade menos data_referencia. Aplique estas regras mutuamente exclusivas, nesta ordem:\n1. Dias negativos: VENCIDO para qualquer armazenamento.\n2. refrigerado ou congelado: 0 <= dias <= 3 significa CRÍTICO; 4 <= dias <= 7 significa ATENÇÃO; dias >= 8 significa OK.\n3. ambiente: 0 <= dias <= 15 significa CRÍTICO; 16 <= dias <= 45 significa ATENÇÃO; dias >= 46 significa OK.\nTodos os extremos dos intervalos estão incluídos. Exatamente 45 dias em ambiente é ATENÇÃO, nunca OK. Exatamente 7 dias no frio é ATENÇÃO, nunca OK.\nExemplos de limites (armazenamento, dias -> classificacao):\nambiente, 15 -> CRÍTICO\nambiente, 16 -> ATENÇÃO\nambiente, 45 -> ATENÇÃO\nambiente, 46 -> OK\nrefrigerado, 3 -> CRÍTICO\nrefrigerado, 4 -> ATENÇÃO\nrefrigerado, 7 -> ATENÇÃO\nrefrigerado, 8 -> OK\ncongelado, -1 -> VENCIDO\nEsta é uma política didática de antecedência, não comprova segurança do alimento. Preserve as chaves JSON e os valores operacionais de classificação/armazenamento. Escreva a justificativa curta em português.\nDADOS (JSON):\n{\"lote\": {\"armazenamento\": \"refrigerado\", \"categoria\": \"laticínios\", \"data_validade\": \"2026-11-23\", \"lote\": \"MT10\", \"produto\": \"Manteiga\", \"quantidade\": 9, \"setor\": \"frios\"}, \"data_referencia\": \"2026-11-15\", \"calculo_conferido\": {\"classificacao\": \"OK\", \"dias_restantes\": 8}}",
+          "provedor": "Gemini via Antigravity CLI",
+          "autenticacao": "Conta Google (login gerenciado pelo cliente oficial)",
+          "status": "ok",
+          "modelo_solicitado": "gemini-3.8-flash-low",
+          "resposta_cliente": {
+            "conversation_id": "41193ac1-abc5-4646-a528-25a52abefde3",
+            "status": "SUCCESS",
+            "response": "```json\n{\n  \"classificacao\": \"OK\",\n  \"dias_restantes\": 8,\n  \"justificativa\": \"2026-11-23 menos 2026-11-15 resulta em 8 dias. Em armazenamento refrigerado, dias >= 8 classifica-se como OK.\"\n}\n```\n{\"classificacao\":\"OK\",\"dias_restantes\":8,\"justificativa\":\"2026-11-23 menos 2026-11-15 resulta em 8 dias. Em armazenamento refrigerado, dias \\u003e= 8 classifica-se como OK.\"}\n",
+            "duration_seconds": 4.369404031,
+            "num_turns": 2,
+            "usage": {
+              "input_tokens": 11563,
+              "output_tokens": 155,
+              "thinking_tokens": 0,
+              "cache_read_tokens": 7301,
+              "total_tokens": 11718
+            },
+            "structured_output": {
+              "classificacao": "OK",
+              "dias_restantes": 8,
+              "justificativa": "2026-11-23 menos 2026-11-15 resulta em 8 dias. Em armazenamento refrigerado, dias >= 8 classifica-se como OK."
+            },
+            "json_schema": {
+              "type": "object",
+              "properties": {
+                "classificacao": {
+                  "type": "string",
+                  "enum": [
+                    "OK",
+                    "ATENÇÃO",
+                    "CRÍTICO",
+                    "VENCIDO"
+                  ]
+                },
+                "dias_restantes": {
+                  "type": "integer"
+                },
+                "justificativa": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "classificacao",
+                "dias_restantes",
+                "justificativa"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "saida_bruta": "```json\n{\n  \"classificacao\": \"OK\",\n  \"dias_restantes\": 8,\n  \"justificativa\": \"2026-11-23 menos 2026-11-15 resulta em 8 dias. Em armazenamento refrigerado, dias >= 8 classifica-se como OK.\"\n}\n```\n{\"classificacao\":\"OK\",\"dias_restantes\":8,\"justificativa\":\"2026-11-23 menos 2026-11-15 resulta em 8 dias. Em armazenamento refrigerado, dias \\u003e= 8 classifica-se como OK.\"}\n",
+          "fim_utc": "2026-11-16T02:06:47.766004+00:00"
+        }
+      ],
+      "passou": true
+    }
+  ],
+  "todos_passaram": true
+}
