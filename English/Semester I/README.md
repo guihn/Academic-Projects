@@ -12,3 +12,4 @@ This semester brings together the available academic work from the courses liste
 | Course | Activities |
 | --- | --- |
 | [Algorithms&nbsp;and&nbsp;Data&nbsp;Structures&nbsp;I](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I) | Java exercises, a written algorithm, worksheets and assessment programs. |
+| [Prompt&nbsp;Engineering](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Prompt%20Engineering) | ValidaMarket practical assignment with Gemini integration. |

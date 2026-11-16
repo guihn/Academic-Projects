@@ -24,5 +24,6 @@ Choose a semester or one of the courses with work already available.
 | Semester | Course |
 | --- | --- |
 | [Semester&nbsp;I](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I) | [Algorithms&nbsp;and&nbsp;Data&nbsp;Structures&nbsp;I](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Algorithms%20and%20Data%20Structures%20I) |
+| [Semester&nbsp;I](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I) | [Prompt&nbsp;Engineering](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Prompt%20Engineering) |
 
 [Open&nbsp;the&nbsp;complete&nbsp;index](https://github.com/guihn/Academic-Projects/tree/main/English)

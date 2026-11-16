@@ -179,4 +179,21 @@ Browse the available assignments by semester, course, assessment stage and conte
 </details>
 </details>
 
+
+<details>
+<summary>Prompt Engineering</summary>
+
+[Prompt Engineering](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Prompt%20Engineering)
+
+<details>
+<summary>Practical Assignment</summary>
+
+[Practical Assignment](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Prompt%20Engineering/Practical%20Assignment)
+
+| Number | Title | Description | Page |
+| --- | --- | --- | --- |
+| 04 | ValidaMarket | Runtime Gemini integration for expiration monitoring. | [Open](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Prompt%20Engineering/Practical%20Assignment/Delivery%2004) |
+
+</details>
+</details>
 </details>
