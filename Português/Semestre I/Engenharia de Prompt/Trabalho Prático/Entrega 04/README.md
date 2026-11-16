@@ -85,7 +85,7 @@ Uma porta ocupada exige outra porta disponível ou encerramento da instância an
 | [Explicação do código](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I/Engenharia%20de%20Prompt/Trabalho%20Pr%C3%A1tico/Entrega%2004#c%C3%B3digo-da-aplica%C3%A7%C3%A3o) | Funções, rotas, dados e cadeia de prompts, documentados nesta página. |
 | [Evidências](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I/Engenharia%20de%20Prompt/Trabalho%20Pr%C3%A1tico/Entrega%2004/src/evidencias) | Logs de inferência, relatórios e capturas de tela. |
 
-ZIP portátil: `ValidaMarket_Windows_Portatil.zip`, distribuído separadamente do relatório acadêmico.
+Versão 1.0: [pacote portátil Windows](https://github.com/guihn/Academic-Projects/releases/download/validamarket-e4-v1.0/ValidaMarket_Windows_Portatil.zip) e [projeto completo com fontes](https://github.com/guihn/Academic-Projects/releases/download/validamarket-e4-v1.0/Entrega4_ValidaMarket.zip). O relatório acadêmico é entregue separadamente.
 
 ## Integrantes
 
