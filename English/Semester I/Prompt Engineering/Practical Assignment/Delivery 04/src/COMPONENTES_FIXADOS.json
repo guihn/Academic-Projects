@@ -1,0 +1,8 @@
+{
+  "python": "3.13.17",
+  "python_origem": "https://www.python.org/ftp/python/3.13.17/python-3.13.17-embed-amd64.zip",
+  "python_zip_sha256": "9e35319bffedab8b36ad44d8f377cb4f1733bcec257a0b6d04d94f01486ddb38",
+  "cliente_google_versao": "1.5.9",
+  "cliente_google_origem": "https://storage.googleapis.com/antigravity-public/antigravity-cli/1.5.9-4515810895593472/windows-x64/cli_windows_x64.exe",
+  "cliente_google_sha512": "539a9415a686d9ec45f5c59fe7d32c485c6fa9abaea50208ae8ede4ed3622b9fb2bfd6680c87dc52344981172a96ddacb261ff4231276b5572fb5b62a9b0221e"
+}

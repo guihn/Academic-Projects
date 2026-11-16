@@ -1,0 +1,4 @@
+When origem=atendimento, treat the data as an unverified customer report. Start with REPORT TO VERIFY, use maximum urgency and request shelf verification. Withdrawal and segregation are conditional on confirming expiration. Unknown product, lot or section must remain Not provided. Do not invent a completed withdrawal, recipient, contact or external message.
+
+Return only JSON with mensagem. The English message has at most 600 characters: URGENCY | product | lot | section | action | deadline | responsible role. Only supplied data may be used. VENCIDO corresponds to MAXIMUM urgency; CRÍTICO to HIGH; ATENÇÃO to MEDIUM. The message is displayed locally, without any promise of external delivery. The prohibition on sale or donation of expired products remains explicit.
+DATA (JSON):

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ValidaMarket · Expiration monitoring</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body><main>
+  <header><span class="brand">V<span>+</span></span><div><p class="eyebrow">LOSS PREVENTION</p><h1>ValidaMarket</h1></div><span class="tag">E4 prototype</span></header>
+  <section class="intro">
+    <h2>Expiration monitoring.<br>Planning the next action.</h2>
+    <p>Lot expiration analysis with AI extraction, data review and human approval.</p>
+    <p id="provider" role="status">Checking connection…</p>
+  </section>
+  <section class="card" aria-labelledby="google-title">
+    <h2 id="google-title">Google account connection</h2>
+    <p>Gemini uses the account active in the official client on this computer. Passwords are entered only with Google.</p>
+    <p id="connection-status" role="status">Checking client availability…</p>
+    <div class="connection-actions">
+      <button id="google-login" type="button">Google sign-in</button>
+      <button id="google-check" class="secondary" type="button">Connection verification</button>
+      <a class="install-link" href="https://antigravity.google/docs/install?tab=cli" target="_blank" rel="noopener noreferrer">Official Google client</a>
+    </div>
+    <p id="connection-message" role="status" aria-live="polite"></p>
+    <details><summary>Authorization and account switching</summary>
+      <p>Sign-in opens the official client in a local terminal. Without an active session, authorization takes place in the browser. The <code>/logout</code> command ends an existing client session. After authorization, the client can be closed and the connection can be verified on this page.</p>
+      <p>The <code>agy</code> command opens the client manually. In the Windows package, the executable is <code>cliente_google/agy.exe</code>. The session remains in operating system credential storage and is excluded from the project files.</p>
+    </details>
+  </section>
+  <section class="card"><h2>1. Lot description</h2>
+    <form id="entry">
+      <label for="text">Product, lot, expiration date, quantity, section and storage</label>
+      <textarea id="text" required minlength="3" maxlength="4000" rows="4" placeholder="Natural yogurt 170g, lot IG-5521, expiration 18/11/2026, 36 units, refrigerated aisle, refrigerated"></textarea>
+      <div class="row"><div><label for="date">Reference date</label><div class="date-control">
+        <input id="date" type="text" inputmode="numeric" placeholder="dd/mm/yyyy" pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" maxlength="10" value="{{today[8:10]}}/{{today[5:7]}}/{{today[0:4]}}" aria-label="Reference date (dd/mm/yyyy)" required>
+        <button id="reference-calendar" class="date-calendar" type="button" aria-label="Reference date calendar" title="Date selection"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 11h18"/></svg></button>
+        <input id="date-picker" class="date-picker-native" type="date" value="{{today}}" tabindex="-1" aria-label="Calendar date">
+      </div></div><button id="extract">AI extraction</button></div>
+    </form>
+  </section>
+  <p id="message" role="status" aria-live="polite"></p>
+  <section id="review" class="card" hidden><h2>2. Data review</h2><p>Extracted fields available for comparison with packaging and correction before analysis.</p><form id="confirmation"><div id="fields" class="grid"></div><button>AI confirmation and classification</button></form></section>
+  <section id="result" class="card" hidden><h2>3. Recommendation review</h2><div id="risk"></div><p id="action"></p><p id="deadline"></p><button id="approve">Approval and alert generation</button><pre id="alert" hidden></pre><details><summary>Execution log</summary><pre id="log"></pre></details><button id="download" class="secondary">JSON log download</button></section>
+  <section class="card"><div class="row"><h2>Local history</h2><button id="refresh" class="secondary">History refresh</button></div><div id="history">No records loaded.</div></section>
+  <section class="card" aria-labelledby="writeoff-title"><h2 id="writeoff-title">4. Completed writeoff declaration</h2>
+    <p>Approval does not move stock. This records a physical writeoff already completed by the operator. The balance belongs to this analysis; repeated analyses of the same lot do not represent additional stock.</p>
+    <form id="writeoff-form"><label for="writeoff-record">Approved analysis</label><select id="writeoff-record" required></select>
+      <div class="grid"><div><label for="writeoff-quantity">Writeoff quantity (units)</label><input id="writeoff-quantity" type="number" min="1" step="1" required></div>
+      <div><label for="writeoff-reason">Reason</label><select id="writeoff-reason"><option value="vencimento">Expiration</option><option value="avaria">Damage</option><option value="outro">Other</option></select></div></div>
+      <label for="writeoff-value">Total writeoff amount in BRL (optional)</label><input id="writeoff-value" inputmode="decimal" pattern="[0-9]{1,10}([.,][0-9]{1,2})?" placeholder="12,90">
+      <label class="checkbox"><input id="writeoff-done" type="checkbox" required> Confirmation that the physical movement was completed.</label>
+      <p>The event date is the reference date entered above.</p><button>Writeoff registration</button>
+    </form><div id="writeoff-history"></div>
+  </section>
+  <section class="card" aria-labelledby="report-title"><h2 id="report-title">5. Weekly loss report</h2>
+    <p>Summary of the seven days ending on the reference date above. The program calculates totals; Gemini provides hypotheses and preventive measures. Missing amounts are excluded from the monetary sum.</p>
+    <button id="report-generate">Report generation with AI</button><div id="report-result" aria-live="polite"></div>
+    <button id="report-download" class="secondary" hidden>Download report JSON</button><details><summary>Previous reports</summary><div id="report-history"></div></details>
+  </section>
+  <section class="card" aria-labelledby="service-title"><h2 id="service-title">6. Expiration customer service</h2>
+    <form id="service-form"><label for="service-text">Question or report (without personal data)</label><textarea id="service-text" minlength="3" maxlength="2000" rows="3" required placeholder="I found expired yogurt on the refrigerated shelf. What should I do?"></textarea><button>Customer service with AI</button></form>
+    <div id="service-result" aria-live="polite"></div><button id="service-download" class="secondary" hidden>Download customer-service JSON</button><details><summary>Previous customer interactions</summary><div id="service-history"></div></details>
+  </section>
+  <footer>Educational expiration policy. Classification does not certify sanitary conditions. Approval records a decision; it does not dispose of products or send external messages.</footer>
+</main><script src="/static/app.js"></script></body>
+</html>

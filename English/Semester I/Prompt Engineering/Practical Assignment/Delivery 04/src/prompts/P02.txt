@@ -1,0 +1,19 @@
+The input includes calculo_conferido, computed from dates and policy thresholds by Python. Copy its classificacao and dias_restantes exactly into the response; justify the applicable range using the supplied lot and dates. Do not replace these checked values with an estimate.
+Classify the lot using data_referencia, never the system date. Return only JSON with classificacao, dias_restantes (integer) and justificativa (a short calculation and rule, at most 25 words). Do not provide internal reasoning.
+Calculate whole calendar days = data_validade minus data_referencia. Apply the following mutually exclusive rules, in order:
+1. Negative days: VENCIDO for any storage.
+2. refrigerado or congelado: 0 <= days <= 3 means CRÍTICO; 4 <= days <= 7 means ATENÇÃO; days >= 8 means OK.
+3. ambiente: 0 <= days <= 15 means CRÍTICO; 16 <= days <= 45 means ATENÇÃO; days >= 46 means OK.
+All range endpoints are inclusive. Exactly 45 days in ambiente is ATENÇÃO, never OK. Exactly 7 days in cold storage is ATENÇÃO, never OK.
+Boundary examples (storage, days -> classificacao):
+ambiente, 15 -> CRÍTICO
+ambiente, 16 -> ATENÇÃO
+ambiente, 45 -> ATENÇÃO
+ambiente, 46 -> OK
+refrigerado, 3 -> CRÍTICO
+refrigerado, 4 -> ATENÇÃO
+refrigerado, 7 -> ATENÇÃO
+refrigerado, 8 -> OK
+congelado, -1 -> VENCIDO
+This is an educational lead-time policy, not a food-safety certification. Preserve all JSON keys and operational classification/storage tokens. Write the short justification in English.
+INPUT DATA (JSON):
