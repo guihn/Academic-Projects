@@ -21,3 +21,7 @@ Source file: [verificar_interface.py](https://github.com/guihn/Academic-Projects
 Source file: [testar_gestao_real.py](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/English/Semester%20I/Prompt%20Engineering/Practical%20Assignment/Delivery%2004/src/scripts/testar_gestao_real.py)
 
 Additional real-model cases cover reports without writeoffs, partially reported amounts, an expired product at home, a product near expiration, a shelf report with missing details and an attempted prompt override. Each execution uses an isolated database and preserves original responses.
+
+## Browser checks
+
+Browser verification additionally requires Playwright 1.65.2 and its Chromium build. The same virtual-environment interpreter runs `-m pip install playwright==1.65.2` and `-m playwright install chromium`. The real-model scripts require an authorized Google account with access/quota. The code tests use isolated replacements; their outputs are not recorded as real inference.
