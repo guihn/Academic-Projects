@@ -3,6 +3,7 @@
 from pathlib import Path
 from urllib.parse import quote
 import json
+import hashlib
 import os
 import urllib.request
 import urllib.error
@@ -47,6 +48,8 @@ def main():
     report = json.loads(validation.read_text(encoding="utf-8"))
     if report["resultado"] != "aprovado" or report["interface_windows"] != "aprovada":
         raise SystemExit("A publicação exige um pacote Windows validado.")
+    if report.get("zip_sha256") != hashlib.sha256(archive.read_bytes()).hexdigest():
+        raise SystemExit('O arquivo não corresponde ao SHA-256 validado.')
     require_unused_version()
     notes = """ValidaMarket — Entrega 04 do Trabalho Prático de Engenharia de Prompt, Semestre I.
 
@@ -73,6 +76,7 @@ Windows startup, interface, calendar and input-editing regression are verified a
     upload = release["upload_url"].split("{", 1)[0]
     for asset in [
         archive,
+        ROOT / "dist/Entrega4_ValidaMarket.zip",
         ROOT / "dist/ValidaMarket_Windows_Portatil.zip.sha256",
         validation,
     ]:
