@@ -91,7 +91,7 @@ An occupied port requires another available port or termination of the other ins
 | [Code explanation](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Prompt%20Engineering/Practical%20Assignment/Delivery%2004#application-code) | Functions, routes, data and prompt chain, documented below. |
 | [Test records](https://github.com/guihn/Academic-Projects/tree/main/English/Semester%20I/Prompt%20Engineering/Practical%20Assignment/Delivery%2004/src/evidencias) | Model traces, test reports and screenshots. |
 
-Portable ZIP: `ValidaMarket_Windows_Portatil.zip`, distributed separately from the academic report.
+Version 1.0: [Windows portable package](https://github.com/guihn/Academic-Projects/releases/download/validamarket-e4-v1.0/ValidaMarket_Windows_Portatil.zip) and [complete source project](https://github.com/guihn/Academic-Projects/releases/download/validamarket-e4-v1.0/Entrega4_ValidaMarket.zip). The academic report is submitted separately.
 
 ## Group members
 
