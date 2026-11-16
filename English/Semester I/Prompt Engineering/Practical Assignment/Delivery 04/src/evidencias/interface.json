@@ -1,0 +1,22 @@
+{
+  "data_utc": "2026-11-16T02:09:31.245553+00:00",
+  "url": "http://127.0.0.1:5002",
+  "desktop": "1366x1000",
+  "mobile": "390x844",
+  "erros_javascript": [],
+  "mensagem_observada": "The description or reference date changed. A new extraction is required.",
+  "fluxo_completo_llm_real": true,
+  "prompts_executados": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06"
+  ],
+  "gestao_e_atendimento_llm_real": true,
+  "tema_escuro": true,
+  "calendario_e_bloqueio_de_letras": true,
+  "aprovacao_registrada": true,
+  "sem_rolagem_horizontal_mobile": true
+}

@@ -1,0 +1,9 @@
+{
+  "respostas_reais_recebidas": 35,
+  "observacao": "Observed results; inference failures remain recorded as failures.",
+  "tipo": "Gemini real com conta Google via Antigravity CLI (sem mock)",
+  "total_lotes_executados": 10,
+  "passaram": 9,
+  "falharam": 1,
+  "data_incompleta_passou": true
+}

@@ -1,0 +1,12 @@
+{
+  "cliente": "Antigravity CLI oficial",
+  "executavel": "agy",
+  "sha256_executavel_local": "39816d49d5ab92229952987225c23ea3fed7580699dcb4a444e0388e0ac1ce43",
+  "modelo_selecionado": "gemini-3.8-flash-low",
+  "autenticacao": "Conta Google; credenciais gerenciadas pelo cliente oficial",
+  "usa_chave_api": false,
+  "fontes": [
+    "https://antigravity.google/docs/cli/headless/",
+    "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/"
+  ]
+}

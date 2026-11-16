@@ -1,0 +1,9 @@
+{
+  "data_utc": "2026-11-15T18:04:16.996109+00:00",
+  "ocorrencias_de_padroes_de_credenciais": [],
+  "relatorio_academico_no_zip": false,
+  "gerador_do_relatorio_no_zip": false,
+  "perfis_ou_banco_no_zip": false,
+  "metodo": "Seleção explícita de fontes, exclusão do relatório/ambiente/perfis/bancos; verificação de padrões conhecidos de credenciais; componentes oficiais fixados por hash.",
+  "limite": "A busca de padrões complementa a exclusão dos perfis; não abre o cofre Google do usuário."
+}

@@ -1,0 +1,717 @@
+{
+  "inicio_utc": "2026-11-16T02:01:35.548146+00:00",
+  "observacao": "Verificação isolada de P02 com o prompt atual; entradas extraídas de casos sintéticos anteriores. Respostas reais do Gemini.",
+  "casos": [
+    {
+      "caso": "T01",
+      "esperado": {
+        "classificacao": "CRÍTICO",
+        "dias_restantes": 3
+      },
+      "resposta": {
+        "classificacao": "CRÍTICO",
+        "dias_restantes": 3,
+        "justificativa": "3 days remaining (2026-11-18 minus 2026-11-15) for refrigerated storage falls in 0-3 days, classified as CRÍTICO."
+      },
+      "trace": [
+        {
+          "id": "P02",
+          "inicio_utc": "2026-11-16T02:01:35.548442+00:00",
+          "prompt": "Classify the lot using data_referencia, never the system date. Return only JSON with classificacao, dias_restantes (integer) and justificativa (a short calculation and rule, at most 25 words). Do not provide internal reasoning.\nCalculate whole calendar days = data_validade minus data_referencia. Apply the following mutually exclusive rules, in order:\n1. Negative days: VENCIDO for any storage.\n2. refrigerado or congelado: 0 <= days <= 3 means CRÍTICO; 4 <= days <= 7 means ATENÇÃO; days >= 8 means OK.\n3. ambiente: 0 <= days <= 15 means CRÍTICO; 16 <= days <= 45 means ATENÇÃO; days >= 46 means OK.\nAll range endpoints are inclusive. Exactly 45 days in ambiente is ATENÇÃO, never OK. Exactly 7 days in cold storage is ATENÇÃO, never OK.\nBoundary examples (storage, days -> classificacao):\nambiente, 15 -> CRÍTICO\nambiente, 16 -> ATENÇÃO\nambiente, 45 -> ATENÇÃO\nambiente, 46 -> OK\nrefrigerado, 3 -> CRÍTICO\nrefrigerado, 4 -> ATENÇÃO\nrefrigerado, 7 -> ATENÇÃO\nrefrigerado, 8 -> OK\ncongelado, -1 -> VENCIDO\nThis is an educational lead-time policy, not a food-safety certification. Preserve all JSON keys and operational classification/storage tokens. Write the short justification in English.\nINPUT DATA (JSON):\n{\"lote\": {\"armazenamento\": \"refrigerado\", \"categoria\": \"dairy\", \"data_validade\": \"2026-11-18\", \"lote\": \"IG-5521\", \"produto\": \"Iogurte natural 170g\", \"quantidade\": 36, \"setor\": \"gôndola refrigerados\"}, \"data_referencia\": \"2026-11-15\"}",
+          "provedor": "Gemini via Antigravity CLI",
+          "autenticacao": "Google account (sign-in managed by the official client)",
+          "status": "ok",
+          "modelo_solicitado": "gemini-3.8-flash-low",
+          "resposta_cliente": {
+            "conversation_id": "ebb1d60a-92d3-45ed-af7c-6193f64a1aba",
+            "status": "SUCCESS",
+            "response": "{\"classificacao\":\"CRÍTICO\",\"dias_restantes\":3,\"justificativa\":\"3 days remaining (2026-11-18 minus 2026-11-15) for refrigerated storage falls in 0-3 days, classified as CRÍTICO.\"}\n",
+            "duration_seconds": 2.558492412,
+            "num_turns": 1,
+            "usage": {
+              "input_tokens": 9229,
+              "output_tokens": 77,
+              "thinking_tokens": 0,
+              "cache_read_tokens": 0,
+              "total_tokens": 9306
+            },
+            "structured_output": {
+              "classificacao": "CRÍTICO",
+              "dias_restantes": 3,
+              "justificativa": "3 days remaining (2026-11-18 minus 2026-11-15) for refrigerated storage falls in 0-3 days, classified as CRÍTICO."
+            },
+            "json_schema": {
+              "type": "object",
+              "properties": {
+                "classificacao": {
+                  "type": "string",
+                  "enum": [
+                    "OK",
+                    "ATENÇÃO",
+                    "CRÍTICO",
+                    "VENCIDO"
+                  ]
+                },
+                "dias_restantes": {
+                  "type": "integer"
+                },
+                "justificativa": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "classificacao",
+                "dias_restantes",
+                "justificativa"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "saida_bruta": "{\"classificacao\":\"CRÍTICO\",\"dias_restantes\":3,\"justificativa\":\"3 days remaining (2026-11-18 minus 2026-11-15) for refrigerated storage falls in 0-3 days, classified as CRÍTICO.\"}\n",
+          "fim_utc": "2026-11-16T02:01:41.169416+00:00"
+        }
+      ],
+      "passou": true
+    },
+    {
+      "caso": "T02",
+      "esperado": {
+        "classificacao": "VENCIDO",
+        "dias_restantes": -1
+      },
+      "resposta": {
+        "classificacao": "VENCIDO",
+        "dias_restantes": -1,
+        "justificativa": "2026-11-14 minus 2026-11-15 equals -1 days. Negative days are classified as VENCIDO for any storage."
+      },
+      "trace": [
+        {
+          "id": "P02",
+          "inicio_utc": "2026-11-16T02:01:41.169982+00:00",
+          "prompt": "Classify the lot using data_referencia, never the system date. Return only JSON with classificacao, dias_restantes (integer) and justificativa (a short calculation and rule, at most 25 words). Do not provide internal reasoning.\nCalculate whole calendar days = data_validade minus data_referencia. Apply the following mutually exclusive rules, in order:\n1. Negative days: VENCIDO for any storage.\n2. refrigerado or congelado: 0 <= days <= 3 means CRÍTICO; 4 <= days <= 7 means ATENÇÃO; days >= 8 means OK.\n3. ambiente: 0 <= days <= 15 means CRÍTICO; 16 <= days <= 45 means ATENÇÃO; days >= 46 means OK.\nAll range endpoints are inclusive. Exactly 45 days in ambiente is ATENÇÃO, never OK. Exactly 7 days in cold storage is ATENÇÃO, never OK.\nBoundary examples (storage, days -> classificacao):\nambiente, 15 -> CRÍTICO\nambiente, 16 -> ATENÇÃO\nambiente, 45 -> ATENÇÃO\nambiente, 46 -> OK\nrefrigerado, 3 -> CRÍTICO\nrefrigerado, 4 -> ATENÇÃO\nrefrigerado, 7 -> ATENÇÃO\nrefrigerado, 8 -> OK\ncongelado, -1 -> VENCIDO\nThis is an educational lead-time policy, not a food-safety certification. Preserve all JSON keys and operational classification/storage tokens. Write the short justification in English.\nINPUT DATA (JSON):\n{\"lote\": {\"armazenamento\": \"ambiente\", \"categoria\": \"laticínios\", \"data_validade\": \"2026-11-14\", \"lote\": \"LT-10\", \"produto\": \"Leite integral 1L\", \"quantidade\": 12, \"setor\": \"corredor 3\"}, \"data_referencia\": \"2026-11-15\"}",
+          "provedor": "Gemini via Antigravity CLI",
+          "autenticacao": "Google account (sign-in managed by the official client)",
+          "status": "ok",
+          "modelo_solicitado": "gemini-3.8-flash-low",
+          "resposta_cliente": {
+            "conversation_id": "0f681e37-e9a9-44f0-b7e1-e2566a7cd41e",
+            "status": "SUCCESS",
+            "response": "{\"classificacao\":\"VENCIDO\",\"dias_restantes\":-1,\"justificativa\":\"2026-11-14 minus 2026-11-15 equals -1 days. Negative days are classified as VENCIDO for any storage.\"}\n",
+            "duration_seconds": 2.576511151,
+            "num_turns": 1,
+            "usage": {
+              "input_tokens": 9239,
+              "output_tokens": 72,
+              "thinking_tokens": 0,
+              "cache_read_tokens": 0,
+              "total_tokens": 9311
+            },
+            "structured_output": {
+              "classificacao": "VENCIDO",
+              "dias_restantes": -1,
+              "justificativa": "2026-11-14 minus 2026-11-15 equals -1 days. Negative days are classified as VENCIDO for any storage."
+            },
+            "json_schema": {
+              "type": "object",
+              "properties": {
+                "classificacao": {
+                  "type": "string",
+                  "enum": [
+                    "OK",
+                    "ATENÇÃO",
+                    "CRÍTICO",
+                    "VENCIDO"
+                  ]
+                },
+                "dias_restantes": {
+                  "type": "integer"
+                },
+                "justificativa": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "classificacao",
+                "dias_restantes",
+                "justificativa"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "saida_bruta": "{\"classificacao\":\"VENCIDO\",\"dias_restantes\":-1,\"justificativa\":\"2026-11-14 minus 2026-11-15 equals -1 days. Negative days are classified as VENCIDO for any storage.\"}\n",
+          "fim_utc": "2026-11-16T02:01:46.282860+00:00"
+        }
+      ],
+      "passou": true
+    },
+    {
+      "caso": "T03",
+      "esperado": {
+        "classificacao": "OK",
+        "dias_restantes": 46
+      },
+      "resposta": {
+        "classificacao": "OK",
+        "dias_restantes": 46,
+        "justificativa": "46 days remaining (2026-12-31 minus 2026-11-15). For ambiente storage, days >= 46 classifies as OK."
+      },
+      "trace": [
+        {
+          "id": "P02",
+          "inicio_utc": "2026-11-16T02:01:46.283333+00:00",
+          "prompt": "Classify the lot using data_referencia, never the system date. Return only JSON with classificacao, dias_restantes (integer) and justificativa (a short calculation and rule, at most 25 words). Do not provide internal reasoning.\nCalculate whole calendar days = data_validade minus data_referencia. Apply the following mutually exclusive rules, in order:\n1. Negative days: VENCIDO for any storage.\n2. refrigerado or congelado: 0 <= days <= 3 means CRÍTICO; 4 <= days <= 7 means ATENÇÃO; days >= 8 means OK.\n3. ambiente: 0 <= days <= 15 means CRÍTICO; 16 <= days <= 45 means ATENÇÃO; days >= 46 means OK.\nAll range endpoints are inclusive. Exactly 45 days in ambiente is ATENÇÃO, never OK. Exactly 7 days in cold storage is ATENÇÃO, never OK.\nBoundary examples (storage, days -> classificacao):\nambiente, 15 -> CRÍTICO\nambiente, 16 -> ATENÇÃO\nambiente, 45 -> ATENÇÃO\nambiente, 46 -> OK\nrefrigerado, 3 -> CRÍTICO\nrefrigerado, 4 -> ATENÇÃO\nrefrigerado, 7 -> ATENÇÃO\nrefrigerado, 8 -> OK\ncongelado, -1 -> VENCIDO\nThis is an educational lead-time policy, not a food-safety certification. Preserve all JSON keys and operational classification/storage tokens. Write the short justification in English.\nINPUT DATA (JSON):\n{\"lote\": {\"armazenamento\": \"ambiente\", \"categoria\": \"grãos\", \"data_validade\": \"2026-12-31\", \"lote\": \"AR1\", \"produto\": \"Arroz 5kg\", \"quantidade\": 20, \"setor\": \"estoque seco\"}, \"data_referencia\": \"2026-11-15\"}",
+          "provedor": "Gemini via Antigravity CLI",
+          "autenticacao": "Google account (sign-in managed by the official client)",
+          "status": "ok",
+          "modelo_solicitado": "gemini-3.8-flash-low",
+          "resposta_cliente": {
+            "conversation_id": "d8998bc0-d5db-4ed7-bbe4-4d95e89aacdf",
+            "status": "SUCCESS",
+            "response": "{\"classificacao\":\"OK\",\"dias_restantes\":46,\"justificativa\":\"46 days remaining (2026-12-31 minus 2026-11-15). For ambiente storage, days \\u003e= 46 classifies as OK.\"}\n",
+            "duration_seconds": 2.523821369,
+            "num_turns": 1,
+            "usage": {
+              "input_tokens": 9215,
+              "output_tokens": 73,
+              "thinking_tokens": 0,
+              "cache_read_tokens": 0,
+              "total_tokens": 9288
+            },
+            "structured_output": {
+              "classificacao": "OK",
+              "dias_restantes": 46,
+              "justificativa": "46 days remaining (2026-12-31 minus 2026-11-15). For ambiente storage, days >= 46 classifies as OK."
+            },
+            "json_schema": {
+              "type": "object",
+              "properties": {
+                "classificacao": {
+                  "type": "string",
+                  "enum": [
+                    "OK",
+                    "ATENÇÃO",
+                    "CRÍTICO",
+                    "VENCIDO"
+                  ]
+                },
+                "dias_restantes": {
+                  "type": "integer"
+                },
+                "justificativa": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "classificacao",
+                "dias_restantes",
+                "justificativa"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "saida_bruta": "{\"classificacao\":\"OK\",\"dias_restantes\":46,\"justificativa\":\"46 days remaining (2026-12-31 minus 2026-11-15). For ambiente storage, days \\u003e= 46 classifies as OK.\"}\n",
+          "fim_utc": "2026-11-16T02:01:51.666089+00:00"
+        }
+      ],
+      "passou": true
+    },
+    {
+      "caso": "T04",
+      "esperado": {
+        "classificacao": "ATENÇÃO",
+        "dias_restantes": 4
+      },
+      "resposta": {
+        "classificacao": "ATENÇÃO",
+        "dias_restantes": 4,
+        "justificativa": "4 days remaining (2026-11-19 minus 2026-11-15). For refrigerated storage, 4 to 7 days is classified as ATENÇÃO."
+      },
+      "trace": [
+        {
+          "id": "P02",
+          "inicio_utc": "2026-11-16T02:01:51.666687+00:00",
+          "prompt": "Classify the lot using data_referencia, never the system date. Return only JSON with classificacao, dias_restantes (integer) and justificativa (a short calculation and rule, at most 25 words). Do not provide internal reasoning.\nCalculate whole calendar days = data_validade minus data_referencia. Apply the following mutually exclusive rules, in order:\n1. Negative days: VENCIDO for any storage.\n2. refrigerado or congelado: 0 <= days <= 3 means CRÍTICO; 4 <= days <= 7 means ATENÇÃO; days >= 8 means OK.\n3. ambiente: 0 <= days <= 15 means CRÍTICO; 16 <= days <= 45 means ATENÇÃO; days >= 46 means OK.\nAll range endpoints are inclusive. Exactly 45 days in ambiente is ATENÇÃO, never OK. Exactly 7 days in cold storage is ATENÇÃO, never OK.\nBoundary examples (storage, days -> classificacao):\nambiente, 15 -> CRÍTICO\nambiente, 16 -> ATENÇÃO\nambiente, 45 -> ATENÇÃO\nambiente, 46 -> OK\nrefrigerado, 3 -> CRÍTICO\nrefrigerado, 4 -> ATENÇÃO\nrefrigerado, 7 -> ATENÇÃO\nrefrigerado, 8 -> OK\ncongelado, -1 -> VENCIDO\nThis is an educational lead-time policy, not a food-safety certification. Preserve all JSON keys and operational classification/storage tokens. Write the short justification in English.\nINPUT DATA (JSON):\n{\"lote\": {\"armazenamento\": \"refrigerado\", \"categoria\": \"laticínios\", \"data_validade\": \"2026-11-19\", \"lote\": \"IG4\", \"produto\": \"Iogurte\", \"quantidade\": 8, \"setor\": \"refrigerados\"}, \"data_referencia\": \"2026-11-15\"}",
+          "provedor": "Gemini via Antigravity CLI",
+          "autenticacao": "Google account (sign-in managed by the official client)",
+          "status": "ok",
+          "modelo_solicitado": "gemini-3.8-flash-low",
+          "resposta_cliente": {
+            "conversation_id": "0c6d44a9-85f2-4cdb-8c1f-764bf654b97a",
+            "status": "SUCCESS",
+            "response": "{\"classificacao\":\"ATENÇÃO\",\"dias_restantes\":4,\"justificativa\":\"4 days remaining (2026-11-19 minus 2026-11-15). For refrigerated storage, 4 to 7 days is classified as ATENÇÃO.\"}\n",
+            "duration_seconds": 2.386654504,
+            "num_turns": 1,
+            "usage": {
+              "input_tokens": 9227,
+              "output_tokens": 77,
+              "thinking_tokens": 0,
+              "cache_read_tokens": 0,
+              "total_tokens": 9304
+            },
+            "structured_output": {
+              "classificacao": "ATENÇÃO",
+              "dias_restantes": 4,
+              "justificativa": "4 days remaining (2026-11-19 minus 2026-11-15). For refrigerated storage, 4 to 7 days is classified as ATENÇÃO."
+            },
+            "json_schema": {
+              "type": "object",
+              "properties": {
+                "classificacao": {
+                  "type": "string",
+                  "enum": [
+                    "OK",
+                    "ATENÇÃO",
+                    "CRÍTICO",
+                    "VENCIDO"
+                  ]
+                },
+                "dias_restantes": {
+                  "type": "integer"
+                },
+                "justificativa": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "classificacao",
+                "dias_restantes",
+                "justificativa"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "saida_bruta": "{\"classificacao\":\"ATENÇÃO\",\"dias_restantes\":4,\"justificativa\":\"4 days remaining (2026-11-19 minus 2026-11-15). For refrigerated storage, 4 to 7 days is classified as ATENÇÃO.\"}\n",
+          "fim_utc": "2026-11-16T02:01:56.806050+00:00"
+        }
+      ],
+      "passou": true
+    },
+    {
+      "caso": "T05",
+      "esperado": {
+        "classificacao": "CRÍTICO",
+        "dias_restantes": 0
+      },
+      "resposta": {
+        "classificacao": "CRÍTICO",
+        "dias_restantes": 0,
+        "justificativa": "0 days remaining (2026-11-15 minus 2026-11-15); refrigerado storage with 0 <= days <= 3 is CRÍTICO."
+      },
+      "trace": [
+        {
+          "id": "P02",
+          "inicio_utc": "2026-11-16T02:01:56.806651+00:00",
+          "prompt": "Classify the lot using data_referencia, never the system date. Return only JSON with classificacao, dias_restantes (integer) and justificativa (a short calculation and rule, at most 25 words). Do not provide internal reasoning.\nCalculate whole calendar days = data_validade minus data_referencia. Apply the following mutually exclusive rules, in order:\n1. Negative days: VENCIDO for any storage.\n2. refrigerado or congelado: 0 <= days <= 3 means CRÍTICO; 4 <= days <= 7 means ATENÇÃO; days >= 8 means OK.\n3. ambiente: 0 <= days <= 15 means CRÍTICO; 16 <= days <= 45 means ATENÇÃO; days >= 46 means OK.\nAll range endpoints are inclusive. Exactly 45 days in ambiente is ATENÇÃO, never OK. Exactly 7 days in cold storage is ATENÇÃO, never OK.\nBoundary examples (storage, days -> classificacao):\nambiente, 15 -> CRÍTICO\nambiente, 16 -> ATENÇÃO\nambiente, 45 -> ATENÇÃO\nambiente, 46 -> OK\nrefrigerado, 3 -> CRÍTICO\nrefrigerado, 4 -> ATENÇÃO\nrefrigerado, 7 -> ATENÇÃO\nrefrigerado, 8 -> OK\ncongelado, -1 -> VENCIDO\nThis is an educational lead-time policy, not a food-safety certification. Preserve all JSON keys and operational classification/storage tokens. Write the short justification in English.\nINPUT DATA (JSON):\n{\"lote\": {\"armazenamento\": \"refrigerado\", \"categoria\": \"frios e laticínios\", \"data_validade\": \"2026-11-15\", \"lote\": \"Q5\", \"produto\": \"Queijo\", \"quantidade\": 6, \"setor\": \"frios\"}, \"data_referencia\": \"2026-11-15\"}",
+          "provedor": "Gemini via Antigravity CLI",
+          "autenticacao": "Google account (sign-in managed by the official client)",
+          "status": "ok",
+          "modelo_solicitado": "gemini-3.8-flash-low",
+          "resposta_cliente": {
+            "conversation_id": "f5c89fff-3c5f-4fa7-8bbc-3696bd11fbb1",
+            "status": "SUCCESS",
+            "response": "{\"classificacao\":\"CRÍTICO\",\"dias_restantes\":0,\"justificativa\":\"0 days remaining (2026-11-15 minus 2026-11-15); refrigerado storage with 0 \\u003c= days \\u003c= 3 is CRÍTICO.\"}\n",
+            "duration_seconds": 2.67728377,
+            "num_turns": 1,
+            "usage": {
+              "input_tokens": 9219,
+              "output_tokens": 76,
+              "thinking_tokens": 0,
+              "cache_read_tokens": 0,
+              "total_tokens": 9295
+            },
+            "structured_output": {
+              "classificacao": "CRÍTICO",
+              "dias_restantes": 0,
+              "justificativa": "0 days remaining (2026-11-15 minus 2026-11-15); refrigerado storage with 0 <= days <= 3 is CRÍTICO."
+            },
+            "json_schema": {
+              "type": "object",
+              "properties": {
+                "classificacao": {
+                  "type": "string",
+                  "enum": [
+                    "OK",
+                    "ATENÇÃO",
+                    "CRÍTICO",
+                    "VENCIDO"
+                  ]
+                },
+                "dias_restantes": {
+                  "type": "integer"
+                },
+                "justificativa": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "classificacao",
+                "dias_restantes",
+                "justificativa"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "saida_bruta": "{\"classificacao\":\"CRÍTICO\",\"dias_restantes\":0,\"justificativa\":\"0 days remaining (2026-11-15 minus 2026-11-15); refrigerado storage with 0 \\u003c= days \\u003c= 3 is CRÍTICO.\"}\n",
+          "fim_utc": "2026-11-16T02:02:01.852715+00:00"
+        }
+      ],
+      "passou": true
+    },
+    {
+      "caso": "T06",
+      "esperado": {
+        "classificacao": "CRÍTICO",
+        "dias_restantes": 15
+      },
+      "resposta": {
+        "classificacao": "CRÍTICO",
+        "dias_restantes": 15,
+        "justificativa": "15 days remaining (2026-11-30 minus 2026-11-15). For ambiente storage, 0 to 15 days is classified as CRÍTICO."
+      },
+      "trace": [
+        {
+          "id": "P02",
+          "inicio_utc": "2026-11-16T02:02:01.853307+00:00",
+          "prompt": "Classify the lot using data_referencia, never the system date. Return only JSON with classificacao, dias_restantes (integer) and justificativa (a short calculation and rule, at most 25 words). Do not provide internal reasoning.\nCalculate whole calendar days = data_validade minus data_referencia. Apply the following mutually exclusive rules, in order:\n1. Negative days: VENCIDO for any storage.\n2. refrigerado or congelado: 0 <= days <= 3 means CRÍTICO; 4 <= days <= 7 means ATENÇÃO; days >= 8 means OK.\n3. ambiente: 0 <= days <= 15 means CRÍTICO; 16 <= days <= 45 means ATENÇÃO; days >= 46 means OK.\nAll range endpoints are inclusive. Exactly 45 days in ambiente is ATENÇÃO, never OK. Exactly 7 days in cold storage is ATENÇÃO, never OK.\nBoundary examples (storage, days -> classificacao):\nambiente, 15 -> CRÍTICO\nambiente, 16 -> ATENÇÃO\nambiente, 45 -> ATENÇÃO\nambiente, 46 -> OK\nrefrigerado, 3 -> CRÍTICO\nrefrigerado, 4 -> ATENÇÃO\nrefrigerado, 7 -> ATENÇÃO\nrefrigerado, 8 -> OK\ncongelado, -1 -> VENCIDO\nThis is an educational lead-time policy, not a food-safety certification. Preserve all JSON keys and operational classification/storage tokens. Write the short justification in English.\nINPUT DATA (JSON):\n{\"lote\": {\"armazenamento\": \"ambiente\", \"categoria\": \"enlatados\", \"data_validade\": \"2026-11-30\", \"lote\": \"E6\", \"produto\": \"Ervilha em lata\", \"quantidade\": 16, \"setor\": \"corredor 4\"}, \"data_referencia\": \"2026-11-15\"}",
+          "provedor": "Gemini via Antigravity CLI",
+          "autenticacao": "Google account (sign-in managed by the official client)",
+          "status": "ok",
+          "modelo_solicitado": "gemini-3.8-flash-low",
+          "resposta_cliente": {
+            "conversation_id": "e9e91918-234f-4c05-95ed-df9a4b6b9120",
+            "status": "SUCCESS",
+            "response": "{\"classificacao\":\"CRÍTICO\",\"dias_restantes\":15,\"justificativa\":\"15 days remaining (2026-11-30 minus 2026-11-15). For ambiente storage, 0 to 15 days is classified as CRÍTICO.\"}\n",
+            "duration_seconds": 2.980838797,
+            "num_turns": 1,
+            "usage": {
+              "input_tokens": 9230,
+              "output_tokens": 80,
+              "thinking_tokens": 0,
+              "cache_read_tokens": 0,
+              "total_tokens": 9310
+            },
+            "structured_output": {
+              "classificacao": "CRÍTICO",
+              "dias_restantes": 15,
+              "justificativa": "15 days remaining (2026-11-30 minus 2026-11-15). For ambiente storage, 0 to 15 days is classified as CRÍTICO."
+            },
+            "json_schema": {
+              "type": "object",
+              "properties": {
+                "classificacao": {
+                  "type": "string",
+                  "enum": [
+                    "OK",
+                    "ATENÇÃO",
+                    "CRÍTICO",
+                    "VENCIDO"
+                  ]
+                },
+                "dias_restantes": {
+                  "type": "integer"
+                },
+                "justificativa": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "classificacao",
+                "dias_restantes",
+                "justificativa"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "saida_bruta": "{\"classificacao\":\"CRÍTICO\",\"dias_restantes\":15,\"justificativa\":\"15 days remaining (2026-11-30 minus 2026-11-15). For ambiente storage, 0 to 15 days is classified as CRÍTICO.\"}\n",
+          "fim_utc": "2026-11-16T02:02:12.836026+00:00"
+        }
+      ],
+      "passou": true
+    },
+    {
+      "caso": "T07",
+      "esperado": {
+        "classificacao": "ATENÇÃO",
+        "dias_restantes": 16
+      },
+      "resposta": {
+        "classificacao": "ATENÇÃO",
+        "dias_restantes": 16,
+        "justificativa": "16 days remaining (2026-12-01 minus 2026-11-15) for ambiente storage falls in 16 to 45 days, classifying as ATENÇÃO."
+      },
+      "trace": [
+        {
+          "id": "P02",
+          "inicio_utc": "2026-11-16T02:02:12.836596+00:00",
+          "prompt": "Classify the lot using data_referencia, never the system date. Return only JSON with classificacao, dias_restantes (integer) and justificativa (a short calculation and rule, at most 25 words). Do not provide internal reasoning.\nCalculate whole calendar days = data_validade minus data_referencia. Apply the following mutually exclusive rules, in order:\n1. Negative days: VENCIDO for any storage.\n2. refrigerado or congelado: 0 <= days <= 3 means CRÍTICO; 4 <= days <= 7 means ATENÇÃO; days >= 8 means OK.\n3. ambiente: 0 <= days <= 15 means CRÍTICO; 16 <= days <= 45 means ATENÇÃO; days >= 46 means OK.\nAll range endpoints are inclusive. Exactly 45 days in ambiente is ATENÇÃO, never OK. Exactly 7 days in cold storage is ATENÇÃO, never OK.\nBoundary examples (storage, days -> classificacao):\nambiente, 15 -> CRÍTICO\nambiente, 16 -> ATENÇÃO\nambiente, 45 -> ATENÇÃO\nambiente, 46 -> OK\nrefrigerado, 3 -> CRÍTICO\nrefrigerado, 4 -> ATENÇÃO\nrefrigerado, 7 -> ATENÇÃO\nrefrigerado, 8 -> OK\ncongelado, -1 -> VENCIDO\nThis is an educational lead-time policy, not a food-safety certification. Preserve all JSON keys and operational classification/storage tokens. Write the short justification in English.\nINPUT DATA (JSON):\n{\"lote\": {\"armazenamento\": \"ambiente\", \"categoria\": \"enlatados\", \"data_validade\": \"2026-12-01\", \"lote\": \"M7\", \"produto\": \"Milho enlatado\", \"quantidade\": 24, \"setor\": \"corredor 4\"}, \"data_referencia\": \"2026-11-15\"}",
+          "provedor": "Gemini via Antigravity CLI",
+          "autenticacao": "Google account (sign-in managed by the official client)",
+          "status": "ok",
+          "modelo_solicitado": "gemini-3.8-flash-low",
+          "resposta_cliente": {
+            "conversation_id": "6a989663-3bc5-414d-afff-220e98293765",
+            "status": "SUCCESS",
+            "response": "{\"classificacao\":\"ATENÇÃO\",\"dias_restantes\":16,\"justificativa\":\"16 days remaining (2026-12-01 minus 2026-11-15) for ambiente storage falls in 16 to 45 days, classifying as ATENÇÃO.\"}\n",
+            "duration_seconds": 1.8521389689999999,
+            "num_turns": 1,
+            "usage": {
+              "input_tokens": 9227,
+              "output_tokens": 82,
+              "thinking_tokens": 0,
+              "cache_read_tokens": 0,
+              "total_tokens": 9309
+            },
+            "structured_output": {
+              "classificacao": "ATENÇÃO",
+              "dias_restantes": 16,
+              "justificativa": "16 days remaining (2026-12-01 minus 2026-11-15) for ambiente storage falls in 16 to 45 days, classifying as ATENÇÃO."
+            },
+            "json_schema": {
+              "type": "object",
+              "properties": {
+                "classificacao": {
+                  "type": "string",
+                  "enum": [
+                    "OK",
+                    "ATENÇÃO",
+                    "CRÍTICO",
+                    "VENCIDO"
+                  ]
+                },
+                "dias_restantes": {
+                  "type": "integer"
+                },
+                "justificativa": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "classificacao",
+                "dias_restantes",
+                "justificativa"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "saida_bruta": "{\"classificacao\":\"ATENÇÃO\",\"dias_restantes\":16,\"justificativa\":\"16 days remaining (2026-12-01 minus 2026-11-15) for ambiente storage falls in 16 to 45 days, classifying as ATENÇÃO.\"}\n",
+          "fim_utc": "2026-11-16T02:02:17.252714+00:00"
+        }
+      ],
+      "passou": true
+    },
+    {
+      "caso": "T08",
+      "esperado": {
+        "classificacao": "ATENÇÃO",
+        "dias_restantes": 45
+      },
+      "resposta": {
+        "classificacao": "OK",
+        "dias_restantes": 45,
+        "justificativa": "Remaining days = 45 (2026-12-30 minus 2026-11-15). Wait, November has 30 days: 15 to 30 Nov is 15 days + 30 Dec = 45 days. Rule: 16 to 45 is ATENÇÃO."
+      },
+      "trace": [
+        {
+          "id": "P02",
+          "inicio_utc": "2026-11-16T02:02:17.253204+00:00",
+          "prompt": "Classify the lot using data_referencia, never the system date. Return only JSON with classificacao, dias_restantes (integer) and justificativa (a short calculation and rule, at most 25 words). Do not provide internal reasoning.\nCalculate whole calendar days = data_validade minus data_referencia. Apply the following mutually exclusive rules, in order:\n1. Negative days: VENCIDO for any storage.\n2. refrigerado or congelado: 0 <= days <= 3 means CRÍTICO; 4 <= days <= 7 means ATENÇÃO; days >= 8 means OK.\n3. ambiente: 0 <= days <= 15 means CRÍTICO; 16 <= days <= 45 means ATENÇÃO; days >= 46 means OK.\nAll range endpoints are inclusive. Exactly 45 days in ambiente is ATENÇÃO, never OK. Exactly 7 days in cold storage is ATENÇÃO, never OK.\nBoundary examples (storage, days -> classificacao):\nambiente, 15 -> CRÍTICO\nambiente, 16 -> ATENÇÃO\nambiente, 45 -> ATENÇÃO\nambiente, 46 -> OK\nrefrigerado, 3 -> CRÍTICO\nrefrigerado, 4 -> ATENÇÃO\nrefrigerado, 7 -> ATENÇÃO\nrefrigerado, 8 -> OK\ncongelado, -1 -> VENCIDO\nThis is an educational lead-time policy, not a food-safety certification. Preserve all JSON keys and operational classification/storage tokens. Write the short justification in English.\nINPUT DATA (JSON):\n{\"lote\": {\"armazenamento\": \"ambiente\", \"categoria\": \"grãos\", \"data_validade\": \"2026-12-30\", \"lote\": \"F8\", \"produto\": \"Feijão 1kg\", \"quantidade\": 15, \"setor\": \"estoque\"}, \"data_referencia\": \"2026-11-15\"}",
+          "provedor": "Gemini via Antigravity CLI",
+          "autenticacao": "Google account (sign-in managed by the official client)",
+          "status": "ok",
+          "modelo_solicitado": "gemini-3.8-flash-low",
+          "resposta_cliente": {
+            "conversation_id": "7e7e593a-be34-4d39-91fb-208f5e8c842b",
+            "status": "SUCCESS",
+            "response": "{\"classificacao\":\"OK\",\"dias_restantes\":45,\"justificativa\":\"Remaining days = 45 (2026-12-30 minus 2026-11-15). Wait, November has 30 days: 15 to 30 Nov is 15 days + 30 Dec = 45 days. Rule: 16 to 45 is ATENÇÃO.\"}\n",
+            "duration_seconds": 2.496628372,
+            "num_turns": 1,
+            "usage": {
+              "input_tokens": 9224,
+              "output_tokens": 109,
+              "thinking_tokens": 0,
+              "cache_read_tokens": 0,
+              "total_tokens": 9333
+            },
+            "structured_output": {
+              "classificacao": "OK",
+              "dias_restantes": 45,
+              "justificativa": "Remaining days = 45 (2026-12-30 minus 2026-11-15). Wait, November has 30 days: 15 to 30 Nov is 15 days + 30 Dec = 45 days. Rule: 16 to 45 is ATENÇÃO."
+            },
+            "json_schema": {
+              "type": "object",
+              "properties": {
+                "classificacao": {
+                  "type": "string",
+                  "enum": [
+                    "OK",
+                    "ATENÇÃO",
+                    "CRÍTICO",
+                    "VENCIDO"
+                  ]
+                },
+                "dias_restantes": {
+                  "type": "integer"
+                },
+                "justificativa": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "classificacao",
+                "dias_restantes",
+                "justificativa"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "saida_bruta": "{\"classificacao\":\"OK\",\"dias_restantes\":45,\"justificativa\":\"Remaining days = 45 (2026-12-30 minus 2026-11-15). Wait, November has 30 days: 15 to 30 Nov is 15 days + 30 Dec = 45 days. Rule: 16 to 45 is ATENÇÃO.\"}\n",
+          "fim_utc": "2026-11-16T02:02:22.999359+00:00"
+        }
+      ],
+      "passou": false
+    },
+    {
+      "caso": "T09",
+      "esperado": {
+        "classificacao": "ATENÇÃO",
+        "dias_restantes": 7
+      },
+      "resposta": {
+        "classificacao": "ATENÇÃO",
+        "dias_restantes": 7,
+        "justificativa": "2026-11-22 minus 2026-11-15 is 7 days. Refrigerated storage with 4 to 7 days remaining is ATENÇÃO."
+      },
+      "trace": [
+        {
+          "id": "P02",
+          "inicio_utc": "2026-11-16T02:02:22.999939+00:00",
+          "prompt": "Classify the lot using data_referencia, never the system date. Return only JSON with classificacao, dias_restantes (integer) and justificativa (a short calculation and rule, at most 25 words). Do not provide internal reasoning.\nCalculate whole calendar days = data_validade minus data_referencia. Apply the following mutually exclusive rules, in order:\n1. Negative days: VENCIDO for any storage.\n2. refrigerado or congelado: 0 <= days <= 3 means CRÍTICO; 4 <= days <= 7 means ATENÇÃO; days >= 8 means OK.\n3. ambiente: 0 <= days <= 15 means CRÍTICO; 16 <= days <= 45 means ATENÇÃO; days >= 46 means OK.\nAll range endpoints are inclusive. Exactly 45 days in ambiente is ATENÇÃO, never OK. Exactly 7 days in cold storage is ATENÇÃO, never OK.\nBoundary examples (storage, days -> classificacao):\nambiente, 15 -> CRÍTICO\nambiente, 16 -> ATENÇÃO\nambiente, 45 -> ATENÇÃO\nambiente, 46 -> OK\nrefrigerado, 3 -> CRÍTICO\nrefrigerado, 4 -> ATENÇÃO\nrefrigerado, 7 -> ATENÇÃO\nrefrigerado, 8 -> OK\ncongelado, -1 -> VENCIDO\nThis is an educational lead-time policy, not a food-safety certification. Preserve all JSON keys and operational classification/storage tokens. Write the short justification in English.\nINPUT DATA (JSON):\n{\"lote\": {\"armazenamento\": \"refrigerado\", \"categoria\": \"laticínios\", \"data_validade\": \"2026-11-22\", \"lote\": \"IG9\", \"produto\": \"Iogurte\", \"quantidade\": 10, \"setor\": \"refrigerados\"}, \"data_referencia\": \"2026-11-15\"}",
+          "provedor": "Gemini via Antigravity CLI",
+          "autenticacao": "Google account (sign-in managed by the official client)",
+          "status": "ok",
+          "modelo_solicitado": "gemini-3.8-flash-low",
+          "resposta_cliente": {
+            "conversation_id": "7f5c5ed4-2bbe-4826-a108-869b95eb1c53",
+            "status": "SUCCESS",
+            "response": "{\"classificacao\":\"ATENÇÃO\",\"dias_restantes\":7,\"justificativa\":\"2026-11-22 minus 2026-11-15 is 7 days. Refrigerated storage with 4 to 7 days remaining is ATENÇÃO.\"}\n",
+            "duration_seconds": 2.960157619,
+            "num_turns": 1,
+            "usage": {
+              "input_tokens": 9226,
+              "output_tokens": 76,
+              "thinking_tokens": 0,
+              "cache_read_tokens": 0,
+              "total_tokens": 9302
+            },
+            "structured_output": {
+              "classificacao": "ATENÇÃO",
+              "dias_restantes": 7,
+              "justificativa": "2026-11-22 minus 2026-11-15 is 7 days. Refrigerated storage with 4 to 7 days remaining is ATENÇÃO."
+            },
+            "json_schema": {
+              "type": "object",
+              "properties": {
+                "classificacao": {
+                  "type": "string",
+                  "enum": [
+                    "OK",
+                    "ATENÇÃO",
+                    "CRÍTICO",
+                    "VENCIDO"
+                  ]
+                },
+                "dias_restantes": {
+                  "type": "integer"
+                },
+                "justificativa": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "classificacao",
+                "dias_restantes",
+                "justificativa"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "saida_bruta": "{\"classificacao\":\"ATENÇÃO\",\"dias_restantes\":7,\"justificativa\":\"2026-11-22 minus 2026-11-15 is 7 days. Refrigerated storage with 4 to 7 days remaining is ATENÇÃO.\"}\n",
+          "fim_utc": "2026-11-16T02:02:28.339380+00:00"
+        }
+      ],
+      "passou": true
+    },
+    {
+      "caso": "T10",
+      "esperado": {
+        "classificacao": "OK",
+        "dias_restantes": 8
+      },
+      "resposta": {
+        "classificacao": "OK",
+        "dias_restantes": 8,
+        "justificativa": "8 days remaining (2026-11-23 minus 2026-11-15). For refrigerado storage, days >= 8 classifies as OK."
+      },
+      "trace": [
+        {
+          "id": "P02",
+          "inicio_utc": "2026-11-16T02:02:28.339957+00:00",
+          "prompt": "Classify the lot using data_referencia, never the system date. Return only JSON with classificacao, dias_restantes (integer) and justificativa (a short calculation and rule, at most 25 words). Do not provide internal reasoning.\nCalculate whole calendar days = data_validade minus data_referencia. Apply the following mutually exclusive rules, in order:\n1. Negative days: VENCIDO for any storage.\n2. refrigerado or congelado: 0 <= days <= 3 means CRÍTICO; 4 <= days <= 7 means ATENÇÃO; days >= 8 means OK.\n3. ambiente: 0 <= days <= 15 means CRÍTICO; 16 <= days <= 45 means ATENÇÃO; days >= 46 means OK.\nAll range endpoints are inclusive. Exactly 45 days in ambiente is ATENÇÃO, never OK. Exactly 7 days in cold storage is ATENÇÃO, never OK.\nBoundary examples (storage, days -> classificacao):\nambiente, 15 -> CRÍTICO\nambiente, 16 -> ATENÇÃO\nambiente, 45 -> ATENÇÃO\nambiente, 46 -> OK\nrefrigerado, 3 -> CRÍTICO\nrefrigerado, 4 -> ATENÇÃO\nrefrigerado, 7 -> ATENÇÃO\nrefrigerado, 8 -> OK\ncongelado, -1 -> VENCIDO\nThis is an educational lead-time policy, not a food-safety certification. Preserve all JSON keys and operational classification/storage tokens. Write the short justification in English.\nINPUT DATA (JSON):\n{\"lote\": {\"armazenamento\": \"refrigerado\", \"categoria\": \"frios\", \"data_validade\": \"2026-11-23\", \"lote\": \"MT10\", \"produto\": \"Manteiga\", \"quantidade\": 9, \"setor\": \"frios\"}, \"data_referencia\": \"2026-11-15\"}",
+          "provedor": "Gemini via Antigravity CLI",
+          "autenticacao": "Google account (sign-in managed by the official client)",
+          "status": "ok",
+          "modelo_solicitado": "gemini-3.8-flash-low",
+          "resposta_cliente": {
+            "conversation_id": "f9c52302-1391-4904-9cf1-b0a2bef6d8e8",
+            "status": "SUCCESS",
+            "response": "{\"classificacao\":\"OK\",\"dias_restantes\":8,\"justificativa\":\"8 days remaining (2026-11-23 minus 2026-11-15). For refrigerado storage, days \\u003e= 8 classifies as OK.\"}\n",
+            "duration_seconds": 1.941238227,
+            "num_turns": 1,
+            "usage": {
+              "input_tokens": 9222,
+              "output_tokens": 71,
+              "thinking_tokens": 0,
+              "cache_read_tokens": 0,
+              "total_tokens": 9293
+            },
+            "structured_output": {
+              "classificacao": "OK",
+              "dias_restantes": 8,
+              "justificativa": "8 days remaining (2026-11-23 minus 2026-11-15). For refrigerado storage, days >= 8 classifies as OK."
+            },
+            "json_schema": {
+              "type": "object",
+              "properties": {
+                "classificacao": {
+                  "type": "string",
+                  "enum": [
+                    "OK",
+                    "ATENÇÃO",
+                    "CRÍTICO",
+                    "VENCIDO"
+                  ]
+                },
+                "dias_restantes": {
+                  "type": "integer"
+                },
+                "justificativa": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "classificacao",
+                "dias_restantes",
+                "justificativa"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "saida_bruta": "{\"classificacao\":\"OK\",\"dias_restantes\":8,\"justificativa\":\"8 days remaining (2026-11-23 minus 2026-11-15). For refrigerado storage, days \\u003e= 8 classifies as OK.\"}\n",
+          "fim_utc": "2026-11-16T02:02:33.012738+00:00"
+        }
+      ],
+      "passou": true
+    }
+  ],
+  "todos_passaram": false
+}

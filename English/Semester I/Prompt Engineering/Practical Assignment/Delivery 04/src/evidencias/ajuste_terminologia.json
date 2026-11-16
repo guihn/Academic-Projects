@@ -1,0 +1,77 @@
+{
+  "entrada": {
+    "lote": {
+      "armazenamento": "refrigerado",
+      "categoria": "laticínios",
+      "data_validade": "2026-11-18",
+      "lote": "IG-5521",
+      "produto": "Iogurte natural 170g",
+      "quantidade": 36,
+      "setor": "gôndola refrigerados"
+    },
+    "data_referencia": "2026-11-15",
+    "risco": {
+      "classificacao": "CRÍTICO",
+      "dias_restantes": 3,
+      "justificativa": "Restam 3 dias civis até a validade (18/11 vs 15/11). Para produto refrigerado de 0 a 3 dias, a classificação é CRÍTICO."
+    },
+    "limite_reavaliacao": "2026-11-17"
+  },
+  "saida": {
+    "acao": "Recomendar PVPS (Primeiro que Vence, Primeiro que Sai: priorizar a validade mais próxima), avaliar desconto com gerente e reavaliar até 2026-11-17.",
+    "prazo": "2026-11-17",
+    "responsavel": "Líder de laticínios"
+  },
+  "trace": [
+    {
+      "id": "P03",
+      "inicio_utc": "2026-11-15T16:12:31.784977+00:00",
+      "prompt": "Você é gerente de prevenção de perdas. Use exclusivamente os dados e a ação permitida fornecidos. Responda somente JSON com acao, prazo e responsavel (um único cargo: líder do setor). Se VENCIDO: o campo acao deve ser EXATAMENTE \"Retirar da venda, segregar, registrar ocorrência e encaminhar ao responsável para descarte.\"; nunca vender, doar ou aplicar desconto. Se CRÍTICO e dias_restantes=0: retirar preventivamente e pedir avaliação do responsável, sem desconto ou doação. Se CRÍTICO com dias>0: recomendar PVPS (Primeiro que Vence, Primeiro que Sai: priorizar a validade mais próxima), avaliar desconto com gerente, reavaliar até a data fornecida. Se ATENÇÃO: priorizar validade mais próxima e acompanhar diariamente. Não invente percentual de desconto nem afirmar que retirada significa perda efetiva. Use PVPS para a ordem de validade; PEPS se refere à ordem de entrada e não deve ser usado nessa recomendação. Nada é executado automaticamente.\nDADOS (JSON):\n{\"lote\": {\"armazenamento\": \"refrigerado\", \"categoria\": \"laticínios\", \"data_validade\": \"2026-11-18\", \"lote\": \"IG-5521\", \"produto\": \"Iogurte natural 170g\", \"quantidade\": 36, \"setor\": \"gôndola refrigerados\"}, \"data_referencia\": \"2026-11-15\", \"risco\": {\"classificacao\": \"CRÍTICO\", \"dias_restantes\": 3, \"justificativa\": \"Restam 3 dias civis até a validade (18/11 vs 15/11). Para produto refrigerado de 0 a 3 dias, a classificação é CRÍTICO.\"}, \"limite_reavaliacao\": \"2026-11-17\"}",
+      "provedor": "Gemini via Antigravity CLI",
+      "autenticacao": "Conta Google (login gerenciado pelo cliente oficial)",
+      "status": "ok",
+      "modelo_solicitado": "gemini-3.8-flash-low",
+      "resposta_cliente": {
+        "conversation_id": "360bd39d-1aaa-434e-a5cc-63ee01bb3527",
+        "status": "SUCCESS",
+        "response": "{\"acao\":\"Recomendar PVPS (Primeiro que Vence, Primeiro que Sai: priorizar a validade mais próxima), avaliar desconto com gerente e reavaliar até 2026-11-17.\",\"prazo\":\"2026-11-17\",\"responsavel\":\"Líder de laticínios\"}\n",
+        "duration_seconds": 3.108971904,
+        "num_turns": 1,
+        "structured_output": {
+          "acao": "Recomendar PVPS (Primeiro que Vence, Primeiro que Sai: priorizar a validade mais próxima), avaliar desconto com gerente e reavaliar até 2026-11-17.",
+          "prazo": "2026-11-17",
+          "responsavel": "Líder de laticínios"
+        },
+        "json_schema": {
+          "type": "object",
+          "properties": {
+            "acao": {
+              "type": "string"
+            },
+            "prazo": {
+              "type": "string"
+            },
+            "responsavel": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "acao",
+            "prazo",
+            "responsavel"
+          ],
+          "additionalProperties": false
+        },
+        "usage": {
+          "input_tokens": 9167,
+          "output_tokens": 88,
+          "thinking_tokens": 0,
+          "cache_read_tokens": 0,
+          "total_tokens": 9255
+        }
+      },
+      "saida_bruta": "{\"acao\":\"Recomendar PVPS (Primeiro que Vence, Primeiro que Sai: priorizar a validade mais próxima), avaliar desconto com gerente e reavaliar até 2026-11-17.\",\"prazo\":\"2026-11-17\",\"responsavel\":\"Líder de laticínios\"}\n",
+      "fim_utc": "2026-11-15T16:12:37.633139+00:00"
+    }
+  ]
+}
