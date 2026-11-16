@@ -12,3 +12,4 @@ Este semestre reúne os trabalhos acadêmicos disponíveis das disciplinas lista
 | Disciplina | Atividades |
 | --- | --- |
 | [Algoritmos&nbsp;e&nbsp;Estruturas&nbsp;de&nbsp;Dados&nbsp;I](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I) | Exercícios em Java, algoritmo escrito, planilhas e programas de avaliação. |
+| [Engenharia&nbsp;de&nbsp;Prompt](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I/Engenharia%20de%20Prompt) | Trabalho prático ValidaMarket com integração ao Gemini. |

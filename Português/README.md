@@ -179,4 +179,21 @@ Consulte as atividades disponíveis por semestre, disciplina, etapa de avaliaç�
 </details>
 </details>
 
+
+<details>
+<summary>Engenharia de Prompt</summary>
+
+[Engenharia de Prompt](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I/Engenharia%20de%20Prompt)
+
+<details>
+<summary>Trabalho Prático</summary>
+
+[Trabalho Prático](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I/Engenharia%20de%20Prompt/Trabalho%20Pr%C3%A1tico)
+
+| Número | Título | Descrição | Página |
+| --- | --- | --- | --- |
+| 04 | ValidaMarket | Integração ao Gemini em execução para controle de validade. | [Abrir](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I/Engenharia%20de%20Prompt/Trabalho%20Pr%C3%A1tico/Entrega%2004) |
+
+</details>
+</details>
 </details>

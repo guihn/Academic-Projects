@@ -24,5 +24,6 @@ Escolha um semestre ou uma das disciplinas com trabalhos já disponíveis.
 | Semestre | Disciplina |
 | --- | --- |
 | [Semestre&nbsp;I](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I) | [Algoritmos&nbsp;e&nbsp;Estruturas&nbsp;de&nbsp;Dados&nbsp;I](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I/Algoritmos%20e%20Estruturas%20de%20Dados%20I) |
+| [Semestre&nbsp;I](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I) | [Engenharia&nbsp;de&nbsp;Prompt](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs/Semestre%20I/Engenharia%20de%20Prompt) |
 
 [Abrir&nbsp;o&nbsp;índice&nbsp;completo](https://github.com/guihn/Academic-Projects/tree/main/Portugu%C3%AAs)
