@@ -62,16 +62,21 @@ jobs:
         env:
           VALIDAMARKET_UI_TEST: '1'
         run: python ci/verificar_portatil_windows.py
+      - name: Complete source archive
+        run: |
+          python scripts/empacotar.py
+          Copy-Item ../Entrega4_ValidaMarket.zip dist/Entrega4_ValidaMarket.zip
       - uses: actions/upload-artifact@v4
         with:
           name: ValidaMarket-current-package
           path: |
             Português/Semestre I/Engenharia de Prompt/Trabalho Prático/Entrega 04/src/dist/ValidaMarket_Windows_Portatil.zip
+            Português/Semestre I/Engenharia de Prompt/Trabalho Prático/Entrega 04/src/dist/Entrega4_ValidaMarket.zip
             Português/Semestre I/Engenharia de Prompt/Trabalho Prático/Entrega 04/src/dist/ValidaMarket_Windows_Portatil.zip.sha256
             Português/Semestre I/Engenharia de Prompt/Trabalho Prático/Entrega 04/src/dist/validacao_portatil_windows.json
             Português/Semestre I/Engenharia de Prompt/Trabalho Prático/Entrega 04/src/dist/interface_portatil_windows.png
       - name: Current assignment publication
-        if: github.event_name == 'workflow_dispatch' && inputs.publish
+        if: (github.event_name == 'workflow_dispatch' && inputs.publish) || (github.event_name == 'push' && github.ref == 'refs/heads/main' && contains(github.event.head_commit.message, 'Release: validamarket-e4-v1.0'))
         env:
           GH_TOKEN: ${{ github.token }}
         run: python ci/publicar_release.py

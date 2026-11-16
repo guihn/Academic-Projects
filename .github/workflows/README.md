@@ -7,7 +7,7 @@
 
 # Validation and distribution workflow
 
-The ValidaMarket workflow checks Python 3.11 and 3.13 on Windows and Ubuntu for both source languages. The Windows job constructs the portable distribution from pinned official components and verifies the extracted BAT and browser interface. Automatic pushes run validation; publication requires a manual workflow execution with `publish` enabled. Existing releases and tags are not replaced.
+The ValidaMarket workflow checks Python 3.11 and 3.13 on Windows and Ubuntu for both source languages. The Windows job constructs the portable distribution from pinned official components and verifies the extracted BAT and browser interface. Automatic pushes run validation; publication requires a manual workflow execution with `publish` enabled or the explicit commit selector `Release: validamarket-e4-v1.0`. Both package formats are published only after successful verification. Existing releases and tags are not replaced.
 
 Source file: [validamarket.yml](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/.github/workflows/validamarket.yml)
 
@@ -79,16 +79,21 @@ jobs:
         env:
           VALIDAMARKET_UI_TEST: '1'
         run: python ci/verificar_portatil_windows.py
+      - name: Complete source archive
+        run: |
+          python scripts/empacotar.py
+          Copy-Item ../Entrega4_ValidaMarket.zip dist/Entrega4_ValidaMarket.zip
       - uses: actions/upload-artifact@v4
         with:
           name: ValidaMarket-current-package
           path: |
             Português/Semestre I/Engenharia de Prompt/Trabalho Prático/Entrega 04/src/dist/ValidaMarket_Windows_Portatil.zip
+            Português/Semestre I/Engenharia de Prompt/Trabalho Prático/Entrega 04/src/dist/Entrega4_ValidaMarket.zip
             Português/Semestre I/Engenharia de Prompt/Trabalho Prático/Entrega 04/src/dist/ValidaMarket_Windows_Portatil.zip.sha256
             Português/Semestre I/Engenharia de Prompt/Trabalho Prático/Entrega 04/src/dist/validacao_portatil_windows.json
             Português/Semestre I/Engenharia de Prompt/Trabalho Prático/Entrega 04/src/dist/interface_portatil_windows.png
       - name: Current assignment publication
-        if: github.event_name == 'workflow_dispatch' && inputs.publish
+        if: (github.event_name == 'workflow_dispatch' && inputs.publish) || (github.event_name == 'push' && github.ref == 'refs/heads/main' && contains(github.event.head_commit.message, 'Release: validamarket-e4-v1.0'))
         env:
           GH_TOKEN: ${{ github.token }}
         run: python ci/publicar_release.py
