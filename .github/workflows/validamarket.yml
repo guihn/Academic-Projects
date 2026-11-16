@@ -76,7 +76,10 @@ jobs:
             Português/Semestre I/Engenharia de Prompt/Trabalho Prático/Entrega 04/src/dist/validacao_portatil_windows.json
             Português/Semestre I/Engenharia de Prompt/Trabalho Prático/Entrega 04/src/dist/interface_portatil_windows.png
       - name: Current assignment publication
-        if: (github.event_name == 'workflow_dispatch' && inputs.publish) || (github.event_name == 'push' && github.ref == 'refs/heads/main' && contains(github.event.head_commit.message, 'Release: validamarket-e4-v1.0'))
+        if: >-
+          (github.event_name == 'workflow_dispatch' && inputs.publish) ||
+          (github.event_name == 'push' && github.ref == 'refs/heads/main' &&
+          contains(github.event.head_commit.message, 'Release: validamarket-e4-v1.0'))
         env:
           GH_TOKEN: ${{ github.token }}
         run: python ci/publicar_release.py
