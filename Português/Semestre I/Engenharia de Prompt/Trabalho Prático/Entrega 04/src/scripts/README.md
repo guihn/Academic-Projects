@@ -21,3 +21,7 @@ Arquivo fonte: [verificar_interface.py](https://github.com/guihn/Academic-Projec
 Arquivo fonte: [testar_gestao_real.py](https://github.com/guihn/Academic-Projects/raw/refs/heads/main/Portugu%C3%AAs/Semestre%20I/Engenharia%20de%20Prompt/Trabalho%20Pr%C3%A1tico/Entrega%2004/src/scripts/testar_gestao_real.py)
 
 Os casos adicionais com Gemini real abrangem relatório sem baixas, valores parcialmente informados, produto vencido em casa, produto próximo da validade, relato sem detalhes e tentativa de desvio das instruções. Cada execução utiliza banco isolado e preserva as respostas originais.
+
+## Verificação pelo navegador
+
+A verificação da interface requer também Playwright 1.65.2 e a versão Chromium correspondente. O mesmo interpretador do ambiente virtual utiliza os comandos `-m pip install playwright==1.65.2` e `-m playwright install chromium`. Os scripts com modelo real exigem conta Google autorizada e acesso/cota. Os testes de código utilizam substituições isoladas; suas saídas não são registradas como inferências reais.
